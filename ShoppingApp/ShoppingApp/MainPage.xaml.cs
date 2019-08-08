@@ -17,5 +17,12 @@ namespace ShoppingApp
         {
             InitializeComponent();
         }
+
+        private int count = 0;
+        private void Button_OnClicked(object sender, EventArgs e)
+        {
+            count++;
+            ((Button) sender).Text = $"your clicked {count} times";
+        }
     }
 }

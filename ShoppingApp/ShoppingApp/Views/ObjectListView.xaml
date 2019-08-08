@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dataGrid="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
+             xmlns:conv="clr-namespace:ShoppingApp.ViewModels;assembly=ShoppingApp"
+             x:Class="ShoppingApp.Views.ObjectListView"
+             Title="DataGrid Test">
+    <ContentView BackgroundColor="White" Padding="20">
+        <dataGrid:DataGrid ItemsSource="{Binding InvoiceItems}"  SelectionEnabled="True" SelectedItem="{Binding InvoiceItem}">
+               <dataGrid:DataGrid.Columns>
+                   <dataGrid:DataGridColumn Title="Item" PropertyName="ItemName" Width="5*"/>
+                   <dataGrid:DataGridColumn Title="Quantity" PropertyName="Quantity" Width="6*"/>
+                   <dataGrid:DataGridColumn Title="Unit" PropertyName="Unit" Width="6*"/>
+                   <dataGrid:DataGridColumn Title="UnitPrice" PropertyName="UnitPrice" Width="6*"/>
+                   <dataGrid:DataGridColumn Title="Price" PropertyName="Price" Width="6*"/>
+            </dataGrid:DataGrid.Columns>
+        </dataGrid:DataGrid>
+    </ContentView>
+</ContentPage>

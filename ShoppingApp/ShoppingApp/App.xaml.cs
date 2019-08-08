@@ -1,4 +1,5 @@
 ﻿using System;
+using ShoppingApp.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,9 +9,15 @@ namespace ShoppingApp
     {
         public App()
         {
-            InitializeComponent();
+            //InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            Xamarin.Forms.DataGrid.DataGridComponent.Init();
+
+            MainPage = new ObjectListView();
+            {
+                BindingContext = new ViewModels.InvoiceViewModel();
+            };
         }
 
         protected override void OnStart()
