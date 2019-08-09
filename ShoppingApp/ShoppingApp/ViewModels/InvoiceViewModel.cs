@@ -6,6 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using ShoppingApp.Annotations;
 using ShoppingBusinessObject;
+using Xamarin.Forms;
 
 namespace ShoppingApp.ViewModels
 {
@@ -32,6 +33,7 @@ namespace ShoppingApp.ViewModels
         public InvoiceViewModel()
         {
             InvoiceItems=new List<InvoiceItem>();
+             
             ///todo for testing bind
             InvoiceItems.Add(new InvoiceItem()
             {
@@ -45,7 +47,7 @@ namespace ShoppingApp.ViewModels
             });
             InvoiceItems.Add(new InvoiceItem()
             {
-                ItemName = "707",
+                ItemName = "7070",
                 Quantity = 7,
                 UnitPrice = 12,
                 Unit = "Number",
