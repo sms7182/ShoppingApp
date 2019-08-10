@@ -52,6 +52,7 @@ namespace ShoppingApp.Views
                     var invoiceItems = dataGridItemsSource.Cast<InvoiceItem>().ToList();
                     invoiceItems.Add(invoiceItem);
                     this.dataGrid.ItemsSource = invoiceItems;
+                    
                 }
             }
         }

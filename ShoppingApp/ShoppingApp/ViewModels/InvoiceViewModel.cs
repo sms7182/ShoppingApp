@@ -33,11 +33,11 @@ namespace ShoppingApp.ViewModels
         public InvoiceViewModel()
         {
             InvoiceItems=new List<InvoiceItem>();
-             
+
             ///todo for testing bind
             InvoiceItems.Add(new InvoiceItem()
             {
-                ItemName="7575",
+                ItemName = "7575",
                 Quantity = 5,
                 UnitPrice = 12,
                 Unit = "Number",
@@ -45,16 +45,16 @@ namespace ShoppingApp.ViewModels
 
 
             });
-            InvoiceItems.Add(new InvoiceItem()
-            {
-                ItemName = "7070",
-                Quantity = 7,
-                UnitPrice = 12,
-                Unit = "Number",
-                TotalPrice = 84
+            //InvoiceItems.Add(new InvoiceItem()
+            //{
+            //    ItemName = "7070",
+            //    Quantity = 7,
+            //    UnitPrice = 12,
+            //    Unit = "Number",
+            //    TotalPrice = 84
 
 
-            });
+            //});
         }
 
         public Invoice Invoice { get; set; }
