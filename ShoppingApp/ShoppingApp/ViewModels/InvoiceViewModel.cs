@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Input;
 using ShoppingApp.Annotations;
 using ShoppingBusinessObject;
 using Xamarin.Forms;
@@ -25,6 +27,32 @@ namespace ShoppingApp.ViewModels
 
         }
 
+        //private bool isrefresh;
+        //public bool IsRefresh
+        //{
+        //    get { return isrefresh; }
+        //    set
+        //    {
+        //        isrefresh = true;
+        //        OnPropertyChanged(nameof(IsRefresh)); 
+
+        //    }
+        //}
+
+        //private ICommand refCommand;
+        //public ICommand RefreshCommand
+        //{
+        //    set { refCommand = value; }
+        //    get {
+
+        //        return new Command(async () => {
+        //        IsRefresh = tr
+        //        IsRefresh = false;
+        //    }); }
+        //}
+
+      
+
         public InvoiceItem SelectedItem
         {
             get { return selectedItem; }
@@ -38,7 +66,7 @@ namespace ShoppingApp.ViewModels
             InvoiceItems.Add(new InvoiceItem()
             {
                 ItemName = "7575",
-                Quantity = 5,
+                Quantity = 1,
                 UnitPrice = 12,
                 Unit = "Number",
                 TotalPrice = 60

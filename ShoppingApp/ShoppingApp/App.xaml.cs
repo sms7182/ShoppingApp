@@ -32,6 +32,9 @@ namespace ShoppingApp
 
         protected override void OnResume()
         {
+            base.OnResume();
+            this.MainPage.ForceLayout();
+          
             // Handle when your app resumes
         }
     }

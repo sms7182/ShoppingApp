@@ -59,20 +59,44 @@ namespace ShoppingApp.Views
         {
             if (result != null)
             {
+                this.dataGrid.BatchBegin();
+                
                 var dataGridItemsSource = this.dataGrid.ItemsSource; 
                 if (dataGridItemsSource != null)
                 {
-                    var invoiceItem = new InvoiceItem();
-                    invoiceItem.Quantity = 1;
-                    invoiceItem.ItemName = result.Text;
-                    invoiceItem.Unit = "Number";
-                    invoiceItem.UnitPrice = 750;
-                    invoiceItem.TotalPrice = 750;
                     var invoiceItems = dataGridItemsSource.Cast<InvoiceItem>().ToList();
-                    invoiceItems.Add(invoiceItem);
+                    if (invoiceItems.Any(d => d.ItemName == result.Text))
+                    {
+                        
+                        for (int i = 0; i < invoiceItems.Count; i++)
+                        {
+                            if (invoiceItems[i].ItemName == result.Text)
+                            {
+                                invoiceItems[i].Quantity = invoiceItems[i].Quantity + 1;
+                                break;
+                                
+                            }
+                        }
+                    }
+                    else
+                    {
+                        var invoiceItem = new InvoiceItem();
+                        invoiceItem.Quantity = 1;
+                        invoiceItem.ItemName = result.Text;
+                        invoiceItem.Unit = "Number";
+                        invoiceItem.UnitPrice = 750;
+                        invoiceItem.TotalPrice = 750;
+
+                        invoiceItems.Add(invoiceItem);
+
+                    }
+
                     this.dataGrid.ItemsSource = invoiceItems;
                     
+                   //  this.dataGrid.PullToRefreshCommand.Execute(invoiceItems);
+                    this.dataGrid.ForceLayout();
                 }
+                this.dataGrid.BatchCommit();
                 
             }
         }

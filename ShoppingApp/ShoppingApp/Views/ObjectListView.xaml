@@ -12,13 +12,14 @@
              <!--Editor Text="" TextChanged="Editor_OnTextChanged" Placeholder="Enter Barcode" Keyboard="Text" -->
              <!--<Entry Text="" Completed="Entry_OnCompleted"  Keyboard="Text" Placeholder="Enter Barcode" PlaceholderColor="DarkGray" ></Entry>-->
             <Button Text="AddItem" Clicked="btn_clicked"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
-             <dataGrid:DataGrid x:Name="dataGrid"   ItemsSource="{Binding InvoiceItems}" VerticalOptions="FillAndExpand"  SelectionEnabled="True" IsEnabled="True"  SelectedItem="{Binding InvoiceItem}"  RowHeight="70" HeaderHeight="50" BorderColor="#CCCCCC" HeaderBackground="#E0E6F8"  ActiveRowColor="#8899AA">
+             
+             <dataGrid:DataGrid x:Name="dataGrid"    ItemsSource="{Binding InvoiceItems}" VerticalOptions="FillAndExpand"  SelectionEnabled="True" IsEnabled="True"  SelectedItem="{Binding InvoiceItem}"  RowHeight="70" HeaderHeight="50" BorderColor="#CCCCCC" HeaderBackground="#E0E6F8"  ActiveRowColor="#8899AA">
                   <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                   </Grid.RowDefinitions>
                 <dataGrid:DataGrid.Columns>
                    <dataGrid:DataGridColumn Title="Item" PropertyName="ItemName" Width="4*"/>
-                   <dataGrid:DataGridColumn Title="Quantity" PropertyName="Quantity" Width="4*"/>
+                   <dataGrid:DataGridColumn Title="Quantity" PropertyName="Quantity" Width="4*" />
                    <dataGrid:DataGridColumn Title="Unit" PropertyName="Unit" Width="4*"/>
                    <dataGrid:DataGridColumn Title="UnitPrice" PropertyName="UnitPrice" Width="4*"/>
                    <dataGrid:DataGridColumn Title="Price" PropertyName="TotalPrice" Width="4*"/>
