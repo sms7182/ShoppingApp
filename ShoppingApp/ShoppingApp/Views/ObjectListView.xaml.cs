@@ -21,18 +21,37 @@ namespace ShoppingApp.Views
         public ObjectListView()
         {
             InitializeComponent();
+            //for (int row = 0; row < 10; row++)
+            //{
+            //    var button = new Button() {Text = string.Format("{0}", "Remove")};
+            //    button.Clicked += OnClicked;
+            //    ;
+            //    Grid.SetRow(button,row);
+            //    this.dataGrid.Children.Add(button);
+            //}
+
         }
 
+        private void OnClicked(object sender, EventArgs e)
+        {
+            
+        }
 
-     
 
         private async void btn_clicked(object sender, EventArgs e)
         {
             var scanner = new MobileBarcodeScanner();
-            
+            var mobileBarcodeScanningOptions = new MobileBarcodeScanningOptions();
+            mobileBarcodeScanningOptions.AutoRotate = true;
+            scanner.AutoFocus();
+            if (!scanner.IsTorchOn)
+            {
+                scanner.Torch(true);
+            }
             scanner.TopText = "Hold the camera up to  the barcode ";
             scanner.BottomText = "wait for the barcode automatically  scan!";
-            ZXing.Result result = await scanner.Scan();
+            //ZXing.Result result = await scanner.Scan();
+            ZXing.Result result = await scanner.Scan(mobileBarcodeScanningOptions);
             HandleResult(result);
         }
 
@@ -40,7 +59,7 @@ namespace ShoppingApp.Views
         {
             if (result != null)
             {
-                var dataGridItemsSource = this.dataGrid.ItemsSource;
+                var dataGridItemsSource = this.dataGrid.ItemsSource; 
                 if (dataGridItemsSource != null)
                 {
                     var invoiceItem = new InvoiceItem();
@@ -54,6 +73,7 @@ namespace ShoppingApp.Views
                     this.dataGrid.ItemsSource = invoiceItems;
                     
                 }
+                
             }
         }
     }
