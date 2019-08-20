@@ -1,19 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:dataGrid="clr-namespace:Xamarin.Forms.DataGrid;assembly=Xamarin.Forms.DataGrid"
-             
-             xmlns:conv="clr-namespace:ShoppingApp.ViewModels;assembly=ShoppingApp"
+             xmlns:devGrid="clr-namespace:DevExpress.Mobile.DataGrid;assembly=DevExpress.Mobile.Grid.v18.2"
+             xmlns:vm="clr-namespace:ShoppingApp.ViewModels;assembly=ShoppingApp"
              x:Class="ShoppingApp.Views.ObjectListView"
              x:Name="ContentPage"
              Title="DataGrid Test">
+
+    <ContentPage.BindingContext>
+        <vm:InvoiceViewModel/>
+    </ContentPage.BindingContext>
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20">
          <StackLayout Padding="10">
-             <!--Editor Text="" TextChanged="Editor_OnTextChanged" Placeholder="Enter Barcode" Keyboard="Text" -->
-             <!--<Entry Text="" Completed="Entry_OnCompleted"  Keyboard="Text" Placeholder="Enter Barcode" PlaceholderColor="DarkGray" ></Entry>-->
             <Button Text="AddItem" Clicked="btn_clicked"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
-             
-             <dataGrid:DataGrid x:Name="dataGrid"    ItemsSource="{Binding InvoiceItems}" VerticalOptions="FillAndExpand"  SelectionEnabled="True" IsEnabled="True"  SelectedItem="{Binding InvoiceItem}"  RowHeight="70" HeaderHeight="50" BorderColor="#CCCCCC" HeaderBackground="#E0E6F8"  ActiveRowColor="#8899AA">
+             <devGrid:GridControl x:Name="devgrid" ItemsSource="{Binding InvoiceItems}">
+                 <devGrid:GridControl.Columns>
+                     <devGrid:TextColumn FieldName="ItemName" Caption="Item" Width="150"></devGrid:TextColumn>
+                     <devGrid:NumberColumn FieldName="Quantity" Caption="Quantity" ></devGrid:NumberColumn>
+                     <devGrid:TextColumn FieldName="Unit"></devGrid:TextColumn>
+                     <devGrid:NumberColumn FieldName="UnitPrice" Caption="UnitPrice" DisplayFormat="C00" ></devGrid:NumberColumn>
+                     <devGrid:NumberColumn FieldName="TotalPrice" Caption="Price" DisplayFormat="C00" ></devGrid:NumberColumn>
+                 </devGrid:GridControl.Columns>
+             </devGrid:GridControl>
+
+             <!--<dataGrid:DataGrid x:Name="dataGrid"    ItemsSource="{Binding InvoiceItems}" VerticalOptions="FillAndExpand"  SelectionEnabled="True" IsEnabled="True"  SelectedItem="{Binding InvoiceItem}"  RowHeight="70" HeaderHeight="50" BorderColor="#CCCCCC" HeaderBackground="#E0E6F8"  ActiveRowColor="#8899AA">
                   <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
                   </Grid.RowDefinitions>
@@ -35,7 +45,7 @@
                     <conv:InvoiceViewModel x:Key="InvoiceViewModel"/>
                 </ResourceDictionary>
             </dataGrid:DataGrid.Resources>
-        </dataGrid:DataGrid>
+        </dataGrid:DataGrid>-->
          </StackLayout>
     </ContentView>
 </ContentPage>

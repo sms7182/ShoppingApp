@@ -12,58 +12,28 @@ using Xamarin.Forms;
 
 namespace ShoppingApp.ViewModels
 {
-    public class InvoiceViewModel:INotifyPropertyChanged
+    public class InvoiceViewModel
     {
         #region fields
 
-        private List<InvoiceItem> invoiceItems;
-        private InvoiceItem selectedItem;
+        private readonly BindingList<InvoiceItem> invoiceItems;
+
         #endregion
 
-        public List<InvoiceItem> InvoiceItems
+        public BindingList<InvoiceItem> InvoiceItems
         {
-            get { return invoiceItems;}
-            set { invoiceItems = value;OnPropertyChanged(nameof(InvoiceItems)); }
+            get { return invoiceItems; }
 
         }
 
-        //private bool isrefresh;
-        //public bool IsRefresh
-        //{
-        //    get { return isrefresh; }
-        //    set
-        //    {
-        //        isrefresh = true;
-        //        OnPropertyChanged(nameof(IsRefresh)); 
-
-        //    }
-        //}
-
-        //private ICommand refCommand;
-        //public ICommand RefreshCommand
-        //{
-        //    set { refCommand = value; }
-        //    get {
-
-        //        return new Command(async () => {
-        //        IsRefresh = tr
-        //        IsRefresh = false;
-        //    }); }
-        //}
-
-      
-
-        public InvoiceItem SelectedItem
-        {
-            get { return selectedItem; }
-            set { selectedItem = value; }
-        }
+       
         public InvoiceViewModel()
         {
-            InvoiceItems=new List<InvoiceItem>();
+            invoiceItems=new BindingList<InvoiceItem>();
+           
 
             ///todo for testing bind
-            InvoiceItems.Add(new InvoiceItem()
+            invoiceItems.Add(new InvoiceItem()
             {
                 ItemName = "7575",
                 Quantity = 1,
@@ -73,16 +43,7 @@ namespace ShoppingApp.ViewModels
 
 
             });
-            //InvoiceItems.Add(new InvoiceItem()
-            //{
-            //    ItemName = "7070",
-            //    Quantity = 7,
-            //    UnitPrice = 12,
-            //    Unit = "Number",
-            //    TotalPrice = 84
-
-
-            //});
+           
         }
 
         public Invoice Invoice { get; set; }

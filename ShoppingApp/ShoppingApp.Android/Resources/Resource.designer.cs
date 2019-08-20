@@ -26,6 +26,2329 @@ namespace ShoppingApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_fade_in = global::ShoppingApp.Droid.Resource.Animation.abc_fade_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_fade_out = global::ShoppingApp.Droid.Resource.Animation.abc_fade_out;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::ShoppingApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_popup_enter = global::ShoppingApp.Droid.Resource.Animation.abc_popup_enter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_popup_exit = global::ShoppingApp.Droid.Resource.Animation.abc_popup_exit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ShoppingApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_slide_in_bottom = global::ShoppingApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_slide_in_top = global::ShoppingApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_slide_out_bottom = global::ShoppingApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.abc_slide_out_top = global::ShoppingApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.design_bottom_sheet_slide_in = global::ShoppingApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.design_bottom_sheet_slide_out = global::ShoppingApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.design_snackbar_in = global::ShoppingApp.Droid.Resource.Animation.design_snackbar_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.design_snackbar_out = global::ShoppingApp.Droid.Resource.Animation.design_snackbar_out;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.EnterFromLeft = global::ShoppingApp.Droid.Resource.Animation.EnterFromLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.EnterFromRight = global::ShoppingApp.Droid.Resource.Animation.EnterFromRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.ExitToLeft = global::ShoppingApp.Droid.Resource.Animation.ExitToLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animation.ExitToRight = global::ShoppingApp.Droid.Resource.Animation.ExitToRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Animator.design_appbar_state_list_animator = global::ShoppingApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarDivider = global::ShoppingApp.Droid.Resource.Attribute.actionBarDivider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarItemBackground = global::ShoppingApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarPopupTheme = global::ShoppingApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarSize = global::ShoppingApp.Droid.Resource.Attribute.actionBarSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarSplitStyle = global::ShoppingApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarStyle = global::ShoppingApp.Droid.Resource.Attribute.actionBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarTabBarStyle = global::ShoppingApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarTabStyle = global::ShoppingApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarTabTextStyle = global::ShoppingApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarTheme = global::ShoppingApp.Droid.Resource.Attribute.actionBarTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionBarWidgetTheme = global::ShoppingApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionDropDownStyle = global::ShoppingApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionLayout = global::ShoppingApp.Droid.Resource.Attribute.actionLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionMenuTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionMenuTextColor = global::ShoppingApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeBackground = global::ShoppingApp.Droid.Resource.Attribute.actionModeBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeCloseButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeCloseDrawable = global::ShoppingApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeCopyDrawable = global::ShoppingApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeCutDrawable = global::ShoppingApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeFindDrawable = global::ShoppingApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModePasteDrawable = global::ShoppingApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModePopupWindowStyle = global::ShoppingApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeSelectAllDrawable = global::ShoppingApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeShareDrawable = global::ShoppingApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeSplitBackground = global::ShoppingApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeStyle = global::ShoppingApp.Droid.Resource.Attribute.actionModeStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionModeWebSearchDrawable = global::ShoppingApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionOverflowButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionOverflowMenuStyle = global::ShoppingApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionProviderClass = global::ShoppingApp.Droid.Resource.Attribute.actionProviderClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.actionViewClass = global::ShoppingApp.Droid.Resource.Attribute.actionViewClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.activityChooserViewStyle = global::ShoppingApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::ShoppingApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alertDialogCenterButtons = global::ShoppingApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alertDialogStyle = global::ShoppingApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alertDialogTheme = global::ShoppingApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.allowStacking = global::ShoppingApp.Droid.Resource.Attribute.allowStacking;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alpha = global::ShoppingApp.Droid.Resource.Attribute.alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.alphabeticModifiers = global::ShoppingApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.arrowHeadLength = global::ShoppingApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.arrowShaftLength = global::ShoppingApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoCompleteTextViewStyle = global::ShoppingApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizeMaxTextSize = global::ShoppingApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizeMinTextSize = global::ShoppingApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizePresetSizes = global::ShoppingApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizeStepGranularity = global::ShoppingApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.autoSizeTextType = global::ShoppingApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.background = global::ShoppingApp.Droid.Resource.Attribute.background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.backgroundSplit = global::ShoppingApp.Droid.Resource.Attribute.backgroundSplit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.backgroundStacked = global::ShoppingApp.Droid.Resource.Attribute.backgroundStacked;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.backgroundTint = global::ShoppingApp.Droid.Resource.Attribute.backgroundTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.backgroundTintMode = global::ShoppingApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.barLength = global::ShoppingApp.Droid.Resource.Attribute.barLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_autoHide = global::ShoppingApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_hideable = global::ShoppingApp.Droid.Resource.Attribute.behavior_hideable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_overlapTop = global::ShoppingApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_peekHeight = global::ShoppingApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.behavior_skipCollapsed = global::ShoppingApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.borderWidth = global::ShoppingApp.Droid.Resource.Attribute.borderWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.borderlessButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.bottomSheetDialogTheme = global::ShoppingApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.bottomSheetStyle = global::ShoppingApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonBarStyle = global::ShoppingApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonGravity = global::ShoppingApp.Droid.Resource.Attribute.buttonGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonPanelSideLayout = global::ShoppingApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonStyle = global::ShoppingApp.Droid.Resource.Attribute.buttonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonStyleSmall = global::ShoppingApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonTint = global::ShoppingApp.Droid.Resource.Attribute.buttonTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.buttonTintMode = global::ShoppingApp.Droid.Resource.Attribute.buttonTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardBackgroundColor = global::ShoppingApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardCornerRadius = global::ShoppingApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardElevation = global::ShoppingApp.Droid.Resource.Attribute.cardElevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardMaxElevation = global::ShoppingApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardPreventCornerOverlap = global::ShoppingApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.cardUseCompatPadding = global::ShoppingApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.checkboxStyle = global::ShoppingApp.Droid.Resource.Attribute.checkboxStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.checkedTextViewStyle = global::ShoppingApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeIcon = global::ShoppingApp.Droid.Resource.Attribute.closeIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.closeItemLayout = global::ShoppingApp.Droid.Resource.Attribute.closeItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.collapseContentDescription = global::ShoppingApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.collapseIcon = global::ShoppingApp.Droid.Resource.Attribute.collapseIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.collapsedTitleGravity = global::ShoppingApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.collapsedTitleTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.color = global::ShoppingApp.Droid.Resource.Attribute.color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorAccent = global::ShoppingApp.Droid.Resource.Attribute.colorAccent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorBackgroundFloating = global::ShoppingApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorButtonNormal = global::ShoppingApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorControlActivated = global::ShoppingApp.Droid.Resource.Attribute.colorControlActivated;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorControlHighlight = global::ShoppingApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorControlNormal = global::ShoppingApp.Droid.Resource.Attribute.colorControlNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorError = global::ShoppingApp.Droid.Resource.Attribute.colorError;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorPrimary = global::ShoppingApp.Droid.Resource.Attribute.colorPrimary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorPrimaryDark = global::ShoppingApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.colorSwitchThumbNormal = global::ShoppingApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.commitIcon = global::ShoppingApp.Droid.Resource.Attribute.commitIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentDescription = global::ShoppingApp.Droid.Resource.Attribute.contentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetEnd = global::ShoppingApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetEndWithActions = global::ShoppingApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetLeft = global::ShoppingApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetRight = global::ShoppingApp.Droid.Resource.Attribute.contentInsetRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetStart = global::ShoppingApp.Droid.Resource.Attribute.contentInsetStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentInsetStartWithNavigation = global::ShoppingApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPadding = global::ShoppingApp.Droid.Resource.Attribute.contentPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPaddingBottom = global::ShoppingApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPaddingLeft = global::ShoppingApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPaddingRight = global::ShoppingApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentPaddingTop = global::ShoppingApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.contentScrim = global::ShoppingApp.Droid.Resource.Attribute.contentScrim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.controlBackground = global::ShoppingApp.Droid.Resource.Attribute.controlBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.counterEnabled = global::ShoppingApp.Droid.Resource.Attribute.counterEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.counterMaxLength = global::ShoppingApp.Droid.Resource.Attribute.counterMaxLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.counterOverflowTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.counterTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.customNavigationLayout = global::ShoppingApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.defaultQueryHint = global::ShoppingApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dialogPreferredPadding = global::ShoppingApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dialogTheme = global::ShoppingApp.Droid.Resource.Attribute.dialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.displayOptions = global::ShoppingApp.Droid.Resource.Attribute.displayOptions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.divider = global::ShoppingApp.Droid.Resource.Attribute.divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dividerHorizontal = global::ShoppingApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dividerPadding = global::ShoppingApp.Droid.Resource.Attribute.dividerPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dividerVertical = global::ShoppingApp.Droid.Resource.Attribute.dividerVertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.drawableSize = global::ShoppingApp.Droid.Resource.Attribute.drawableSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.drawerArrowStyle = global::ShoppingApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dropDownListViewStyle = global::ShoppingApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::ShoppingApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.editTextBackground = global::ShoppingApp.Droid.Resource.Attribute.editTextBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.editTextColor = global::ShoppingApp.Droid.Resource.Attribute.editTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.editTextStyle = global::ShoppingApp.Droid.Resource.Attribute.editTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.elevation = global::ShoppingApp.Droid.Resource.Attribute.elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.errorEnabled = global::ShoppingApp.Droid.Resource.Attribute.errorEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.errorTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ShoppingApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expanded = global::ShoppingApp.Droid.Resource.Attribute.expanded;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleGravity = global::ShoppingApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMargin = global::ShoppingApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMarginBottom = global::ShoppingApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMarginEnd = global::ShoppingApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMarginStart = global::ShoppingApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleMarginTop = global::ShoppingApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.expandedTitleTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.externalRouteEnabledDrawable = global::ShoppingApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fabSize = global::ShoppingApp.Droid.Resource.Attribute.fabSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollEnabled = global::ShoppingApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::ShoppingApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::ShoppingApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::ShoppingApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::ShoppingApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.font = global::ShoppingApp.Droid.Resource.Attribute.font;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontFamily = global::ShoppingApp.Droid.Resource.Attribute.fontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderAuthority = global::ShoppingApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderCerts = global::ShoppingApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderFetchStrategy = global::ShoppingApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderFetchTimeout = global::ShoppingApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderPackage = global::ShoppingApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontProviderQuery = global::ShoppingApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontStyle = global::ShoppingApp.Droid.Resource.Attribute.fontStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.fontWeight = global::ShoppingApp.Droid.Resource.Attribute.fontWeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.foregroundInsidePadding = global::ShoppingApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.gapBetweenBars = global::ShoppingApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.goIcon = global::ShoppingApp.Droid.Resource.Attribute.goIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.headerLayout = global::ShoppingApp.Droid.Resource.Attribute.headerLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.height = global::ShoppingApp.Droid.Resource.Attribute.height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hideOnContentScroll = global::ShoppingApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hintAnimationEnabled = global::ShoppingApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hintEnabled = global::ShoppingApp.Droid.Resource.Attribute.hintEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.hintTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.homeAsUpIndicator = global::ShoppingApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.homeLayout = global::ShoppingApp.Droid.Resource.Attribute.homeLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.icon = global::ShoppingApp.Droid.Resource.Attribute.icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconTint = global::ShoppingApp.Droid.Resource.Attribute.iconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconTintMode = global::ShoppingApp.Droid.Resource.Attribute.iconTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.iconifiedByDefault = global::ShoppingApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.imageButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.indeterminateProgressStyle = global::ShoppingApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.initialActivityCount = global::ShoppingApp.Droid.Resource.Attribute.initialActivityCount;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.insetForeground = global::ShoppingApp.Droid.Resource.Attribute.insetForeground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.isLightTheme = global::ShoppingApp.Droid.Resource.Attribute.isLightTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemBackground = global::ShoppingApp.Droid.Resource.Attribute.itemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemIconTint = global::ShoppingApp.Droid.Resource.Attribute.itemIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemPadding = global::ShoppingApp.Droid.Resource.Attribute.itemPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.itemTextColor = global::ShoppingApp.Droid.Resource.Attribute.itemTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.keylines = global::ShoppingApp.Droid.Resource.Attribute.keylines;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout = global::ShoppingApp.Droid.Resource.Attribute.layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layoutManager = global::ShoppingApp.Droid.Resource.Attribute.layoutManager;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_anchor = global::ShoppingApp.Droid.Resource.Attribute.layout_anchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_anchorGravity = global::ShoppingApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_behavior = global::ShoppingApp.Droid.Resource.Attribute.layout_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_collapseMode = global::ShoppingApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::ShoppingApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_dodgeInsetEdges = global::ShoppingApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_insetEdge = global::ShoppingApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_keyline = global::ShoppingApp.Droid.Resource.Attribute.layout_keyline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_scrollFlags = global::ShoppingApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.layout_scrollInterpolator = global::ShoppingApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::ShoppingApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listDividerAlertDialog = global::ShoppingApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listItemLayout = global::ShoppingApp.Droid.Resource.Attribute.listItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listLayout = global::ShoppingApp.Droid.Resource.Attribute.listLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listMenuViewStyle = global::ShoppingApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPopupWindowStyle = global::ShoppingApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemHeight = global::ShoppingApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemHeightLarge = global::ShoppingApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemHeightSmall = global::ShoppingApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::ShoppingApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.listPreferredItemPaddingRight = global::ShoppingApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.logo = global::ShoppingApp.Droid.Resource.Attribute.logo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.logoDescription = global::ShoppingApp.Droid.Resource.Attribute.logoDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.maxActionInlineWidth = global::ShoppingApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.maxButtonHeight = global::ShoppingApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.measureWithLargestChild = global::ShoppingApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteButtonTint = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteCloseDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRoutePauseDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRoutePlayDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteStopDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteTheme = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::ShoppingApp.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.menu = global::ShoppingApp.Droid.Resource.Attribute.menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.multiChoiceItemLayout = global::ShoppingApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.navigationContentDescription = global::ShoppingApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.navigationIcon = global::ShoppingApp.Droid.Resource.Attribute.navigationIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.navigationMode = global::ShoppingApp.Droid.Resource.Attribute.navigationMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.numericModifiers = global::ShoppingApp.Droid.Resource.Attribute.numericModifiers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.overlapAnchor = global::ShoppingApp.Droid.Resource.Attribute.overlapAnchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.paddingBottomNoButtons = global::ShoppingApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.paddingEnd = global::ShoppingApp.Droid.Resource.Attribute.paddingEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.paddingStart = global::ShoppingApp.Droid.Resource.Attribute.paddingStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.paddingTopNoTitle = global::ShoppingApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.panelBackground = global::ShoppingApp.Droid.Resource.Attribute.panelBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.panelMenuListTheme = global::ShoppingApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.panelMenuListWidth = global::ShoppingApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleContentDescription = global::ShoppingApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleDrawable = global::ShoppingApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleEnabled = global::ShoppingApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleTint = global::ShoppingApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.passwordToggleTintMode = global::ShoppingApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.popupMenuStyle = global::ShoppingApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.popupTheme = global::ShoppingApp.Droid.Resource.Attribute.popupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.popupWindowStyle = global::ShoppingApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.preserveIconSpacing = global::ShoppingApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.pressedTranslationZ = global::ShoppingApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.progressBarPadding = global::ShoppingApp.Droid.Resource.Attribute.progressBarPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.progressBarStyle = global::ShoppingApp.Droid.Resource.Attribute.progressBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.queryBackground = global::ShoppingApp.Droid.Resource.Attribute.queryBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.queryHint = global::ShoppingApp.Droid.Resource.Attribute.queryHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.radioButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.ratingBarStyle = global::ShoppingApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.ratingBarStyleIndicator = global::ShoppingApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.ratingBarStyleSmall = global::ShoppingApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.reverseLayout = global::ShoppingApp.Droid.Resource.Attribute.reverseLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.rippleColor = global::ShoppingApp.Droid.Resource.Attribute.rippleColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.scrimAnimationDuration = global::ShoppingApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::ShoppingApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.searchHintIcon = global::ShoppingApp.Droid.Resource.Attribute.searchHintIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.searchIcon = global::ShoppingApp.Droid.Resource.Attribute.searchIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.searchViewStyle = global::ShoppingApp.Droid.Resource.Attribute.searchViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.seekBarStyle = global::ShoppingApp.Droid.Resource.Attribute.seekBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.selectableItemBackground = global::ShoppingApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::ShoppingApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showAsAction = global::ShoppingApp.Droid.Resource.Attribute.showAsAction;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showDividers = global::ShoppingApp.Droid.Resource.Attribute.showDividers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showText = global::ShoppingApp.Droid.Resource.Attribute.showText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.showTitle = global::ShoppingApp.Droid.Resource.Attribute.showTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.singleChoiceItemLayout = global::ShoppingApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.spanCount = global::ShoppingApp.Droid.Resource.Attribute.spanCount;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.spinBars = global::ShoppingApp.Droid.Resource.Attribute.spinBars;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.spinnerDropDownItemStyle = global::ShoppingApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.spinnerStyle = global::ShoppingApp.Droid.Resource.Attribute.spinnerStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.splitTrack = global::ShoppingApp.Droid.Resource.Attribute.splitTrack;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.srcCompat = global::ShoppingApp.Droid.Resource.Attribute.srcCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.stackFromEnd = global::ShoppingApp.Droid.Resource.Attribute.stackFromEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.state_above_anchor = global::ShoppingApp.Droid.Resource.Attribute.state_above_anchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.state_collapsed = global::ShoppingApp.Droid.Resource.Attribute.state_collapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.state_collapsible = global::ShoppingApp.Droid.Resource.Attribute.state_collapsible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.statusBarBackground = global::ShoppingApp.Droid.Resource.Attribute.statusBarBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.statusBarScrim = global::ShoppingApp.Droid.Resource.Attribute.statusBarScrim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subMenuArrow = global::ShoppingApp.Droid.Resource.Attribute.subMenuArrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.submitBackground = global::ShoppingApp.Droid.Resource.Attribute.submitBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subtitle = global::ShoppingApp.Droid.Resource.Attribute.subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subtitleTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subtitleTextColor = global::ShoppingApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.subtitleTextStyle = global::ShoppingApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.suggestionRowLayout = global::ShoppingApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.switchMinWidth = global::ShoppingApp.Droid.Resource.Attribute.switchMinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.switchPadding = global::ShoppingApp.Droid.Resource.Attribute.switchPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.switchStyle = global::ShoppingApp.Droid.Resource.Attribute.switchStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.switchTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabBackground = global::ShoppingApp.Droid.Resource.Attribute.tabBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabContentStart = global::ShoppingApp.Droid.Resource.Attribute.tabContentStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabGravity = global::ShoppingApp.Droid.Resource.Attribute.tabGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIndicatorColor = global::ShoppingApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabIndicatorHeight = global::ShoppingApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabMaxWidth = global::ShoppingApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabMinWidth = global::ShoppingApp.Droid.Resource.Attribute.tabMinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabMode = global::ShoppingApp.Droid.Resource.Attribute.tabMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPadding = global::ShoppingApp.Droid.Resource.Attribute.tabPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPaddingBottom = global::ShoppingApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPaddingEnd = global::ShoppingApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPaddingStart = global::ShoppingApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabPaddingTop = global::ShoppingApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabSelectedTextColor = global::ShoppingApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tabTextColor = global::ShoppingApp.Droid.Resource.Attribute.tabTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAllCaps = global::ShoppingApp.Droid.Resource.Attribute.textAllCaps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::ShoppingApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceListItem = global::ShoppingApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceListItemSecondary = global::ShoppingApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceListItemSmall = global::ShoppingApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::ShoppingApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ShoppingApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::ShoppingApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::ShoppingApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textColorAlertDialogListItem = global::ShoppingApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.textColorSearchUrl = global::ShoppingApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.theme = global::ShoppingApp.Droid.Resource.Attribute.theme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.thickness = global::ShoppingApp.Droid.Resource.Attribute.thickness;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.thumbTextPadding = global::ShoppingApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.thumbTint = global::ShoppingApp.Droid.Resource.Attribute.thumbTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.thumbTintMode = global::ShoppingApp.Droid.Resource.Attribute.thumbTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tickMark = global::ShoppingApp.Droid.Resource.Attribute.tickMark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tickMarkTint = global::ShoppingApp.Droid.Resource.Attribute.tickMarkTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tickMarkTintMode = global::ShoppingApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tint = global::ShoppingApp.Droid.Resource.Attribute.tint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tintMode = global::ShoppingApp.Droid.Resource.Attribute.tintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.title = global::ShoppingApp.Droid.Resource.Attribute.title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleEnabled = global::ShoppingApp.Droid.Resource.Attribute.titleEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMargin = global::ShoppingApp.Droid.Resource.Attribute.titleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMarginBottom = global::ShoppingApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMarginEnd = global::ShoppingApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMarginStart = global::ShoppingApp.Droid.Resource.Attribute.titleMarginStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMarginTop = global::ShoppingApp.Droid.Resource.Attribute.titleMarginTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleMargins = global::ShoppingApp.Droid.Resource.Attribute.titleMargins;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleTextAppearance = global::ShoppingApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleTextColor = global::ShoppingApp.Droid.Resource.Attribute.titleTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.titleTextStyle = global::ShoppingApp.Droid.Resource.Attribute.titleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.toolbarId = global::ShoppingApp.Droid.Resource.Attribute.toolbarId;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::ShoppingApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.toolbarStyle = global::ShoppingApp.Droid.Resource.Attribute.toolbarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tooltipForegroundColor = global::ShoppingApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tooltipFrameBackground = global::ShoppingApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.tooltipText = global::ShoppingApp.Droid.Resource.Attribute.tooltipText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.track = global::ShoppingApp.Droid.Resource.Attribute.track;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.trackTint = global::ShoppingApp.Droid.Resource.Attribute.trackTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.trackTintMode = global::ShoppingApp.Droid.Resource.Attribute.trackTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.useCompatPadding = global::ShoppingApp.Droid.Resource.Attribute.useCompatPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.voiceIcon = global::ShoppingApp.Droid.Resource.Attribute.voiceIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowActionBar = global::ShoppingApp.Droid.Resource.Attribute.windowActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowActionBarOverlay = global::ShoppingApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowActionModeOverlay = global::ShoppingApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowFixedHeightMajor = global::ShoppingApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowFixedHeightMinor = global::ShoppingApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowFixedWidthMajor = global::ShoppingApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowFixedWidthMinor = global::ShoppingApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowMinWidthMajor = global::ShoppingApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowMinWidthMinor = global::ShoppingApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Attribute.windowNoTitle = global::ShoppingApp.Droid.Resource.Attribute.windowNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::ShoppingApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::ShoppingApp.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ShoppingApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ShoppingApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::ShoppingApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::ShoppingApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_btn_colored_text_material = global::ShoppingApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_color_highlight_material = global::ShoppingApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_hint_foreground_material_dark = global::ShoppingApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_hint_foreground_material_light = global::ShoppingApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_input_method_navigation_guard = global::ShoppingApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::ShoppingApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::ShoppingApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_primary_text_material_dark = global::ShoppingApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_primary_text_material_light = global::ShoppingApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_search_url_text = global::ShoppingApp.Droid.Resource.Color.abc_search_url_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_search_url_text_normal = global::ShoppingApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_search_url_text_pressed = global::ShoppingApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_search_url_text_selected = global::ShoppingApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_secondary_text_material_dark = global::ShoppingApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_secondary_text_material_light = global::ShoppingApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_btn_checkable = global::ShoppingApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_default = global::ShoppingApp.Droid.Resource.Color.abc_tint_default;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_edittext = global::ShoppingApp.Droid.Resource.Color.abc_tint_edittext;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_seek_thumb = global::ShoppingApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_spinner = global::ShoppingApp.Droid.Resource.Color.abc_tint_spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.abc_tint_switch_track = global::ShoppingApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.accent_material_dark = global::ShoppingApp.Droid.Resource.Color.accent_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.accent_material_light = global::ShoppingApp.Droid.Resource.Color.accent_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.background_floating_material_dark = global::ShoppingApp.Droid.Resource.Color.background_floating_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.background_floating_material_light = global::ShoppingApp.Droid.Resource.Color.background_floating_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.background_material_dark = global::ShoppingApp.Droid.Resource.Color.background_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.background_material_light = global::ShoppingApp.Droid.Resource.Color.background_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.black = global::ShoppingApp.Droid.Resource.Color.black;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.blue = global::ShoppingApp.Droid.Resource.Color.blue;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_disabled_material_dark = global::ShoppingApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_disabled_material_light = global::ShoppingApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_inverse_material_dark = global::ShoppingApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_inverse_material_light = global::ShoppingApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_material_dark = global::ShoppingApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.bright_foreground_material_light = global::ShoppingApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.button_material_dark = global::ShoppingApp.Droid.Resource.Color.button_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.button_material_light = global::ShoppingApp.Droid.Resource.Color.button_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.cardview_dark_background = global::ShoppingApp.Droid.Resource.Color.cardview_dark_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.cardview_light_background = global::ShoppingApp.Droid.Resource.Color.cardview_light_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.cardview_shadow_end_color = global::ShoppingApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.cardview_shadow_start_color = global::ShoppingApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_bottom_navigation_shadow_color = global::ShoppingApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_error = global::ShoppingApp.Droid.Resource.Color.design_error;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_shadow_end_color = global::ShoppingApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_shadow_mid_color = global::ShoppingApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_shadow_start_color = global::ShoppingApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_stroke_end_inner_color = global::ShoppingApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_stroke_end_outer_color = global::ShoppingApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_stroke_top_inner_color = global::ShoppingApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_fab_stroke_top_outer_color = global::ShoppingApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_snackbar_background_color = global::ShoppingApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.design_tint_password_toggle = global::ShoppingApp.Droid.Resource.Color.design_tint_password_toggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.dim_foreground_disabled_material_dark = global::ShoppingApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.dim_foreground_disabled_material_light = global::ShoppingApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.dim_foreground_material_dark = global::ShoppingApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.dim_foreground_material_light = global::ShoppingApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.foreground_material_dark = global::ShoppingApp.Droid.Resource.Color.foreground_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.foreground_material_light = global::ShoppingApp.Droid.Resource.Color.foreground_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.gray = global::ShoppingApp.Droid.Resource.Color.gray;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.green = global::ShoppingApp.Droid.Resource.Color.green;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.highlighted_text_material_dark = global::ShoppingApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.highlighted_text_material_light = global::ShoppingApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_blue_grey_800 = global::ShoppingApp.Droid.Resource.Color.material_blue_grey_800;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_blue_grey_900 = global::ShoppingApp.Droid.Resource.Color.material_blue_grey_900;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_blue_grey_950 = global::ShoppingApp.Droid.Resource.Color.material_blue_grey_950;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_deep_teal_200 = global::ShoppingApp.Droid.Resource.Color.material_deep_teal_200;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_deep_teal_500 = global::ShoppingApp.Droid.Resource.Color.material_deep_teal_500;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_100 = global::ShoppingApp.Droid.Resource.Color.material_grey_100;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_300 = global::ShoppingApp.Droid.Resource.Color.material_grey_300;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_50 = global::ShoppingApp.Droid.Resource.Color.material_grey_50;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_600 = global::ShoppingApp.Droid.Resource.Color.material_grey_600;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_800 = global::ShoppingApp.Droid.Resource.Color.material_grey_800;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_850 = global::ShoppingApp.Droid.Resource.Color.material_grey_850;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.material_grey_900 = global::ShoppingApp.Droid.Resource.Color.material_grey_900;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.notification_action_color_filter = global::ShoppingApp.Droid.Resource.Color.notification_action_color_filter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.notification_icon_bg_color = global::ShoppingApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.notification_material_background_media_default_color = global::ShoppingApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_dark_material_dark = global::ShoppingApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_dark_material_light = global::ShoppingApp.Droid.Resource.Color.primary_dark_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_material_dark = global::ShoppingApp.Droid.Resource.Color.primary_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_material_light = global::ShoppingApp.Droid.Resource.Color.primary_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_text_default_material_dark = global::ShoppingApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_text_default_material_light = global::ShoppingApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_text_disabled_material_dark = global::ShoppingApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.primary_text_disabled_material_light = global::ShoppingApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.red = global::ShoppingApp.Droid.Resource.Color.red;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.ripple_material_dark = global::ShoppingApp.Droid.Resource.Color.ripple_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.ripple_material_light = global::ShoppingApp.Droid.Resource.Color.ripple_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.secondary_text_default_material_dark = global::ShoppingApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.secondary_text_default_material_light = global::ShoppingApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.secondary_text_disabled_material_dark = global::ShoppingApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.secondary_text_disabled_material_light = global::ShoppingApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_disabled_material_dark = global::ShoppingApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_disabled_material_light = global::ShoppingApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_material_dark = global::ShoppingApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_material_light = global::ShoppingApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_normal_material_dark = global::ShoppingApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.switch_thumb_normal_material_light = global::ShoppingApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.theme_dark_segmented_radio_button_text = global::ShoppingApp.Droid.Resource.Color.theme_dark_segmented_radio_button_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.theme_default_segmented_radio_button_text = global::ShoppingApp.Droid.Resource.Color.theme_default_segmented_radio_button_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.tooltip_background_dark = global::ShoppingApp.Droid.Resource.Color.tooltip_background_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Color.tooltip_background_light = global::ShoppingApp.Droid.Resource.Color.tooltip_background_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_default_height_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_elevation_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_button_min_height_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_button_min_width_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ShoppingApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ShoppingApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::ShoppingApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_button_inset_vertical_material = global::ShoppingApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::ShoppingApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_button_padding_vertical_material = global::ShoppingApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ShoppingApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_config_prefDialogWidth = global::ShoppingApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_control_corner_material = global::ShoppingApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_control_inset_material = global::ShoppingApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_control_padding_material = global::ShoppingApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_min_width_major = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_min_width_minor = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_padding_material = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_padding_top_material = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dialog_title_divider_material = global::ShoppingApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::ShoppingApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::ShoppingApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::ShoppingApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ShoppingApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ShoppingApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ShoppingApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ShoppingApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::ShoppingApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_floating_window_z = global::ShoppingApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ShoppingApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_panel_menu_list_width = global::ShoppingApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_progress_bar_height_material = global::ShoppingApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_search_view_preferred_height = global::ShoppingApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_search_view_preferred_width = global::ShoppingApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::ShoppingApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ShoppingApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::ShoppingApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_switch_padding = global::ShoppingApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_body_1_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_body_2_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_button_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_caption_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_display_1_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_display_2_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_display_3_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_display_4_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_headline_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_large_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_medium_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_menu_header_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_menu_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_small_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_subhead_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_title_material = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::ShoppingApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.cardview_compat_inset_shadow = global::ShoppingApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.cardview_default_elevation = global::ShoppingApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.cardview_default_radius = global::ShoppingApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::ShoppingApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_button_inset_vertical_material = global::ShoppingApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::ShoppingApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_button_padding_vertical_material = global::ShoppingApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.compat_control_corner_material = global::ShoppingApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_appbar_elevation = global::ShoppingApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_elevation = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_height = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_margin = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_navigation_text_size = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ShoppingApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_border_width = global::ShoppingApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_elevation = global::ShoppingApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_image_size = global::ShoppingApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_size_mini = global::ShoppingApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_size_normal = global::ShoppingApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_fab_translation_z_pressed = global::ShoppingApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_elevation = global::ShoppingApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_icon_padding = global::ShoppingApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_icon_size = global::ShoppingApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_max_width = global::ShoppingApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_padding_bottom = global::ShoppingApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::ShoppingApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_elevation = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_max_width = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_min_width = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_padding_vertical = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_snackbar_text_size = global::ShoppingApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_tab_max_width = global::ShoppingApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_tab_scrollable_min_width = global::ShoppingApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_tab_text_size = global::ShoppingApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.design_tab_text_size_2line = global::ShoppingApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.disabled_alpha_material_dark = global::ShoppingApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.disabled_alpha_material_light = global::ShoppingApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.fastscroll_default_thickness = global::ShoppingApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.fastscroll_margin = global::ShoppingApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.fastscroll_minimum_range = global::ShoppingApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.highlight_alpha_material_colored = global::ShoppingApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.highlight_alpha_material_dark = global::ShoppingApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.highlight_alpha_material_light = global::ShoppingApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.hint_alpha_material_dark = global::ShoppingApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.hint_alpha_material_light = global::ShoppingApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::ShoppingApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::ShoppingApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ShoppingApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ShoppingApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ShoppingApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::ShoppingApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::ShoppingApp.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::ShoppingApp.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::ShoppingApp.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::ShoppingApp.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::ShoppingApp.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_action_icon_size = global::ShoppingApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_action_text_size = global::ShoppingApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_big_circle_margin = global::ShoppingApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_content_margin_start = global::ShoppingApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_large_icon_height = global::ShoppingApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_large_icon_width = global::ShoppingApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_main_column_padding_top = global::ShoppingApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_media_narrow_margin = global::ShoppingApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_right_icon_size = global::ShoppingApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_right_side_padding_top = global::ShoppingApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_small_icon_background_padding = global::ShoppingApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_small_icon_size_as_large = global::ShoppingApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_subtext_size = global::ShoppingApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_top_pad = global::ShoppingApp.Droid.Resource.Dimension.notification_top_pad;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.notification_top_pad_large_text = global::ShoppingApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_corner_radius = global::ShoppingApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_horizontal_padding = global::ShoppingApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_margin = global::ShoppingApp.Droid.Resource.Dimension.tooltip_margin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::ShoppingApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::ShoppingApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_vertical_padding = global::ShoppingApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::ShoppingApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Dimension.tooltip_y_offset_touch = global::ShoppingApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_action_bar_item_background_material = global::ShoppingApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_borderless_material = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_check_material = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_colored_material = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_radio_material = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ShoppingApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_cab_background_internal_bg = global::ShoppingApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_cab_background_top_material = global::ShoppingApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_control_background_material = global::ShoppingApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_dialog_material_background = global::ShoppingApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_edit_text_material = global::ShoppingApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_ab_back_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_clear_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_go_search_api_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_search_api_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_black_16dp = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_black_36dp = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_black_48dp = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_item_background_holo_dark = global::ShoppingApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_item_background_holo_light = global::ShoppingApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_focused_holo = global::ShoppingApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_longpressed_holo = global::ShoppingApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::ShoppingApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_pressed_holo_light = global::ShoppingApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ShoppingApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ShoppingApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ShoppingApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ShoppingApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_holo_dark = global::ShoppingApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_list_selector_holo_light = global::ShoppingApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ShoppingApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::ShoppingApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ratingbar_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_ratingbar_small_material = global::ShoppingApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ShoppingApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ShoppingApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_seekbar_thumb_material = global::ShoppingApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::ShoppingApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_seekbar_track_material = global::ShoppingApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::ShoppingApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_switch_thumb_material = global::ShoppingApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_tab_indicator_material = global::ShoppingApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_cursor_material = global::ShoppingApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::ShoppingApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::ShoppingApp.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::ShoppingApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::ShoppingApp.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::ShoppingApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::ShoppingApp.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ShoppingApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_textfield_search_material = global::ShoppingApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.abc_vector_test = global::ShoppingApp.Droid.Resource.Drawable.abc_vector_test;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_hide_password = global::ShoppingApp.Droid.Resource.Drawable.avd_hide_password;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_hide_password_1 = global::ShoppingApp.Droid.Resource.Drawable.avd_hide_password_1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_hide_password_2 = global::ShoppingApp.Droid.Resource.Drawable.avd_hide_password_2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_hide_password_3 = global::ShoppingApp.Droid.Resource.Drawable.avd_hide_password_3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_show_password = global::ShoppingApp.Droid.Resource.Drawable.avd_show_password;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_show_password_1 = global::ShoppingApp.Droid.Resource.Drawable.avd_show_password_1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_show_password_2 = global::ShoppingApp.Droid.Resource.Drawable.avd_show_password_2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.avd_show_password_3 = global::ShoppingApp.Droid.Resource.Drawable.avd_show_password_3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_bottom_navigation_item_background = global::ShoppingApp.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_fab_background = global::ShoppingApp.Droid.Resource.Drawable.design_fab_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_ic_visibility = global::ShoppingApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_ic_visibility_off = global::ShoppingApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_password_eye = global::ShoppingApp.Droid.Resource.Drawable.design_password_eye;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.design_snackbar_background = global::ShoppingApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_audiotrack_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_audiotrack_light = global::ShoppingApp.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_dialog_close_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_dialog_close_light = global::ShoppingApp.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_00 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_01 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_02 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_03 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_04 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_05 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_06 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_07 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_08 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_09 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_10 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_11 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_12 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_13 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_14 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_collapse_15 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_00 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_00;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_01 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_01;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_02 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_02;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_03 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_03;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_04 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_04;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_05 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_05;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_06 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_06;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_07 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_07;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_08 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_08;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_09 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_09;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_10 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_10;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_11 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_11;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_12 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_12;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_13 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_13;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_14 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_14;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_group_expand_15 = global::ShoppingApp.Droid.Resource.Drawable.ic_group_expand_15;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_media_pause_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_media_pause_light = global::ShoppingApp.Droid.Resource.Drawable.ic_media_pause_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_media_play_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_media_play_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_media_play_light = global::ShoppingApp.Droid.Resource.Drawable.ic_media_play_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_media_stop_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_media_stop_light = global::ShoppingApp.Droid.Resource.Drawable.ic_media_stop_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_23_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_23_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_24_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_24_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_25_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_25_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_26_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_26_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_27_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_27_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_28_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_28_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_29_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_29_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_30_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connected_30_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_23_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_23_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_24_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_24_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_25_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_25_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_26_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_26_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_27_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_27_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_28_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_28_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_29_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_29_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_30_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_connecting_30_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_disabled_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_mr_button_grey = global::ShoppingApp.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::ShoppingApp.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_vol_type_speaker_light = global::ShoppingApp.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_vol_type_tv_dark = global::ShoppingApp.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.ic_vol_type_tv_light = global::ShoppingApp.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_button_connected_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_button_connected_light = global::ShoppingApp.Droid.Resource.Drawable.mr_button_connected_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_button_connecting_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_button_connecting_light = global::ShoppingApp.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_button_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_button_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_button_light = global::ShoppingApp.Droid.Resource.Drawable.mr_button_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_dialog_close_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_dialog_close_light = global::ShoppingApp.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_dialog_material_background_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_dialog_material_background_light = global::ShoppingApp.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_group_collapse = global::ShoppingApp.Droid.Resource.Drawable.mr_group_collapse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_group_expand = global::ShoppingApp.Droid.Resource.Drawable.mr_group_expand;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_media_pause_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_media_pause_light = global::ShoppingApp.Droid.Resource.Drawable.mr_media_pause_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_media_play_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_media_play_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_media_play_light = global::ShoppingApp.Droid.Resource.Drawable.mr_media_play_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_media_stop_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_media_stop_light = global::ShoppingApp.Droid.Resource.Drawable.mr_media_stop_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::ShoppingApp.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::ShoppingApp.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.navigation_empty_icon = global::ShoppingApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_action_background = global::ShoppingApp.Droid.Resource.Drawable.notification_action_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg = global::ShoppingApp.Droid.Resource.Drawable.notification_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_low = global::ShoppingApp.Droid.Resource.Drawable.notification_bg_low;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_low_normal = global::ShoppingApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_low_pressed = global::ShoppingApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_normal = global::ShoppingApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_bg_normal_pressed = global::ShoppingApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_icon_background = global::ShoppingApp.Droid.Resource.Drawable.notification_icon_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_template_icon_bg = global::ShoppingApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_template_icon_low_bg = global::ShoppingApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notification_tile_bg = global::ShoppingApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::ShoppingApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_grey = global::ShoppingApp.Droid.Resource.Drawable.segment_grey;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_grey_focus = global::ShoppingApp.Droid.Resource.Drawable.segment_grey_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_grey_press = global::ShoppingApp.Droid.Resource.Drawable.segment_grey_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_left_off = global::ShoppingApp.Droid.Resource.Drawable.segment_left_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_left_off_pressed = global::ShoppingApp.Droid.Resource.Drawable.segment_left_off_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_left_on = global::ShoppingApp.Droid.Resource.Drawable.segment_left_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_middle_off = global::ShoppingApp.Droid.Resource.Drawable.segment_middle_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_middle_off_pressed = global::ShoppingApp.Droid.Resource.Drawable.segment_middle_off_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_middle_on = global::ShoppingApp.Droid.Resource.Drawable.segment_middle_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_off = global::ShoppingApp.Droid.Resource.Drawable.segment_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_off_pressed = global::ShoppingApp.Droid.Resource.Drawable.segment_off_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_on = global::ShoppingApp.Droid.Resource.Drawable.segment_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_left = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_left_focus = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_left_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_left_press = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_left_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_middle = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_middle_focus = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_middle_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_middle_press = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_middle_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_right = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_right_focus = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_right_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_grey_right_press = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_grey_right_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_left = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_left_focus = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_left_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_left_press = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_left_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_middle = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_middle_focus = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_middle_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_middle_press = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_middle_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_right = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_right_focus = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_right_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_radio_white_right_press = global::ShoppingApp.Droid.Resource.Drawable.segment_radio_white_right_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_right_off = global::ShoppingApp.Droid.Resource.Drawable.segment_right_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_right_off_pressed = global::ShoppingApp.Droid.Resource.Drawable.segment_right_off_pressed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_right_on = global::ShoppingApp.Droid.Resource.Drawable.segment_right_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_white = global::ShoppingApp.Droid.Resource.Drawable.segment_white;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_white_focus = global::ShoppingApp.Droid.Resource.Drawable.segment_white_focus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.segment_white_press = global::ShoppingApp.Droid.Resource.Drawable.segment_white_press;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_dark_segment_button = global::ShoppingApp.Droid.Resource.Drawable.theme_dark_segment_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_dark_segment_radio_left = global::ShoppingApp.Droid.Resource.Drawable.theme_dark_segment_radio_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_dark_segment_radio_middle = global::ShoppingApp.Droid.Resource.Drawable.theme_dark_segment_radio_middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_dark_segment_radio_right = global::ShoppingApp.Droid.Resource.Drawable.theme_dark_segment_radio_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_default_segment_button = global::ShoppingApp.Droid.Resource.Drawable.theme_default_segment_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_default_segment_radio_left = global::ShoppingApp.Droid.Resource.Drawable.theme_default_segment_radio_left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_default_segment_radio_middle = global::ShoppingApp.Droid.Resource.Drawable.theme_default_segment_radio_middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.theme_default_segment_radio_right = global::ShoppingApp.Droid.Resource.Drawable.theme_default_segment_radio_right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.tooltip_frame_dark = global::ShoppingApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Drawable.tooltip_frame_light = global::ShoppingApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.ALT = global::ShoppingApp.Droid.Resource.Id.ALT;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.CTRL = global::ShoppingApp.Droid.Resource.Id.CTRL;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.FUNCTION = global::ShoppingApp.Droid.Resource.Id.FUNCTION;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.META = global::ShoppingApp.Droid.Resource.Id.META;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.SHIFT = global::ShoppingApp.Droid.Resource.Id.SHIFT;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.SYM = global::ShoppingApp.Droid.Resource.Id.SYM;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action0 = global::ShoppingApp.Droid.Resource.Id.action0;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar = global::ShoppingApp.Droid.Resource.Id.action_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_activity_content = global::ShoppingApp.Droid.Resource.Id.action_bar_activity_content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_container = global::ShoppingApp.Droid.Resource.Id.action_bar_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_root = global::ShoppingApp.Droid.Resource.Id.action_bar_root;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_spinner = global::ShoppingApp.Droid.Resource.Id.action_bar_spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_subtitle = global::ShoppingApp.Droid.Resource.Id.action_bar_subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_bar_title = global::ShoppingApp.Droid.Resource.Id.action_bar_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_container = global::ShoppingApp.Droid.Resource.Id.action_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_context_bar = global::ShoppingApp.Droid.Resource.Id.action_context_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_divider = global::ShoppingApp.Droid.Resource.Id.action_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_image = global::ShoppingApp.Droid.Resource.Id.action_image;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_menu_divider = global::ShoppingApp.Droid.Resource.Id.action_menu_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_menu_presenter = global::ShoppingApp.Droid.Resource.Id.action_menu_presenter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_mode_bar = global::ShoppingApp.Droid.Resource.Id.action_mode_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_mode_bar_stub = global::ShoppingApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_mode_close_button = global::ShoppingApp.Droid.Resource.Id.action_mode_close_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.action_text = global::ShoppingApp.Droid.Resource.Id.action_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.actions = global::ShoppingApp.Droid.Resource.Id.actions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.activity_chooser_view_content = global::ShoppingApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.add = global::ShoppingApp.Droid.Resource.Id.add;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.alertTitle = global::ShoppingApp.Droid.Resource.Id.alertTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.all = global::ShoppingApp.Droid.Resource.Id.all;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.always = global::ShoppingApp.Droid.Resource.Id.always;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.async = global::ShoppingApp.Droid.Resource.Id.async;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.auto = global::ShoppingApp.Droid.Resource.Id.auto;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.beginning = global::ShoppingApp.Droid.Resource.Id.beginning;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.blocking = global::ShoppingApp.Droid.Resource.Id.blocking;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.bottom = global::ShoppingApp.Droid.Resource.Id.bottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.bottomtab_navarea = global::ShoppingApp.Droid.Resource.Id.bottomtab_navarea;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.bottomtab_tabbar = global::ShoppingApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.buttonPanel = global::ShoppingApp.Droid.Resource.Id.buttonPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.cancel_action = global::ShoppingApp.Droid.Resource.Id.cancel_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.center = global::ShoppingApp.Droid.Resource.Id.center;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.center_horizontal = global::ShoppingApp.Droid.Resource.Id.center_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.center_vertical = global::ShoppingApp.Droid.Resource.Id.center_vertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.checkbox = global::ShoppingApp.Droid.Resource.Id.checkbox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.chronometer = global::ShoppingApp.Droid.Resource.Id.chronometer;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.clip_horizontal = global::ShoppingApp.Droid.Resource.Id.clip_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.clip_vertical = global::ShoppingApp.Droid.Resource.Id.clip_vertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.collapseActionView = global::ShoppingApp.Droid.Resource.Id.collapseActionView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.container = global::ShoppingApp.Droid.Resource.Id.container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.contentPanel = global::ShoppingApp.Droid.Resource.Id.contentPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.coordinator = global::ShoppingApp.Droid.Resource.Id.coordinator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.custom = global::ShoppingApp.Droid.Resource.Id.custom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.customPanel = global::ShoppingApp.Droid.Resource.Id.customPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.decor_content_parent = global::ShoppingApp.Droid.Resource.Id.decor_content_parent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.default_activity_button = global::ShoppingApp.Droid.Resource.Id.default_activity_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_bottom_sheet = global::ShoppingApp.Droid.Resource.Id.design_bottom_sheet;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_menu_item_action_area = global::ShoppingApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_menu_item_action_area_stub = global::ShoppingApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_menu_item_text = global::ShoppingApp.Droid.Resource.Id.design_menu_item_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.design_navigation_view = global::ShoppingApp.Droid.Resource.Id.design_navigation_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.disableHome = global::ShoppingApp.Droid.Resource.Id.disableHome;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.edit_query = global::ShoppingApp.Droid.Resource.Id.edit_query;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.end = global::ShoppingApp.Droid.Resource.Id.end;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.end_padder = global::ShoppingApp.Droid.Resource.Id.end_padder;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.enterAlways = global::ShoppingApp.Droid.Resource.Id.enterAlways;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.enterAlwaysCollapsed = global::ShoppingApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.exitUntilCollapsed = global::ShoppingApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.expand_activities_button = global::ShoppingApp.Droid.Resource.Id.expand_activities_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.expanded_menu = global::ShoppingApp.Droid.Resource.Id.expanded_menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.fill = global::ShoppingApp.Droid.Resource.Id.fill;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.fill_horizontal = global::ShoppingApp.Droid.Resource.Id.fill_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.fill_vertical = global::ShoppingApp.Droid.Resource.Id.fill_vertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.@fixed = global::ShoppingApp.Droid.Resource.Id.@fixed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.flyoutcontent_appbar = global::ShoppingApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.flyoutcontent_recycler = global::ShoppingApp.Droid.Resource.Id.flyoutcontent_recycler;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.forever = global::ShoppingApp.Droid.Resource.Id.forever;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.ghost_view = global::ShoppingApp.Droid.Resource.Id.ghost_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.home = global::ShoppingApp.Droid.Resource.Id.home;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.homeAsUp = global::ShoppingApp.Droid.Resource.Id.homeAsUp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.icon = global::ShoppingApp.Droid.Resource.Id.icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.icon_group = global::ShoppingApp.Droid.Resource.Id.icon_group;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.ifRoom = global::ShoppingApp.Droid.Resource.Id.ifRoom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.image = global::ShoppingApp.Droid.Resource.Id.image;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.info = global::ShoppingApp.Droid.Resource.Id.info;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.italic = global::ShoppingApp.Droid.Resource.Id.italic;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.item_touch_helper_previous_elevation = global::ShoppingApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.largeLabel = global::ShoppingApp.Droid.Resource.Id.largeLabel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.left = global::ShoppingApp.Droid.Resource.Id.left;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.leftBar = global::ShoppingApp.Droid.Resource.Id.leftBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.line1 = global::ShoppingApp.Droid.Resource.Id.line1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.line3 = global::ShoppingApp.Droid.Resource.Id.line3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.listMode = global::ShoppingApp.Droid.Resource.Id.listMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.list_item = global::ShoppingApp.Droid.Resource.Id.list_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.main_appbar = global::ShoppingApp.Droid.Resource.Id.main_appbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.main_scrollview = global::ShoppingApp.Droid.Resource.Id.main_scrollview;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.main_tablayout = global::ShoppingApp.Droid.Resource.Id.main_tablayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.main_toolbar = global::ShoppingApp.Droid.Resource.Id.main_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.masked = global::ShoppingApp.Droid.Resource.Id.masked;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.media_actions = global::ShoppingApp.Droid.Resource.Id.media_actions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.message = global::ShoppingApp.Droid.Resource.Id.message;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.middle = global::ShoppingApp.Droid.Resource.Id.middle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mini = global::ShoppingApp.Droid.Resource.Id.mini;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_art = global::ShoppingApp.Droid.Resource.Id.mr_art;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_chooser_list = global::ShoppingApp.Droid.Resource.Id.mr_chooser_list;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_chooser_route_desc = global::ShoppingApp.Droid.Resource.Id.mr_chooser_route_desc;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_chooser_route_icon = global::ShoppingApp.Droid.Resource.Id.mr_chooser_route_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_chooser_route_name = global::ShoppingApp.Droid.Resource.Id.mr_chooser_route_name;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_chooser_title = global::ShoppingApp.Droid.Resource.Id.mr_chooser_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_close = global::ShoppingApp.Droid.Resource.Id.mr_close;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_control_divider = global::ShoppingApp.Droid.Resource.Id.mr_control_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_control_playback_ctrl = global::ShoppingApp.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_control_subtitle = global::ShoppingApp.Droid.Resource.Id.mr_control_subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_control_title = global::ShoppingApp.Droid.Resource.Id.mr_control_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_control_title_container = global::ShoppingApp.Droid.Resource.Id.mr_control_title_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_custom_control = global::ShoppingApp.Droid.Resource.Id.mr_custom_control;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_default_control = global::ShoppingApp.Droid.Resource.Id.mr_default_control;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_dialog_area = global::ShoppingApp.Droid.Resource.Id.mr_dialog_area;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_expandable_area = global::ShoppingApp.Droid.Resource.Id.mr_expandable_area;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_group_expand_collapse = global::ShoppingApp.Droid.Resource.Id.mr_group_expand_collapse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_media_main_control = global::ShoppingApp.Droid.Resource.Id.mr_media_main_control;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_name = global::ShoppingApp.Droid.Resource.Id.mr_name;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_playback_control = global::ShoppingApp.Droid.Resource.Id.mr_playback_control;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_title_bar = global::ShoppingApp.Droid.Resource.Id.mr_title_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_volume_control = global::ShoppingApp.Droid.Resource.Id.mr_volume_control;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_volume_group_list = global::ShoppingApp.Droid.Resource.Id.mr_volume_group_list;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_volume_item_icon = global::ShoppingApp.Droid.Resource.Id.mr_volume_item_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.mr_volume_slider = global::ShoppingApp.Droid.Resource.Id.mr_volume_slider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.multiply = global::ShoppingApp.Droid.Resource.Id.multiply;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.navigation_header_container = global::ShoppingApp.Droid.Resource.Id.navigation_header_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.never = global::ShoppingApp.Droid.Resource.Id.never;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.none = global::ShoppingApp.Droid.Resource.Id.none;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.normal = global::ShoppingApp.Droid.Resource.Id.normal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.notification_background = global::ShoppingApp.Droid.Resource.Id.notification_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.notification_main_column = global::ShoppingApp.Droid.Resource.Id.notification_main_column;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.notification_main_column_container = global::ShoppingApp.Droid.Resource.Id.notification_main_column_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.parallax = global::ShoppingApp.Droid.Resource.Id.parallax;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.parentPanel = global::ShoppingApp.Droid.Resource.Id.parentPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.parent_matrix = global::ShoppingApp.Droid.Resource.Id.parent_matrix;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.pin = global::ShoppingApp.Droid.Resource.Id.pin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.progress_circular = global::ShoppingApp.Droid.Resource.Id.progress_circular;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.progress_horizontal = global::ShoppingApp.Droid.Resource.Id.progress_horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.radio = global::ShoppingApp.Droid.Resource.Id.radio;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.right = global::ShoppingApp.Droid.Resource.Id.right;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.rightBar = global::ShoppingApp.Droid.Resource.Id.rightBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.right_icon = global::ShoppingApp.Droid.Resource.Id.right_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.right_side = global::ShoppingApp.Droid.Resource.Id.right_side;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.save_image_matrix = global::ShoppingApp.Droid.Resource.Id.save_image_matrix;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.save_non_transition_alpha = global::ShoppingApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.save_scale_type = global::ShoppingApp.Droid.Resource.Id.save_scale_type;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.screen = global::ShoppingApp.Droid.Resource.Id.screen;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scroll = global::ShoppingApp.Droid.Resource.Id.scroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scrollIndicatorDown = global::ShoppingApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scrollIndicatorUp = global::ShoppingApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scrollView = global::ShoppingApp.Droid.Resource.Id.scrollView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.scrollable = global::ShoppingApp.Droid.Resource.Id.scrollable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_badge = global::ShoppingApp.Droid.Resource.Id.search_badge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_bar = global::ShoppingApp.Droid.Resource.Id.search_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_button = global::ShoppingApp.Droid.Resource.Id.search_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_close_btn = global::ShoppingApp.Droid.Resource.Id.search_close_btn;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_edit_frame = global::ShoppingApp.Droid.Resource.Id.search_edit_frame;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_go_btn = global::ShoppingApp.Droid.Resource.Id.search_go_btn;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_mag_icon = global::ShoppingApp.Droid.Resource.Id.search_mag_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_plate = global::ShoppingApp.Droid.Resource.Id.search_plate;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_src_text = global::ShoppingApp.Droid.Resource.Id.search_src_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.search_voice_btn = global::ShoppingApp.Droid.Resource.Id.search_voice_btn;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.select_dialog_listview = global::ShoppingApp.Droid.Resource.Id.select_dialog_listview;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.shellcontent_appbar = global::ShoppingApp.Droid.Resource.Id.shellcontent_appbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.shellcontent_scrollview = global::ShoppingApp.Droid.Resource.Id.shellcontent_scrollview;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.shellcontent_toolbar = global::ShoppingApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.shortcut = global::ShoppingApp.Droid.Resource.Id.shortcut;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.showCustom = global::ShoppingApp.Droid.Resource.Id.showCustom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.showHome = global::ShoppingApp.Droid.Resource.Id.showHome;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.showTitle = global::ShoppingApp.Droid.Resource.Id.showTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.smallLabel = global::ShoppingApp.Droid.Resource.Id.smallLabel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.snackbar_action = global::ShoppingApp.Droid.Resource.Id.snackbar_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.snackbar_text = global::ShoppingApp.Droid.Resource.Id.snackbar_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.snap = global::ShoppingApp.Droid.Resource.Id.snap;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.spacer = global::ShoppingApp.Droid.Resource.Id.spacer;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.split_action_bar = global::ShoppingApp.Droid.Resource.Id.split_action_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.src_atop = global::ShoppingApp.Droid.Resource.Id.src_atop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.src_in = global::ShoppingApp.Droid.Resource.Id.src_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.src_over = global::ShoppingApp.Droid.Resource.Id.src_over;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.start = global::ShoppingApp.Droid.Resource.Id.start;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.status_bar_latest_event_content = global::ShoppingApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.submenuarrow = global::ShoppingApp.Droid.Resource.Id.submenuarrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.submit_area = global::ShoppingApp.Droid.Resource.Id.submit_area;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.swipetorefreshbar = global::ShoppingApp.Droid.Resource.Id.swipetorefreshbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.tabMode = global::ShoppingApp.Droid.Resource.Id.tabMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.tag_transition_group = global::ShoppingApp.Droid.Resource.Id.tag_transition_group;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.text = global::ShoppingApp.Droid.Resource.Id.text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.text2 = global::ShoppingApp.Droid.Resource.Id.text2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textSpacerNoButtons = global::ShoppingApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textSpacerNoTitle = global::ShoppingApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.text_input_password_toggle = global::ShoppingApp.Droid.Resource.Id.text_input_password_toggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textinput_counter = global::ShoppingApp.Droid.Resource.Id.textinput_counter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.textinput_error = global::ShoppingApp.Droid.Resource.Id.textinput_error;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.time = global::ShoppingApp.Droid.Resource.Id.time;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.title = global::ShoppingApp.Droid.Resource.Id.title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.titleDividerNoCustom = global::ShoppingApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.title_template = global::ShoppingApp.Droid.Resource.Id.title_template;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.top = global::ShoppingApp.Droid.Resource.Id.top;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.topPanel = global::ShoppingApp.Droid.Resource.Id.topPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.touch_outside = global::ShoppingApp.Droid.Resource.Id.touch_outside;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_current_scene = global::ShoppingApp.Droid.Resource.Id.transition_current_scene;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_layout_save = global::ShoppingApp.Droid.Resource.Id.transition_layout_save;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_position = global::ShoppingApp.Droid.Resource.Id.transition_position;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_scene_layoutid_cache = global::ShoppingApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.transition_transform = global::ShoppingApp.Droid.Resource.Id.transition_transform;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.uniform = global::ShoppingApp.Droid.Resource.Id.uniform;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.up = global::ShoppingApp.Droid.Resource.Id.up;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.useLogo = global::ShoppingApp.Droid.Resource.Id.useLogo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.view_offset_helper = global::ShoppingApp.Droid.Resource.Id.view_offset_helper;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.visible = global::ShoppingApp.Droid.Resource.Id.visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.volume_item_container = global::ShoppingApp.Droid.Resource.Id.volume_item_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.withText = global::ShoppingApp.Droid.Resource.Id.withText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Id.wrap_content = global::ShoppingApp.Droid.Resource.Id.wrap_content;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.abc_config_activityDefaultDur = global::ShoppingApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.abc_config_activityShortDur = global::ShoppingApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.app_bar_elevation_anim_duration = global::ShoppingApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.bottom_sheet_slide_duration = global::ShoppingApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.cancel_button_image_alpha = global::ShoppingApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.config_tooltipAnimTime = global::ShoppingApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.design_snackbar_text_max_lines = global::ShoppingApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.hide_password_duration = global::ShoppingApp.Droid.Resource.Integer.hide_password_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::ShoppingApp.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::ShoppingApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::ShoppingApp.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.show_password_duration = global::ShoppingApp.Droid.Resource.Integer.show_password_duration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Integer.status_bar_notification_info_maxnum = global::ShoppingApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Interpolator.mr_fast_out_slow_in = global::ShoppingApp.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Interpolator.mr_linear_out_slow_in = global::ShoppingApp.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_bar_title_item = global::ShoppingApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_bar_up_container = global::ShoppingApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_menu_item_layout = global::ShoppingApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_menu_layout = global::ShoppingApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_mode_bar = global::ShoppingApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_action_mode_close_item_material = global::ShoppingApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_activity_chooser_view = global::ShoppingApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::ShoppingApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::ShoppingApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_alert_dialog_material = global::ShoppingApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_alert_dialog_title_material = global::ShoppingApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_dialog_title_material = global::ShoppingApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_expanded_menu_layout = global::ShoppingApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_list_menu_item_checkbox = global::ShoppingApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_list_menu_item_icon = global::ShoppingApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_list_menu_item_layout = global::ShoppingApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_list_menu_item_radio = global::ShoppingApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::ShoppingApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_popup_menu_item_layout = global::ShoppingApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_screen_content_include = global::ShoppingApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_screen_simple = global::ShoppingApp.Droid.Resource.Layout.abc_screen_simple;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ShoppingApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_screen_toolbar = global::ShoppingApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ShoppingApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_search_view = global::ShoppingApp.Droid.Resource.Layout.abc_search_view;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.abc_select_dialog_material = global::ShoppingApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.BottomTabLayout = global::ShoppingApp.Droid.Resource.Layout.BottomTabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_bottom_navigation_item = global::ShoppingApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_bottom_sheet_dialog = global::ShoppingApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_layout_snackbar = global::ShoppingApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_layout_snackbar_include = global::ShoppingApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_layout_tab_icon = global::ShoppingApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_layout_tab_text = global::ShoppingApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_menu_item_action_area = global::ShoppingApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_item = global::ShoppingApp.Droid.Resource.Layout.design_navigation_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_item_header = global::ShoppingApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_item_separator = global::ShoppingApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_item_subheader = global::ShoppingApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_menu = global::ShoppingApp.Droid.Resource.Layout.design_navigation_menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_navigation_menu_item = global::ShoppingApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.design_text_input_password_icon = global::ShoppingApp.Droid.Resource.Layout.design_text_input_password_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.FlyoutContent = global::ShoppingApp.Droid.Resource.Layout.FlyoutContent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.mr_chooser_dialog = global::ShoppingApp.Droid.Resource.Layout.mr_chooser_dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.mr_chooser_list_item = global::ShoppingApp.Droid.Resource.Layout.mr_chooser_list_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.mr_controller_material_dialog_b = global::ShoppingApp.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.mr_controller_volume_item = global::ShoppingApp.Droid.Resource.Layout.mr_controller_volume_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.mr_playback_control = global::ShoppingApp.Droid.Resource.Layout.mr_playback_control;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.mr_volume_control = global::ShoppingApp.Droid.Resource.Layout.mr_volume_control;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_action = global::ShoppingApp.Droid.Resource.Layout.notification_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_action_tombstone = global::ShoppingApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_media_action = global::ShoppingApp.Droid.Resource.Layout.notification_media_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_media_cancel_action = global::ShoppingApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_big_media = global::ShoppingApp.Droid.Resource.Layout.notification_template_big_media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_big_media_custom = global::ShoppingApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_big_media_narrow = global::ShoppingApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::ShoppingApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_custom_big = global::ShoppingApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_icon_group = global::ShoppingApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_lines_media = global::ShoppingApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_media = global::ShoppingApp.Droid.Resource.Layout.notification_template_media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_media_custom = global::ShoppingApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_part_chronometer = global::ShoppingApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.notification_template_part_time = global::ShoppingApp.Droid.Resource.Layout.notification_template_part_time;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.RootLayout = global::ShoppingApp.Droid.Resource.Layout.RootLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.select_dialog_item_material = global::ShoppingApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.select_dialog_multichoice_material = global::ShoppingApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.select_dialog_singlechoice_material = global::ShoppingApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.ShellContent = global::ShoppingApp.Droid.Resource.Layout.ShellContent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::ShoppingApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_action_bar_home_description = global::ShoppingApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_action_bar_up_description = global::ShoppingApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_action_menu_overflow_description = global::ShoppingApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_action_mode_done = global::ShoppingApp.Droid.Resource.String.abc_action_mode_done;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_activity_chooser_view_see_all = global::ShoppingApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_activitychooserview_choose_application = global::ShoppingApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_capital_off = global::ShoppingApp.Droid.Resource.String.abc_capital_off;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_capital_on = global::ShoppingApp.Droid.Resource.String.abc_capital_on;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_body_1_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_body_1_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_body_2_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_body_2_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_button_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_button_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_caption_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_caption_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_display_1_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_display_1_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_display_2_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_display_2_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_display_3_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_display_3_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_display_4_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_display_4_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_headline_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_headline_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_menu_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_menu_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_subhead_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_subhead_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_font_family_title_material = global::ShoppingApp.Droid.Resource.String.abc_font_family_title_material;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_search_hint = global::ShoppingApp.Droid.Resource.String.abc_search_hint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_clear = global::ShoppingApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_query = global::ShoppingApp.Droid.Resource.String.abc_searchview_description_query;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_search = global::ShoppingApp.Droid.Resource.String.abc_searchview_description_search;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_submit = global::ShoppingApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_searchview_description_voice = global::ShoppingApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_shareactionprovider_share_with = global::ShoppingApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_shareactionprovider_share_with_application = global::ShoppingApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.abc_toolbar_collapse_description = global::ShoppingApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.appbar_scrolling_view_behavior = global::ShoppingApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.bottom_sheet_behavior = global::ShoppingApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.character_counter_pattern = global::ShoppingApp.Droid.Resource.String.character_counter_pattern;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.library_name = global::ShoppingApp.Droid.Resource.String.library_name;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_button_content_description = global::ShoppingApp.Droid.Resource.String.mr_button_content_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_cast_button_connected = global::ShoppingApp.Droid.Resource.String.mr_cast_button_connected;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_cast_button_connecting = global::ShoppingApp.Droid.Resource.String.mr_cast_button_connecting;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_cast_button_disconnected = global::ShoppingApp.Droid.Resource.String.mr_cast_button_disconnected;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_chooser_searching = global::ShoppingApp.Droid.Resource.String.mr_chooser_searching;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_chooser_title = global::ShoppingApp.Droid.Resource.String.mr_chooser_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_album_art = global::ShoppingApp.Droid.Resource.String.mr_controller_album_art;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_casting_screen = global::ShoppingApp.Droid.Resource.String.mr_controller_casting_screen;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_close_description = global::ShoppingApp.Droid.Resource.String.mr_controller_close_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_collapse_group = global::ShoppingApp.Droid.Resource.String.mr_controller_collapse_group;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_disconnect = global::ShoppingApp.Droid.Resource.String.mr_controller_disconnect;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_expand_group = global::ShoppingApp.Droid.Resource.String.mr_controller_expand_group;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_no_info_available = global::ShoppingApp.Droid.Resource.String.mr_controller_no_info_available;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_no_media_selected = global::ShoppingApp.Droid.Resource.String.mr_controller_no_media_selected;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_pause = global::ShoppingApp.Droid.Resource.String.mr_controller_pause;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_play = global::ShoppingApp.Droid.Resource.String.mr_controller_play;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_stop = global::ShoppingApp.Droid.Resource.String.mr_controller_stop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_stop_casting = global::ShoppingApp.Droid.Resource.String.mr_controller_stop_casting;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_controller_volume_slider = global::ShoppingApp.Droid.Resource.String.mr_controller_volume_slider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_system_route_name = global::ShoppingApp.Droid.Resource.String.mr_system_route_name;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.mr_user_route_category_name = global::ShoppingApp.Droid.Resource.String.mr_user_route_category_name;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.password_toggle_content_description = global::ShoppingApp.Droid.Resource.String.password_toggle_content_description;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.path_password_eye = global::ShoppingApp.Droid.Resource.String.path_password_eye;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.path_password_eye_mask_strike_through = global::ShoppingApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.path_password_eye_mask_visible = global::ShoppingApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.path_password_strike_through = global::ShoppingApp.Droid.Resource.String.path_password_strike_through;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.search_menu_title = global::ShoppingApp.Droid.Resource.String.search_menu_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.String.status_bar_notification_info_overflow = global::ShoppingApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.AlertDialog_AppCompat = global::ShoppingApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.AlertDialog_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Animation_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::ShoppingApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Animation_AppCompat_Tooltip = global::ShoppingApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::ShoppingApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_AlertDialog_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ShoppingApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::ShoppingApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_CardView = global::ShoppingApp.Droid.Resource.Style.Base_CardView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ShoppingApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ShoppingApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ShoppingApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ShoppingApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ShoppingApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ShoppingApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V22_Theme_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V23_Theme_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V26_Theme_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::ShoppingApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat = global::ShoppingApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ShoppingApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ShoppingApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::ShoppingApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ShoppingApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Base_Widget_Design_TabLayout = global::ShoppingApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.CardView = global::ShoppingApp.Droid.Resource.Style.CardView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.CardView_Dark = global::ShoppingApp.Droid.Resource.Style.CardView_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.CardView_Light = global::ShoppingApp.Droid.Resource.Style.CardView_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.DarkPopupMenu = global::ShoppingApp.Droid.Resource.Style.DarkPopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.DarkPopupMenuTextAppearanceLarge = global::ShoppingApp.Droid.Resource.Style.DarkPopupMenuTextAppearanceLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.DarkPopupMenuTextAppearanceSmall = global::ShoppingApp.Droid.Resource.Style.DarkPopupMenuTextAppearanceSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.GridThemeDark = global::ShoppingApp.Droid.Resource.Style.GridThemeDark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.GridThemeLight = global::ShoppingApp.Droid.Resource.Style.GridThemeLight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.LightPopupMenu = global::ShoppingApp.Droid.Resource.Style.LightPopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.LightPopupMenuTextAppearanceLarge = global::ShoppingApp.Droid.Resource.Style.LightPopupMenuTextAppearanceLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.LightPopupMenuTextAppearanceSmall = global::ShoppingApp.Droid.Resource.Style.LightPopupMenuTextAppearanceSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_AppCompat = global::ShoppingApp.Droid.Resource.Style.Platform_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ShoppingApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ShoppingApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_V21_AppCompat = global::ShoppingApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_V21_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_V25_AppCompat = global::ShoppingApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_V25_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ShoppingApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ShoppingApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ShoppingApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ShoppingApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Button = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Large = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Small = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Title = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ShoppingApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Counter = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Error = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Hint = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Design_Tab = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::ShoppingApp.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::ShoppingApp.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::ShoppingApp.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ShoppingApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::ShoppingApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design = global::ShoppingApp.Droid.Resource.Style.Theme_Design;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::ShoppingApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_Light = global::ShoppingApp.Droid.Resource.Style.Theme_Design_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ShoppingApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::ShoppingApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_Design_NoActionBar = global::ShoppingApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MediaRouter = global::ShoppingApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MediaRouter_Light = global::ShoppingApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::ShoppingApp.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::ShoppingApp.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::ShoppingApp.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActionMode = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Button_Small = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_EditText = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ImageButton = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_SearchView = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_SeekBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Toolbar = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ShoppingApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::ShoppingApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Compat_NotificationActionText = global::ShoppingApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_AppBarLayout = global::ShoppingApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_BottomNavigationView = global::ShoppingApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::ShoppingApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::ShoppingApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_FloatingActionButton = global::ShoppingApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_NavigationView = global::ShoppingApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ShoppingApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_Snackbar = global::ShoppingApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_TabLayout = global::ShoppingApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_Design_TextInputLayout = global::ShoppingApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::ShoppingApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::ShoppingApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar = global::ShoppingApp.Droid.Resource.Styleable.ActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_background = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_backgroundSplit = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_backgroundStacked = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetRight = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetStart = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_displayOptions = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_divider = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_elevation = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_height = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_homeLayout = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_icon = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_itemPadding = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_logo = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_navigationMode = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_popupTheme = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_progressBarPadding = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_progressBarStyle = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_subtitle = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_title = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBar_titleTextStyle = global::ShoppingApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBarLayout = global::ShoppingApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ShoppingApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMenuItemView = global::ShoppingApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ShoppingApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMenuView = global::ShoppingApp.Droid.Resource.Styleable.ActionMenuView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode = global::ShoppingApp.Droid.Resource.Styleable.ActionMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_background = global::ShoppingApp.Droid.Resource.Styleable.ActionMode_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_backgroundSplit = global::ShoppingApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_closeItemLayout = global::ShoppingApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_height = global::ShoppingApp.Droid.Resource.Styleable.ActionMode_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::ShoppingApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActionMode_titleTextStyle = global::ShoppingApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActivityChooserView = global::ShoppingApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ShoppingApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ShoppingApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog = global::ShoppingApp.Droid.Resource.Styleable.AlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_android_layout = global::ShoppingApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ShoppingApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_listItemLayout = global::ShoppingApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_listLayout = global::ShoppingApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ShoppingApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_showTitle = global::ShoppingApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ShoppingApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_android_background = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_elevation = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_expanded = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayoutStates = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ShoppingApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView = global::ShoppingApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView_android_src = global::ShoppingApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::ShoppingApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView_tint = global::ShoppingApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatImageView_tintMode = global::ShoppingApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar = global::ShoppingApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ShoppingApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::ShoppingApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ShoppingApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ShoppingApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorError = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ShoppingApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView = global::ShoppingApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_elevation = global::ShoppingApp.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::ShoppingApp.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::ShoppingApp.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::ShoppingApp.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomNavigationView_menu = global::ShoppingApp.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::ShoppingApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ShoppingApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ShoppingApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ShoppingApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ButtonBarLayout = global::ShoppingApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::ShoppingApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView = global::ShoppingApp.Droid.Resource.Styleable.CardView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_android_minHeight = global::ShoppingApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_android_minWidth = global::ShoppingApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardBackgroundColor = global::ShoppingApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardCornerRadius = global::ShoppingApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardElevation = global::ShoppingApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardMaxElevation = global::ShoppingApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ShoppingApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::ShoppingApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPadding = global::ShoppingApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPaddingBottom = global::ShoppingApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPaddingLeft = global::ShoppingApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPaddingRight = global::ShoppingApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CardView_contentPaddingTop = global::ShoppingApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ShoppingApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ColorStateListItem = global::ShoppingApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ColorStateListItem_alpha = global::ShoppingApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::ShoppingApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ColorStateListItem_android_color = global::ShoppingApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CompoundButton = global::ShoppingApp.Droid.Resource.Styleable.CompoundButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CompoundButton_android_button = global::ShoppingApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CompoundButton_buttonTint = global::ShoppingApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::ShoppingApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_keylines = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ShoppingApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DesignTheme = global::ShoppingApp.Droid.Resource.Styleable.DesignTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::ShoppingApp.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::ShoppingApp.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_color = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::ShoppingApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_elevation = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_fabSize = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ShoppingApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily = global::ShoppingApp.Droid.Resource.Styleable.FontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::ShoppingApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::ShoppingApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::ShoppingApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::ShoppingApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::ShoppingApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::ShoppingApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont = global::ShoppingApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_font = global::ShoppingApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::ShoppingApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::ShoppingApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_font = global::ShoppingApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::ShoppingApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::ShoppingApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout = global::ShoppingApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ShoppingApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ShoppingApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ShoppingApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_divider = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ShoppingApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ListPopupWindow = global::ShoppingApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ShoppingApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ShoppingApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MediaRouteButton = global::ShoppingApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::ShoppingApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::ShoppingApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::ShoppingApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::ShoppingApp.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup = global::ShoppingApp.Droid.Resource.Styleable.MenuGroup;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ShoppingApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_enabled = global::ShoppingApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_id = global::ShoppingApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::ShoppingApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::ShoppingApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuGroup_android_visible = global::ShoppingApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem = global::ShoppingApp.Droid.Resource.Styleable.MenuItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_actionLayout = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_actionProviderClass = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_actionViewClass = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_checkable = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_checked = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_enabled = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_icon = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_id = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_menuCategory = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_onClick = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_title = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_android_visible = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_contentDescription = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_iconTint = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_iconTintMode = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_numericModifiers = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_showAsAction = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuItem_tooltipText = global::ShoppingApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView = global::ShoppingApp.Droid.Resource.Styleable.MenuView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_headerBackground = global::ShoppingApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::ShoppingApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_itemBackground = global::ShoppingApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ShoppingApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_verticalDivider = global::ShoppingApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ShoppingApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::ShoppingApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.MenuView_subMenuArrow = global::ShoppingApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView = global::ShoppingApp.Droid.Resource.Styleable.NavigationView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_android_background = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_android_maxWidth = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_elevation = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_headerLayout = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemBackground = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemIconTint = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_itemTextColor = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.NavigationView_menu = global::ShoppingApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindow = global::ShoppingApp.Droid.Resource.Styleable.PopupWindow;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ShoppingApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::ShoppingApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::ShoppingApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindowBackgroundState = global::ShoppingApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ShoppingApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecycleListView = global::ShoppingApp.Droid.Resource.Styleable.RecycleListView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ShoppingApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ShoppingApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_android_orientation = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_layoutManager = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_reverseLayout = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_spanCount = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::ShoppingApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::ShoppingApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ShoppingApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::ShoppingApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ShoppingApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView = global::ShoppingApp.Droid.Resource.Styleable.SearchView;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_android_focusable = global::ShoppingApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_android_imeOptions = global::ShoppingApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_android_inputType = global::ShoppingApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_android_maxWidth = global::ShoppingApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_closeIcon = global::ShoppingApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_commitIcon = global::ShoppingApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_defaultQueryHint = global::ShoppingApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_goIcon = global::ShoppingApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::ShoppingApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_layout = global::ShoppingApp.Droid.Resource.Styleable.SearchView_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_queryBackground = global::ShoppingApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_queryHint = global::ShoppingApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_searchHintIcon = global::ShoppingApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_searchIcon = global::ShoppingApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_submitBackground = global::ShoppingApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::ShoppingApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SearchView_voiceIcon = global::ShoppingApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SnackbarLayout = global::ShoppingApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ShoppingApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SnackbarLayout_elevation = global::ShoppingApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ShoppingApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner = global::ShoppingApp.Droid.Resource.Styleable.Spinner;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::ShoppingApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_android_entries = global::ShoppingApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_android_popupBackground = global::ShoppingApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_android_prompt = global::ShoppingApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Spinner_popupTheme = global::ShoppingApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_android_textOff = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_android_textOn = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_android_thumb = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_showText = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_splitTrack = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_switchPadding = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTint = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_track = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_trackTint = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::ShoppingApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabItem = global::ShoppingApp.Droid.Resource.Styleable.TabItem;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabItem_android_icon = global::ShoppingApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabItem_android_layout = global::ShoppingApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabItem_android_text = global::ShoppingApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout = global::ShoppingApp.Droid.Resource.Styleable.TabLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabBackground = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabContentStart = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabGravity = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabMinWidth = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabMode = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPadding = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TabLayout_tabTextColor = global::ShoppingApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColor = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textSize = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_textStyle = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_android_typeface = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_fontFamily = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextAppearance_textAllCaps = global::ShoppingApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_android_hint = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ShoppingApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar = global::ShoppingApp.Droid.Resource.Styleable.Toolbar;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_android_gravity = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_android_minHeight = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_buttonGravity = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_collapseIcon = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetRight = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetStart = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_logo = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_logoDescription = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_navigationIcon = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_popupTheme = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_subtitle = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_title = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_title;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMargin = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginStart = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMarginTop = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleMargins = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.Toolbar_titleTextColor = global::ShoppingApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View = global::ShoppingApp.Droid.Resource.Styleable.View;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_android_focusable = global::ShoppingApp.Droid.Resource.Styleable.View_android_focusable;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_android_theme = global::ShoppingApp.Droid.Resource.Styleable.View_android_theme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_paddingEnd = global::ShoppingApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_paddingStart = global::ShoppingApp.Droid.Resource.Styleable.View_paddingStart;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.View_theme = global::ShoppingApp.Droid.Resource.Styleable.View_theme;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper = global::ShoppingApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::ShoppingApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ShoppingApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ShoppingApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat = global::ShoppingApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_id = global::ShoppingApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ShoppingApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::DevExpress.Mobile.DataGrid.Android.Resource.Styleable.ViewStubCompat_android_layout = global::ShoppingApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::ShoppingApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::ShoppingApp.Droid.Resource.Attribute.fontProviderAuthority;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::ShoppingApp.Droid.Resource.Attribute.fontProviderCerts;
@@ -3374,44 +5697,44 @@ namespace ShoppingApp.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0e004f
-			public const int abc_background_cache_hint_selector_material_dark = 2131624015;
-			
-			// aapt resource value: 0x7f0e0050
-			public const int abc_background_cache_hint_selector_material_light = 2131624016;
-			
-			// aapt resource value: 0x7f0e0051
-			public const int abc_btn_colored_borderless_text_material = 2131624017;
-			
-			// aapt resource value: 0x7f0e0052
-			public const int abc_btn_colored_text_material = 2131624018;
-			
-			// aapt resource value: 0x7f0e0053
-			public const int abc_color_highlight_material = 2131624019;
-			
 			// aapt resource value: 0x7f0e0054
-			public const int abc_hint_foreground_material_dark = 2131624020;
+			public const int abc_background_cache_hint_selector_material_dark = 2131624020;
 			
 			// aapt resource value: 0x7f0e0055
-			public const int abc_hint_foreground_material_light = 2131624021;
+			public const int abc_background_cache_hint_selector_material_light = 2131624021;
+			
+			// aapt resource value: 0x7f0e0056
+			public const int abc_btn_colored_borderless_text_material = 2131624022;
+			
+			// aapt resource value: 0x7f0e0057
+			public const int abc_btn_colored_text_material = 2131624023;
+			
+			// aapt resource value: 0x7f0e0058
+			public const int abc_color_highlight_material = 2131624024;
+			
+			// aapt resource value: 0x7f0e0059
+			public const int abc_hint_foreground_material_dark = 2131624025;
+			
+			// aapt resource value: 0x7f0e005a
+			public const int abc_hint_foreground_material_light = 2131624026;
 			
 			// aapt resource value: 0x7f0e0004
 			public const int abc_input_method_navigation_guard = 2131623940;
 			
-			// aapt resource value: 0x7f0e0056
-			public const int abc_primary_text_disable_only_material_dark = 2131624022;
+			// aapt resource value: 0x7f0e005b
+			public const int abc_primary_text_disable_only_material_dark = 2131624027;
 			
-			// aapt resource value: 0x7f0e0057
-			public const int abc_primary_text_disable_only_material_light = 2131624023;
+			// aapt resource value: 0x7f0e005c
+			public const int abc_primary_text_disable_only_material_light = 2131624028;
 			
-			// aapt resource value: 0x7f0e0058
-			public const int abc_primary_text_material_dark = 2131624024;
+			// aapt resource value: 0x7f0e005d
+			public const int abc_primary_text_material_dark = 2131624029;
 			
-			// aapt resource value: 0x7f0e0059
-			public const int abc_primary_text_material_light = 2131624025;
+			// aapt resource value: 0x7f0e005e
+			public const int abc_primary_text_material_light = 2131624030;
 			
-			// aapt resource value: 0x7f0e005a
-			public const int abc_search_url_text = 2131624026;
+			// aapt resource value: 0x7f0e005f
+			public const int abc_search_url_text = 2131624031;
 			
 			// aapt resource value: 0x7f0e0005
 			public const int abc_search_url_text_normal = 2131623941;
@@ -3422,29 +5745,29 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0e0007
 			public const int abc_search_url_text_selected = 2131623943;
 			
-			// aapt resource value: 0x7f0e005b
-			public const int abc_secondary_text_material_dark = 2131624027;
-			
-			// aapt resource value: 0x7f0e005c
-			public const int abc_secondary_text_material_light = 2131624028;
-			
-			// aapt resource value: 0x7f0e005d
-			public const int abc_tint_btn_checkable = 2131624029;
-			
-			// aapt resource value: 0x7f0e005e
-			public const int abc_tint_default = 2131624030;
-			
-			// aapt resource value: 0x7f0e005f
-			public const int abc_tint_edittext = 2131624031;
-			
 			// aapt resource value: 0x7f0e0060
-			public const int abc_tint_seek_thumb = 2131624032;
+			public const int abc_secondary_text_material_dark = 2131624032;
 			
 			// aapt resource value: 0x7f0e0061
-			public const int abc_tint_spinner = 2131624033;
+			public const int abc_secondary_text_material_light = 2131624033;
 			
 			// aapt resource value: 0x7f0e0062
-			public const int abc_tint_switch_track = 2131624034;
+			public const int abc_tint_btn_checkable = 2131624034;
+			
+			// aapt resource value: 0x7f0e0063
+			public const int abc_tint_default = 2131624035;
+			
+			// aapt resource value: 0x7f0e0064
+			public const int abc_tint_edittext = 2131624036;
+			
+			// aapt resource value: 0x7f0e0065
+			public const int abc_tint_seek_thumb = 2131624037;
+			
+			// aapt resource value: 0x7f0e0066
+			public const int abc_tint_spinner = 2131624038;
+			
+			// aapt resource value: 0x7f0e0067
+			public const int abc_tint_switch_track = 2131624039;
 			
 			// aapt resource value: 0x7f0e0008
 			public const int accent_material_dark = 2131623944;
@@ -3463,6 +5786,12 @@ namespace ShoppingApp.Droid
 			
 			// aapt resource value: 0x7f0e000d
 			public const int background_material_light = 2131623949;
+			
+			// aapt resource value: 0x7f0e004b
+			public const int black = 2131624011;
+			
+			// aapt resource value: 0x7f0e004c
+			public const int blue = 2131624012;
 			
 			// aapt resource value: 0x7f0e000e
 			public const int bright_foreground_disabled_material_dark = 2131623950;
@@ -3500,20 +5829,20 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0e0003
 			public const int cardview_shadow_start_color = 2131623939;
 			
-			// aapt resource value: 0x7f0e004e
-			public const int colorAccent = 2131624014;
+			// aapt resource value: 0x7f0e0053
+			public const int colorAccent = 2131624019;
 			
-			// aapt resource value: 0x7f0e004c
-			public const int colorPrimary = 2131624012;
+			// aapt resource value: 0x7f0e0051
+			public const int colorPrimary = 2131624017;
 			
-			// aapt resource value: 0x7f0e004d
-			public const int colorPrimaryDark = 2131624013;
+			// aapt resource value: 0x7f0e0052
+			public const int colorPrimaryDark = 2131624018;
 			
 			// aapt resource value: 0x7f0e0040
 			public const int design_bottom_navigation_shadow_color = 2131624000;
 			
-			// aapt resource value: 0x7f0e0063
-			public const int design_error = 2131624035;
+			// aapt resource value: 0x7f0e0068
+			public const int design_error = 2131624040;
 			
 			// aapt resource value: 0x7f0e0041
 			public const int design_fab_shadow_end_color = 2131624001;
@@ -3539,8 +5868,8 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0e0048
 			public const int design_snackbar_background_color = 2131624008;
 			
-			// aapt resource value: 0x7f0e0064
-			public const int design_tint_password_toggle = 2131624036;
+			// aapt resource value: 0x7f0e0069
+			public const int design_tint_password_toggle = 2131624041;
 			
 			// aapt resource value: 0x7f0e0016
 			public const int dim_foreground_disabled_material_dark = 2131623958;
@@ -3563,14 +5892,20 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0e001c
 			public const int foreground_material_light = 2131623964;
 			
+			// aapt resource value: 0x7f0e004f
+			public const int gray = 2131624015;
+			
+			// aapt resource value: 0x7f0e004e
+			public const int green = 2131624014;
+			
 			// aapt resource value: 0x7f0e001d
 			public const int highlighted_text_material_dark = 2131623965;
 			
 			// aapt resource value: 0x7f0e001e
 			public const int highlighted_text_material_light = 2131623966;
 			
-			// aapt resource value: 0x7f0e004b
-			public const int launcher_background = 2131624011;
+			// aapt resource value: 0x7f0e0050
+			public const int launcher_background = 2131624016;
 			
 			// aapt resource value: 0x7f0e001f
 			public const int material_blue_grey_800 = 2131623967;
@@ -3641,6 +5976,9 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0e0032
 			public const int primary_text_disabled_material_light = 2131623986;
 			
+			// aapt resource value: 0x7f0e004d
+			public const int red = 2131624013;
+			
 			// aapt resource value: 0x7f0e0033
 			public const int ripple_material_dark = 2131623987;
 			
@@ -3665,17 +6003,23 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0e003a
 			public const int switch_thumb_disabled_material_light = 2131623994;
 			
-			// aapt resource value: 0x7f0e0065
-			public const int switch_thumb_material_dark = 2131624037;
+			// aapt resource value: 0x7f0e006a
+			public const int switch_thumb_material_dark = 2131624042;
 			
-			// aapt resource value: 0x7f0e0066
-			public const int switch_thumb_material_light = 2131624038;
+			// aapt resource value: 0x7f0e006b
+			public const int switch_thumb_material_light = 2131624043;
 			
 			// aapt resource value: 0x7f0e003b
 			public const int switch_thumb_normal_material_dark = 2131623995;
 			
 			// aapt resource value: 0x7f0e003c
 			public const int switch_thumb_normal_material_light = 2131623996;
+			
+			// aapt resource value: 0x7f0e006c
+			public const int theme_dark_segmented_radio_button_text = 2131624044;
+			
+			// aapt resource value: 0x7f0e006d
+			public const int theme_default_segmented_radio_button_text = 2131624045;
 			
 			// aapt resource value: 0x7f0e003d
 			public const int tooltip_background_dark = 2131623997;
@@ -4453,26 +6797,26 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f020053
 			public const int avd_hide_password = 2130837587;
 			
-			// aapt resource value: 0x7f02012f
-			public const int avd_hide_password_1 = 2130837807;
+			// aapt resource value: 0x7f02015b
+			public const int avd_hide_password_1 = 2130837851;
 			
-			// aapt resource value: 0x7f020130
-			public const int avd_hide_password_2 = 2130837808;
+			// aapt resource value: 0x7f02015c
+			public const int avd_hide_password_2 = 2130837852;
 			
-			// aapt resource value: 0x7f020131
-			public const int avd_hide_password_3 = 2130837809;
+			// aapt resource value: 0x7f02015d
+			public const int avd_hide_password_3 = 2130837853;
 			
 			// aapt resource value: 0x7f020054
 			public const int avd_show_password = 2130837588;
 			
-			// aapt resource value: 0x7f020132
-			public const int avd_show_password_1 = 2130837810;
+			// aapt resource value: 0x7f02015e
+			public const int avd_show_password_1 = 2130837854;
 			
-			// aapt resource value: 0x7f020133
-			public const int avd_show_password_2 = 2130837811;
+			// aapt resource value: 0x7f02015f
+			public const int avd_show_password_2 = 2130837855;
 			
-			// aapt resource value: 0x7f020134
-			public const int avd_show_password_3 = 2130837812;
+			// aapt resource value: 0x7f020160
+			public const int avd_show_password_3 = 2130837856;
 			
 			// aapt resource value: 0x7f020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -5110,11 +7454,11 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f020128
 			public const int notification_icon_background = 2130837800;
 			
-			// aapt resource value: 0x7f02012d
-			public const int notification_template_icon_bg = 2130837805;
+			// aapt resource value: 0x7f020159
+			public const int notification_template_icon_bg = 2130837849;
 			
-			// aapt resource value: 0x7f02012e
-			public const int notification_template_icon_low_bg = 2130837806;
+			// aapt resource value: 0x7f02015a
+			public const int notification_template_icon_low_bg = 2130837850;
 			
 			// aapt resource value: 0x7f020129
 			public const int notification_tile_bg = 2130837801;
@@ -5123,10 +7467,142 @@ namespace ShoppingApp.Droid
 			public const int notify_panel_notification_icon_bg = 2130837802;
 			
 			// aapt resource value: 0x7f02012b
-			public const int tooltip_frame_dark = 2130837803;
+			public const int segment_grey = 2130837803;
 			
 			// aapt resource value: 0x7f02012c
-			public const int tooltip_frame_light = 2130837804;
+			public const int segment_grey_focus = 2130837804;
+			
+			// aapt resource value: 0x7f02012d
+			public const int segment_grey_press = 2130837805;
+			
+			// aapt resource value: 0x7f02012e
+			public const int segment_left_off = 2130837806;
+			
+			// aapt resource value: 0x7f02012f
+			public const int segment_left_off_pressed = 2130837807;
+			
+			// aapt resource value: 0x7f020130
+			public const int segment_left_on = 2130837808;
+			
+			// aapt resource value: 0x7f020131
+			public const int segment_middle_off = 2130837809;
+			
+			// aapt resource value: 0x7f020132
+			public const int segment_middle_off_pressed = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int segment_middle_on = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int segment_off = 2130837812;
+			
+			// aapt resource value: 0x7f020135
+			public const int segment_off_pressed = 2130837813;
+			
+			// aapt resource value: 0x7f020136
+			public const int segment_on = 2130837814;
+			
+			// aapt resource value: 0x7f020137
+			public const int segment_radio_grey_left = 2130837815;
+			
+			// aapt resource value: 0x7f020138
+			public const int segment_radio_grey_left_focus = 2130837816;
+			
+			// aapt resource value: 0x7f020139
+			public const int segment_radio_grey_left_press = 2130837817;
+			
+			// aapt resource value: 0x7f02013a
+			public const int segment_radio_grey_middle = 2130837818;
+			
+			// aapt resource value: 0x7f02013b
+			public const int segment_radio_grey_middle_focus = 2130837819;
+			
+			// aapt resource value: 0x7f02013c
+			public const int segment_radio_grey_middle_press = 2130837820;
+			
+			// aapt resource value: 0x7f02013d
+			public const int segment_radio_grey_right = 2130837821;
+			
+			// aapt resource value: 0x7f02013e
+			public const int segment_radio_grey_right_focus = 2130837822;
+			
+			// aapt resource value: 0x7f02013f
+			public const int segment_radio_grey_right_press = 2130837823;
+			
+			// aapt resource value: 0x7f020140
+			public const int segment_radio_white_left = 2130837824;
+			
+			// aapt resource value: 0x7f020141
+			public const int segment_radio_white_left_focus = 2130837825;
+			
+			// aapt resource value: 0x7f020142
+			public const int segment_radio_white_left_press = 2130837826;
+			
+			// aapt resource value: 0x7f020143
+			public const int segment_radio_white_middle = 2130837827;
+			
+			// aapt resource value: 0x7f020144
+			public const int segment_radio_white_middle_focus = 2130837828;
+			
+			// aapt resource value: 0x7f020145
+			public const int segment_radio_white_middle_press = 2130837829;
+			
+			// aapt resource value: 0x7f020146
+			public const int segment_radio_white_right = 2130837830;
+			
+			// aapt resource value: 0x7f020147
+			public const int segment_radio_white_right_focus = 2130837831;
+			
+			// aapt resource value: 0x7f020148
+			public const int segment_radio_white_right_press = 2130837832;
+			
+			// aapt resource value: 0x7f020149
+			public const int segment_right_off = 2130837833;
+			
+			// aapt resource value: 0x7f02014a
+			public const int segment_right_off_pressed = 2130837834;
+			
+			// aapt resource value: 0x7f02014b
+			public const int segment_right_on = 2130837835;
+			
+			// aapt resource value: 0x7f02014c
+			public const int segment_white = 2130837836;
+			
+			// aapt resource value: 0x7f02014d
+			public const int segment_white_focus = 2130837837;
+			
+			// aapt resource value: 0x7f02014e
+			public const int segment_white_press = 2130837838;
+			
+			// aapt resource value: 0x7f02014f
+			public const int theme_dark_segment_button = 2130837839;
+			
+			// aapt resource value: 0x7f020150
+			public const int theme_dark_segment_radio_left = 2130837840;
+			
+			// aapt resource value: 0x7f020151
+			public const int theme_dark_segment_radio_middle = 2130837841;
+			
+			// aapt resource value: 0x7f020152
+			public const int theme_dark_segment_radio_right = 2130837842;
+			
+			// aapt resource value: 0x7f020153
+			public const int theme_default_segment_button = 2130837843;
+			
+			// aapt resource value: 0x7f020154
+			public const int theme_default_segment_radio_left = 2130837844;
+			
+			// aapt resource value: 0x7f020155
+			public const int theme_default_segment_radio_middle = 2130837845;
+			
+			// aapt resource value: 0x7f020156
+			public const int theme_default_segment_radio_right = 2130837846;
+			
+			// aapt resource value: 0x7f020157
+			public const int tooltip_frame_dark = 2130837847;
+			
+			// aapt resource value: 0x7f020158
+			public const int tooltip_frame_light = 2130837848;
 			
 			static Drawable()
 			{
@@ -5141,59 +7617,59 @@ namespace ShoppingApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0032
-			public const int ALT = 2131427378;
-			
-			// aapt resource value: 0x7f0b0033
-			public const int CTRL = 2131427379;
-			
-			// aapt resource value: 0x7f0b0034
-			public const int FUNCTION = 2131427380;
-			
 			// aapt resource value: 0x7f0b0035
-			public const int META = 2131427381;
+			public const int ALT = 2131427381;
 			
 			// aapt resource value: 0x7f0b0036
-			public const int SHIFT = 2131427382;
+			public const int CTRL = 2131427382;
 			
 			// aapt resource value: 0x7f0b0037
-			public const int SYM = 2131427383;
+			public const int FUNCTION = 2131427383;
 			
-			// aapt resource value: 0x7f0b00ba
-			public const int action0 = 2131427514;
+			// aapt resource value: 0x7f0b0038
+			public const int META = 2131427384;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int action_bar = 2131427452;
+			// aapt resource value: 0x7f0b0039
+			public const int SHIFT = 2131427385;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int SYM = 2131427386;
+			
+			// aapt resource value: 0x7f0b00bd
+			public const int action0 = 2131427517;
+			
+			// aapt resource value: 0x7f0b007f
+			public const int action_bar = 2131427455;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int action_bar_activity_content = 2131427329;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int action_bar_container = 2131427451;
+			// aapt resource value: 0x7f0b007e
+			public const int action_bar_container = 2131427454;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int action_bar_root = 2131427447;
+			// aapt resource value: 0x7f0b007a
+			public const int action_bar_root = 2131427450;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_bar_spinner = 2131427330;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int action_bar_subtitle = 2131427419;
+			// aapt resource value: 0x7f0b005e
+			public const int action_bar_subtitle = 2131427422;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int action_bar_title = 2131427418;
+			// aapt resource value: 0x7f0b005d
+			public const int action_bar_title = 2131427421;
 			
-			// aapt resource value: 0x7f0b00b7
-			public const int action_container = 2131427511;
+			// aapt resource value: 0x7f0b00ba
+			public const int action_container = 2131427514;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int action_context_bar = 2131427453;
+			// aapt resource value: 0x7f0b0080
+			public const int action_context_bar = 2131427456;
 			
-			// aapt resource value: 0x7f0b00be
-			public const int action_divider = 2131427518;
+			// aapt resource value: 0x7f0b00c1
+			public const int action_divider = 2131427521;
 			
-			// aapt resource value: 0x7f0b00b8
-			public const int action_image = 2131427512;
+			// aapt resource value: 0x7f0b00bb
+			public const int action_image = 2131427515;
 			
 			// aapt resource value: 0x7f0b0003
 			public const int action_menu_divider = 2131427331;
@@ -5201,173 +7677,173 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0b0004
 			public const int action_menu_presenter = 2131427332;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int action_mode_bar = 2131427449;
+			// aapt resource value: 0x7f0b007c
+			public const int action_mode_bar = 2131427452;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int action_mode_bar_stub = 2131427448;
+			// aapt resource value: 0x7f0b007b
+			public const int action_mode_bar_stub = 2131427451;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int action_mode_close_button = 2131427420;
+			// aapt resource value: 0x7f0b005f
+			public const int action_mode_close_button = 2131427423;
 			
-			// aapt resource value: 0x7f0b00b9
-			public const int action_text = 2131427513;
+			// aapt resource value: 0x7f0b00bc
+			public const int action_text = 2131427516;
 			
-			// aapt resource value: 0x7f0b00c7
-			public const int actions = 2131427527;
-			
-			// aapt resource value: 0x7f0b005d
-			public const int activity_chooser_view_content = 2131427421;
-			
-			// aapt resource value: 0x7f0b0027
-			public const int add = 2131427367;
-			
-			// aapt resource value: 0x7f0b0070
-			public const int alertTitle = 2131427440;
-			
-			// aapt resource value: 0x7f0b0052
-			public const int all = 2131427410;
-			
-			// aapt resource value: 0x7f0b0038
-			public const int always = 2131427384;
-			
-			// aapt resource value: 0x7f0b0056
-			public const int async = 2131427414;
-			
-			// aapt resource value: 0x7f0b0044
-			public const int auto = 2131427396;
-			
-			// aapt resource value: 0x7f0b002f
-			public const int beginning = 2131427375;
-			
-			// aapt resource value: 0x7f0b0057
-			public const int blocking = 2131427415;
-			
-			// aapt resource value: 0x7f0b003d
-			public const int bottom = 2131427389;
-			
-			// aapt resource value: 0x7f0b008b
-			public const int bottomtab_navarea = 2131427467;
-			
-			// aapt resource value: 0x7f0b008c
-			public const int bottomtab_tabbar = 2131427468;
-			
-			// aapt resource value: 0x7f0b0063
-			public const int buttonPanel = 2131427427;
-			
-			// aapt resource value: 0x7f0b00bb
-			public const int cancel_action = 2131427515;
-			
-			// aapt resource value: 0x7f0b0045
-			public const int center = 2131427397;
-			
-			// aapt resource value: 0x7f0b0046
-			public const int center_horizontal = 2131427398;
-			
-			// aapt resource value: 0x7f0b0047
-			public const int center_vertical = 2131427399;
-			
-			// aapt resource value: 0x7f0b0073
-			public const int checkbox = 2131427443;
-			
-			// aapt resource value: 0x7f0b00c3
-			public const int chronometer = 2131427523;
-			
-			// aapt resource value: 0x7f0b004e
-			public const int clip_horizontal = 2131427406;
-			
-			// aapt resource value: 0x7f0b004f
-			public const int clip_vertical = 2131427407;
-			
-			// aapt resource value: 0x7f0b0039
-			public const int collapseActionView = 2131427385;
-			
-			// aapt resource value: 0x7f0b008f
-			public const int container = 2131427471;
-			
-			// aapt resource value: 0x7f0b00d4
-			public const int contentFrame = 2131427540;
-			
-			// aapt resource value: 0x7f0b0066
-			public const int contentPanel = 2131427430;
-			
-			// aapt resource value: 0x7f0b0090
-			public const int coordinator = 2131427472;
-			
-			// aapt resource value: 0x7f0b006d
-			public const int custom = 2131427437;
-			
-			// aapt resource value: 0x7f0b006c
-			public const int customPanel = 2131427436;
-			
-			// aapt resource value: 0x7f0b007a
-			public const int decor_content_parent = 2131427450;
+			// aapt resource value: 0x7f0b00ca
+			public const int actions = 2131427530;
 			
 			// aapt resource value: 0x7f0b0060
-			public const int default_activity_button = 2131427424;
+			public const int activity_chooser_view_content = 2131427424;
 			
-			// aapt resource value: 0x7f0b0092
-			public const int design_bottom_sheet = 2131427474;
+			// aapt resource value: 0x7f0b002a
+			public const int add = 2131427370;
 			
-			// aapt resource value: 0x7f0b0099
-			public const int design_menu_item_action_area = 2131427481;
+			// aapt resource value: 0x7f0b0073
+			public const int alertTitle = 2131427443;
 			
-			// aapt resource value: 0x7f0b0098
-			public const int design_menu_item_action_area_stub = 2131427480;
+			// aapt resource value: 0x7f0b0055
+			public const int all = 2131427413;
 			
-			// aapt resource value: 0x7f0b0097
-			public const int design_menu_item_text = 2131427479;
+			// aapt resource value: 0x7f0b003b
+			public const int always = 2131427387;
 			
-			// aapt resource value: 0x7f0b0096
-			public const int design_navigation_view = 2131427478;
+			// aapt resource value: 0x7f0b0059
+			public const int async = 2131427417;
 			
-			// aapt resource value: 0x7f0b0020
-			public const int disableHome = 2131427360;
+			// aapt resource value: 0x7f0b0047
+			public const int auto = 2131427399;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int edit_query = 2131427454;
+			// aapt resource value: 0x7f0b0032
+			public const int beginning = 2131427378;
 			
-			// aapt resource value: 0x7f0b0030
-			public const int end = 2131427376;
-			
-			// aapt resource value: 0x7f0b00c9
-			public const int end_padder = 2131427529;
-			
-			// aapt resource value: 0x7f0b003f
-			public const int enterAlways = 2131427391;
+			// aapt resource value: 0x7f0b005a
+			public const int blocking = 2131427418;
 			
 			// aapt resource value: 0x7f0b0040
-			public const int enterAlwaysCollapsed = 2131427392;
+			public const int bottom = 2131427392;
 			
-			// aapt resource value: 0x7f0b0041
-			public const int exitUntilCollapsed = 2131427393;
+			// aapt resource value: 0x7f0b008e
+			public const int bottomtab_navarea = 2131427470;
 			
-			// aapt resource value: 0x7f0b005e
-			public const int expand_activities_button = 2131427422;
+			// aapt resource value: 0x7f0b008f
+			public const int bottomtab_tabbar = 2131427471;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int expanded_menu = 2131427442;
+			// aapt resource value: 0x7f0b0066
+			public const int buttonPanel = 2131427430;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int fill = 2131427408;
-			
-			// aapt resource value: 0x7f0b0051
-			public const int fill_horizontal = 2131427409;
+			// aapt resource value: 0x7f0b00be
+			public const int cancel_action = 2131427518;
 			
 			// aapt resource value: 0x7f0b0048
-			public const int fill_vertical = 2131427400;
+			public const int center = 2131427400;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int @fixed = 2131427412;
+			// aapt resource value: 0x7f0b0049
+			public const int center_horizontal = 2131427401;
 			
-			// aapt resource value: 0x7f0b009b
-			public const int flyoutcontent_appbar = 2131427483;
+			// aapt resource value: 0x7f0b004a
+			public const int center_vertical = 2131427402;
+			
+			// aapt resource value: 0x7f0b0076
+			public const int checkbox = 2131427446;
+			
+			// aapt resource value: 0x7f0b00c6
+			public const int chronometer = 2131427526;
+			
+			// aapt resource value: 0x7f0b0051
+			public const int clip_horizontal = 2131427409;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int clip_vertical = 2131427410;
+			
+			// aapt resource value: 0x7f0b003c
+			public const int collapseActionView = 2131427388;
+			
+			// aapt resource value: 0x7f0b0092
+			public const int container = 2131427474;
+			
+			// aapt resource value: 0x7f0b00d7
+			public const int contentFrame = 2131427543;
+			
+			// aapt resource value: 0x7f0b0069
+			public const int contentPanel = 2131427433;
+			
+			// aapt resource value: 0x7f0b0093
+			public const int coordinator = 2131427475;
+			
+			// aapt resource value: 0x7f0b0070
+			public const int custom = 2131427440;
+			
+			// aapt resource value: 0x7f0b006f
+			public const int customPanel = 2131427439;
+			
+			// aapt resource value: 0x7f0b007d
+			public const int decor_content_parent = 2131427453;
+			
+			// aapt resource value: 0x7f0b0063
+			public const int default_activity_button = 2131427427;
+			
+			// aapt resource value: 0x7f0b0095
+			public const int design_bottom_sheet = 2131427477;
 			
 			// aapt resource value: 0x7f0b009c
-			public const int flyoutcontent_recycler = 2131427484;
+			public const int design_menu_item_action_area = 2131427484;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int forever = 2131427416;
+			// aapt resource value: 0x7f0b009b
+			public const int design_menu_item_action_area_stub = 2131427483;
+			
+			// aapt resource value: 0x7f0b009a
+			public const int design_menu_item_text = 2131427482;
+			
+			// aapt resource value: 0x7f0b0099
+			public const int design_navigation_view = 2131427481;
+			
+			// aapt resource value: 0x7f0b0023
+			public const int disableHome = 2131427363;
+			
+			// aapt resource value: 0x7f0b0081
+			public const int edit_query = 2131427457;
+			
+			// aapt resource value: 0x7f0b0033
+			public const int end = 2131427379;
+			
+			// aapt resource value: 0x7f0b00cc
+			public const int end_padder = 2131427532;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int enterAlways = 2131427394;
+			
+			// aapt resource value: 0x7f0b0043
+			public const int enterAlwaysCollapsed = 2131427395;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int exitUntilCollapsed = 2131427396;
+			
+			// aapt resource value: 0x7f0b0061
+			public const int expand_activities_button = 2131427425;
+			
+			// aapt resource value: 0x7f0b0075
+			public const int expanded_menu = 2131427445;
+			
+			// aapt resource value: 0x7f0b0053
+			public const int fill = 2131427411;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int fill_horizontal = 2131427412;
+			
+			// aapt resource value: 0x7f0b004b
+			public const int fill_vertical = 2131427403;
+			
+			// aapt resource value: 0x7f0b0057
+			public const int @fixed = 2131427415;
+			
+			// aapt resource value: 0x7f0b009e
+			public const int flyoutcontent_appbar = 2131427486;
+			
+			// aapt resource value: 0x7f0b009f
+			public const int flyoutcontent_recycler = 2131427487;
+			
+			// aapt resource value: 0x7f0b005b
+			public const int forever = 2131427419;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int ghost_view = 2131427338;
@@ -5375,35 +7851,38 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0b0005
 			public const int home = 2131427333;
 			
-			// aapt resource value: 0x7f0b0021
-			public const int homeAsUp = 2131427361;
+			// aapt resource value: 0x7f0b0024
+			public const int homeAsUp = 2131427364;
+			
+			// aapt resource value: 0x7f0b0065
+			public const int icon = 2131427429;
+			
+			// aapt resource value: 0x7f0b00cb
+			public const int icon_group = 2131427531;
+			
+			// aapt resource value: 0x7f0b003d
+			public const int ifRoom = 2131427389;
 			
 			// aapt resource value: 0x7f0b0062
-			public const int icon = 2131427426;
+			public const int image = 2131427426;
 			
-			// aapt resource value: 0x7f0b00c8
-			public const int icon_group = 2131427528;
+			// aapt resource value: 0x7f0b00c7
+			public const int info = 2131427527;
 			
-			// aapt resource value: 0x7f0b003a
-			public const int ifRoom = 2131427386;
-			
-			// aapt resource value: 0x7f0b005f
-			public const int image = 2131427423;
-			
-			// aapt resource value: 0x7f0b00c4
-			public const int info = 2131427524;
-			
-			// aapt resource value: 0x7f0b0059
-			public const int italic = 2131427417;
+			// aapt resource value: 0x7f0b005c
+			public const int italic = 2131427420;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int item_touch_helper_previous_elevation = 2131427328;
 			
-			// aapt resource value: 0x7f0b008e
-			public const int largeLabel = 2131427470;
+			// aapt resource value: 0x7f0b0091
+			public const int largeLabel = 2131427473;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int left = 2131427401;
+			// aapt resource value: 0x7f0b004c
+			public const int left = 2131427404;
+			
+			// aapt resource value: 0x7f0b001e
+			public const int leftBar = 2131427358;
 			
 			// aapt resource value: 0x7f0b0017
 			public const int line1 = 2131427351;
@@ -5411,149 +7890,149 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0b0018
 			public const int line3 = 2131427352;
 			
-			// aapt resource value: 0x7f0b001d
-			public const int listMode = 2131427357;
+			// aapt resource value: 0x7f0b0020
+			public const int listMode = 2131427360;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int list_item = 2131427425;
-			
-			// aapt resource value: 0x7f0b00ca
-			public const int main_appbar = 2131427530;
+			// aapt resource value: 0x7f0b0064
+			public const int list_item = 2131427428;
 			
 			// aapt resource value: 0x7f0b00cd
-			public const int main_scrollview = 2131427533;
+			public const int main_appbar = 2131427533;
 			
-			// aapt resource value: 0x7f0b00cc
-			public const int main_tablayout = 2131427532;
+			// aapt resource value: 0x7f0b00d0
+			public const int main_scrollview = 2131427536;
 			
-			// aapt resource value: 0x7f0b00cb
-			public const int main_toolbar = 2131427531;
+			// aapt resource value: 0x7f0b00cf
+			public const int main_tablayout = 2131427535;
 			
-			// aapt resource value: 0x7f0b00d6
-			public const int masked = 2131427542;
+			// aapt resource value: 0x7f0b00ce
+			public const int main_toolbar = 2131427534;
 			
-			// aapt resource value: 0x7f0b00bd
-			public const int media_actions = 2131427517;
-			
-			// aapt resource value: 0x7f0b00d3
-			public const int message = 2131427539;
-			
-			// aapt resource value: 0x7f0b0031
-			public const int middle = 2131427377;
-			
-			// aapt resource value: 0x7f0b0053
-			public const int mini = 2131427411;
-			
-			// aapt resource value: 0x7f0b00a9
-			public const int mr_art = 2131427497;
-			
-			// aapt resource value: 0x7f0b009e
-			public const int mr_chooser_list = 2131427486;
-			
-			// aapt resource value: 0x7f0b00a1
-			public const int mr_chooser_route_desc = 2131427489;
-			
-			// aapt resource value: 0x7f0b009f
-			public const int mr_chooser_route_icon = 2131427487;
-			
-			// aapt resource value: 0x7f0b00a0
-			public const int mr_chooser_route_name = 2131427488;
-			
-			// aapt resource value: 0x7f0b009d
-			public const int mr_chooser_title = 2131427485;
-			
-			// aapt resource value: 0x7f0b00a6
-			public const int mr_close = 2131427494;
-			
-			// aapt resource value: 0x7f0b00ac
-			public const int mr_control_divider = 2131427500;
-			
-			// aapt resource value: 0x7f0b00b2
-			public const int mr_control_playback_ctrl = 2131427506;
-			
-			// aapt resource value: 0x7f0b00b5
-			public const int mr_control_subtitle = 2131427509;
-			
-			// aapt resource value: 0x7f0b00b4
-			public const int mr_control_title = 2131427508;
-			
-			// aapt resource value: 0x7f0b00b3
-			public const int mr_control_title_container = 2131427507;
-			
-			// aapt resource value: 0x7f0b00a7
-			public const int mr_custom_control = 2131427495;
-			
-			// aapt resource value: 0x7f0b00a8
-			public const int mr_default_control = 2131427496;
-			
-			// aapt resource value: 0x7f0b00a3
-			public const int mr_dialog_area = 2131427491;
-			
-			// aapt resource value: 0x7f0b00a2
-			public const int mr_expandable_area = 2131427490;
-			
-			// aapt resource value: 0x7f0b00b6
-			public const int mr_group_expand_collapse = 2131427510;
-			
-			// aapt resource value: 0x7f0b00aa
-			public const int mr_media_main_control = 2131427498;
-			
-			// aapt resource value: 0x7f0b00a5
-			public const int mr_name = 2131427493;
-			
-			// aapt resource value: 0x7f0b00ab
-			public const int mr_playback_control = 2131427499;
-			
-			// aapt resource value: 0x7f0b00a4
-			public const int mr_title_bar = 2131427492;
-			
-			// aapt resource value: 0x7f0b00ad
-			public const int mr_volume_control = 2131427501;
-			
-			// aapt resource value: 0x7f0b00ae
-			public const int mr_volume_group_list = 2131427502;
-			
-			// aapt resource value: 0x7f0b00b0
-			public const int mr_volume_item_icon = 2131427504;
-			
-			// aapt resource value: 0x7f0b00b1
-			public const int mr_volume_slider = 2131427505;
-			
-			// aapt resource value: 0x7f0b0028
-			public const int multiply = 2131427368;
-			
-			// aapt resource value: 0x7f0b0095
-			public const int navigation_header_container = 2131427477;
-			
-			// aapt resource value: 0x7f0b003b
-			public const int never = 2131427387;
-			
-			// aapt resource value: 0x7f0b0022
-			public const int none = 2131427362;
-			
-			// aapt resource value: 0x7f0b001e
-			public const int normal = 2131427358;
-			
-			// aapt resource value: 0x7f0b00c6
-			public const int notification_background = 2131427526;
+			// aapt resource value: 0x7f0b00d9
+			public const int masked = 2131427545;
 			
 			// aapt resource value: 0x7f0b00c0
-			public const int notification_main_column = 2131427520;
+			public const int media_actions = 2131427520;
 			
-			// aapt resource value: 0x7f0b00bf
-			public const int notification_main_column_container = 2131427519;
+			// aapt resource value: 0x7f0b00d6
+			public const int message = 2131427542;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int parallax = 2131427404;
+			// aapt resource value: 0x7f0b0034
+			public const int middle = 2131427380;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int parentPanel = 2131427429;
+			// aapt resource value: 0x7f0b0056
+			public const int mini = 2131427414;
+			
+			// aapt resource value: 0x7f0b00ac
+			public const int mr_art = 2131427500;
+			
+			// aapt resource value: 0x7f0b00a1
+			public const int mr_chooser_list = 2131427489;
+			
+			// aapt resource value: 0x7f0b00a4
+			public const int mr_chooser_route_desc = 2131427492;
+			
+			// aapt resource value: 0x7f0b00a2
+			public const int mr_chooser_route_icon = 2131427490;
+			
+			// aapt resource value: 0x7f0b00a3
+			public const int mr_chooser_route_name = 2131427491;
+			
+			// aapt resource value: 0x7f0b00a0
+			public const int mr_chooser_title = 2131427488;
+			
+			// aapt resource value: 0x7f0b00a9
+			public const int mr_close = 2131427497;
+			
+			// aapt resource value: 0x7f0b00af
+			public const int mr_control_divider = 2131427503;
+			
+			// aapt resource value: 0x7f0b00b5
+			public const int mr_control_playback_ctrl = 2131427509;
+			
+			// aapt resource value: 0x7f0b00b8
+			public const int mr_control_subtitle = 2131427512;
+			
+			// aapt resource value: 0x7f0b00b7
+			public const int mr_control_title = 2131427511;
+			
+			// aapt resource value: 0x7f0b00b6
+			public const int mr_control_title_container = 2131427510;
+			
+			// aapt resource value: 0x7f0b00aa
+			public const int mr_custom_control = 2131427498;
+			
+			// aapt resource value: 0x7f0b00ab
+			public const int mr_default_control = 2131427499;
+			
+			// aapt resource value: 0x7f0b00a6
+			public const int mr_dialog_area = 2131427494;
+			
+			// aapt resource value: 0x7f0b00a5
+			public const int mr_expandable_area = 2131427493;
+			
+			// aapt resource value: 0x7f0b00b9
+			public const int mr_group_expand_collapse = 2131427513;
+			
+			// aapt resource value: 0x7f0b00ad
+			public const int mr_media_main_control = 2131427501;
+			
+			// aapt resource value: 0x7f0b00a8
+			public const int mr_name = 2131427496;
+			
+			// aapt resource value: 0x7f0b00ae
+			public const int mr_playback_control = 2131427502;
+			
+			// aapt resource value: 0x7f0b00a7
+			public const int mr_title_bar = 2131427495;
+			
+			// aapt resource value: 0x7f0b00b0
+			public const int mr_volume_control = 2131427504;
+			
+			// aapt resource value: 0x7f0b00b1
+			public const int mr_volume_group_list = 2131427505;
+			
+			// aapt resource value: 0x7f0b00b3
+			public const int mr_volume_item_icon = 2131427507;
+			
+			// aapt resource value: 0x7f0b00b4
+			public const int mr_volume_slider = 2131427508;
+			
+			// aapt resource value: 0x7f0b002b
+			public const int multiply = 2131427371;
+			
+			// aapt resource value: 0x7f0b0098
+			public const int navigation_header_container = 2131427480;
+			
+			// aapt resource value: 0x7f0b003e
+			public const int never = 2131427390;
+			
+			// aapt resource value: 0x7f0b0025
+			public const int none = 2131427365;
+			
+			// aapt resource value: 0x7f0b0021
+			public const int normal = 2131427361;
+			
+			// aapt resource value: 0x7f0b00c9
+			public const int notification_background = 2131427529;
+			
+			// aapt resource value: 0x7f0b00c3
+			public const int notification_main_column = 2131427523;
+			
+			// aapt resource value: 0x7f0b00c2
+			public const int notification_main_column_container = 2131427522;
+			
+			// aapt resource value: 0x7f0b004f
+			public const int parallax = 2131427407;
+			
+			// aapt resource value: 0x7f0b0068
+			public const int parentPanel = 2131427432;
 			
 			// aapt resource value: 0x7f0b000b
 			public const int parent_matrix = 2131427339;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int pin = 2131427405;
+			// aapt resource value: 0x7f0b0050
+			public const int pin = 2131427408;
 			
 			// aapt resource value: 0x7f0b0006
 			public const int progress_circular = 2131427334;
@@ -5561,17 +8040,20 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0b0007
 			public const int progress_horizontal = 2131427335;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int radio = 2131427445;
+			// aapt resource value: 0x7f0b0078
+			public const int radio = 2131427448;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int right = 2131427402;
+			// aapt resource value: 0x7f0b004d
+			public const int right = 2131427405;
 			
-			// aapt resource value: 0x7f0b00c5
-			public const int right_icon = 2131427525;
+			// aapt resource value: 0x7f0b001f
+			public const int rightBar = 2131427359;
 			
-			// aapt resource value: 0x7f0b00c1
-			public const int right_side = 2131427521;
+			// aapt resource value: 0x7f0b00c8
+			public const int right_icon = 2131427528;
+			
+			// aapt resource value: 0x7f0b00c4
+			public const int right_side = 2131427524;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int save_image_matrix = 2131427340;
@@ -5582,122 +8064,125 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0b000e
 			public const int save_scale_type = 2131427342;
 			
-			// aapt resource value: 0x7f0b0029
-			public const int screen = 2131427369;
+			// aapt resource value: 0x7f0b002c
+			public const int screen = 2131427372;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int scroll = 2131427394;
+			// aapt resource value: 0x7f0b0045
+			public const int scroll = 2131427397;
+			
+			// aapt resource value: 0x7f0b006e
+			public const int scrollIndicatorDown = 2131427438;
+			
+			// aapt resource value: 0x7f0b006a
+			public const int scrollIndicatorUp = 2131427434;
 			
 			// aapt resource value: 0x7f0b006b
-			public const int scrollIndicatorDown = 2131427435;
+			public const int scrollView = 2131427435;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int scrollIndicatorUp = 2131427431;
-			
-			// aapt resource value: 0x7f0b0068
-			public const int scrollView = 2131427432;
-			
-			// aapt resource value: 0x7f0b0055
-			public const int scrollable = 2131427413;
-			
-			// aapt resource value: 0x7f0b0080
-			public const int search_badge = 2131427456;
-			
-			// aapt resource value: 0x7f0b007f
-			public const int search_bar = 2131427455;
-			
-			// aapt resource value: 0x7f0b0081
-			public const int search_button = 2131427457;
-			
-			// aapt resource value: 0x7f0b0086
-			public const int search_close_btn = 2131427462;
-			
-			// aapt resource value: 0x7f0b0082
-			public const int search_edit_frame = 2131427458;
-			
-			// aapt resource value: 0x7f0b0088
-			public const int search_go_btn = 2131427464;
+			// aapt resource value: 0x7f0b0058
+			public const int scrollable = 2131427416;
 			
 			// aapt resource value: 0x7f0b0083
-			public const int search_mag_icon = 2131427459;
+			public const int search_badge = 2131427459;
+			
+			// aapt resource value: 0x7f0b0082
+			public const int search_bar = 2131427458;
 			
 			// aapt resource value: 0x7f0b0084
-			public const int search_plate = 2131427460;
-			
-			// aapt resource value: 0x7f0b0085
-			public const int search_src_text = 2131427461;
+			public const int search_button = 2131427460;
 			
 			// aapt resource value: 0x7f0b0089
-			public const int search_voice_btn = 2131427465;
+			public const int search_close_btn = 2131427465;
 			
-			// aapt resource value: 0x7f0b008a
-			public const int select_dialog_listview = 2131427466;
+			// aapt resource value: 0x7f0b0085
+			public const int search_edit_frame = 2131427461;
 			
-			// aapt resource value: 0x7f0b00ce
-			public const int shellcontent_appbar = 2131427534;
+			// aapt resource value: 0x7f0b008b
+			public const int search_go_btn = 2131427467;
 			
-			// aapt resource value: 0x7f0b00d0
-			public const int shellcontent_scrollview = 2131427536;
+			// aapt resource value: 0x7f0b0086
+			public const int search_mag_icon = 2131427462;
 			
-			// aapt resource value: 0x7f0b00cf
-			public const int shellcontent_toolbar = 2131427535;
+			// aapt resource value: 0x7f0b0087
+			public const int search_plate = 2131427463;
 			
-			// aapt resource value: 0x7f0b0074
-			public const int shortcut = 2131427444;
+			// aapt resource value: 0x7f0b0088
+			public const int search_src_text = 2131427464;
 			
-			// aapt resource value: 0x7f0b0023
-			public const int showCustom = 2131427363;
-			
-			// aapt resource value: 0x7f0b0024
-			public const int showHome = 2131427364;
-			
-			// aapt resource value: 0x7f0b0025
-			public const int showTitle = 2131427365;
-			
-			// aapt resource value: 0x7f0b00d1
-			public const int sliding_tabs = 2131427537;
+			// aapt resource value: 0x7f0b008c
+			public const int search_voice_btn = 2131427468;
 			
 			// aapt resource value: 0x7f0b008d
-			public const int smallLabel = 2131427469;
+			public const int select_dialog_listview = 2131427469;
 			
-			// aapt resource value: 0x7f0b0094
-			public const int snackbar_action = 2131427476;
+			// aapt resource value: 0x7f0b00d1
+			public const int shellcontent_appbar = 2131427537;
 			
-			// aapt resource value: 0x7f0b0093
-			public const int snackbar_text = 2131427475;
+			// aapt resource value: 0x7f0b00d3
+			public const int shellcontent_scrollview = 2131427539;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int snap = 2131427395;
+			// aapt resource value: 0x7f0b00d2
+			public const int shellcontent_toolbar = 2131427538;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int spacer = 2131427428;
+			// aapt resource value: 0x7f0b0077
+			public const int shortcut = 2131427447;
+			
+			// aapt resource value: 0x7f0b0026
+			public const int showCustom = 2131427366;
+			
+			// aapt resource value: 0x7f0b0027
+			public const int showHome = 2131427367;
+			
+			// aapt resource value: 0x7f0b0028
+			public const int showTitle = 2131427368;
+			
+			// aapt resource value: 0x7f0b00d4
+			public const int sliding_tabs = 2131427540;
+			
+			// aapt resource value: 0x7f0b0090
+			public const int smallLabel = 2131427472;
+			
+			// aapt resource value: 0x7f0b0097
+			public const int snackbar_action = 2131427479;
+			
+			// aapt resource value: 0x7f0b0096
+			public const int snackbar_text = 2131427478;
+			
+			// aapt resource value: 0x7f0b0046
+			public const int snap = 2131427398;
+			
+			// aapt resource value: 0x7f0b0067
+			public const int spacer = 2131427431;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int split_action_bar = 2131427336;
 			
-			// aapt resource value: 0x7f0b002a
-			public const int src_atop = 2131427370;
+			// aapt resource value: 0x7f0b002d
+			public const int src_atop = 2131427373;
 			
-			// aapt resource value: 0x7f0b002b
-			public const int src_in = 2131427371;
+			// aapt resource value: 0x7f0b002e
+			public const int src_in = 2131427374;
 			
-			// aapt resource value: 0x7f0b002c
-			public const int src_over = 2131427372;
+			// aapt resource value: 0x7f0b002f
+			public const int src_over = 2131427375;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int start = 2131427403;
+			// aapt resource value: 0x7f0b004e
+			public const int start = 2131427406;
 			
-			// aapt resource value: 0x7f0b00bc
-			public const int status_bar_latest_event_content = 2131427516;
+			// aapt resource value: 0x7f0b00bf
+			public const int status_bar_latest_event_content = 2131427519;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int submenuarrow = 2131427446;
+			// aapt resource value: 0x7f0b0079
+			public const int submenuarrow = 2131427449;
 			
-			// aapt resource value: 0x7f0b0087
-			public const int submit_area = 2131427463;
+			// aapt resource value: 0x7f0b008a
+			public const int submit_area = 2131427466;
 			
-			// aapt resource value: 0x7f0b001f
-			public const int tabMode = 2131427359;
+			// aapt resource value: 0x7f0b001d
+			public const int swipetorefreshbar = 2131427357;
+			
+			// aapt resource value: 0x7f0b0022
+			public const int tabMode = 2131427362;
 			
 			// aapt resource value: 0x7f0b0019
 			public const int tag_transition_group = 2131427353;
@@ -5708,14 +8193,14 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0b001b
 			public const int text2 = 2131427355;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int textSpacerNoButtons = 2131427434;
+			// aapt resource value: 0x7f0b006d
+			public const int textSpacerNoButtons = 2131427437;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int textSpacerNoTitle = 2131427433;
+			// aapt resource value: 0x7f0b006c
+			public const int textSpacerNoTitle = 2131427436;
 			
-			// aapt resource value: 0x7f0b009a
-			public const int text_input_password_toggle = 2131427482;
+			// aapt resource value: 0x7f0b009d
+			public const int text_input_password_toggle = 2131427485;
 			
 			// aapt resource value: 0x7f0b0014
 			public const int textinput_counter = 2131427348;
@@ -5723,29 +8208,29 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0b0015
 			public const int textinput_error = 2131427349;
 			
-			// aapt resource value: 0x7f0b00c2
-			public const int time = 2131427522;
+			// aapt resource value: 0x7f0b00c5
+			public const int time = 2131427525;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int title = 2131427356;
 			
+			// aapt resource value: 0x7f0b0074
+			public const int titleDividerNoCustom = 2131427444;
+			
+			// aapt resource value: 0x7f0b0072
+			public const int title_template = 2131427442;
+			
+			// aapt resource value: 0x7f0b00d5
+			public const int toolbar = 2131427541;
+			
+			// aapt resource value: 0x7f0b0041
+			public const int top = 2131427393;
+			
 			// aapt resource value: 0x7f0b0071
-			public const int titleDividerNoCustom = 2131427441;
+			public const int topPanel = 2131427441;
 			
-			// aapt resource value: 0x7f0b006f
-			public const int title_template = 2131427439;
-			
-			// aapt resource value: 0x7f0b00d2
-			public const int toolbar = 2131427538;
-			
-			// aapt resource value: 0x7f0b003e
-			public const int top = 2131427390;
-			
-			// aapt resource value: 0x7f0b006e
-			public const int topPanel = 2131427438;
-			
-			// aapt resource value: 0x7f0b0091
-			public const int touch_outside = 2131427473;
+			// aapt resource value: 0x7f0b0094
+			public const int touch_outside = 2131427476;
 			
 			// aapt resource value: 0x7f0b000f
 			public const int transition_current_scene = 2131427343;
@@ -5762,29 +8247,29 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0b0013
 			public const int transition_transform = 2131427347;
 			
-			// aapt resource value: 0x7f0b002d
-			public const int uniform = 2131427373;
+			// aapt resource value: 0x7f0b0030
+			public const int uniform = 2131427376;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int up = 2131427337;
 			
-			// aapt resource value: 0x7f0b0026
-			public const int useLogo = 2131427366;
+			// aapt resource value: 0x7f0b0029
+			public const int useLogo = 2131427369;
 			
 			// aapt resource value: 0x7f0b0016
 			public const int view_offset_helper = 2131427350;
 			
-			// aapt resource value: 0x7f0b00d5
-			public const int visible = 2131427541;
+			// aapt resource value: 0x7f0b00d8
+			public const int visible = 2131427544;
 			
-			// aapt resource value: 0x7f0b00af
-			public const int volume_item_container = 2131427503;
+			// aapt resource value: 0x7f0b00b2
+			public const int volume_item_container = 2131427506;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int withText = 2131427388;
+			// aapt resource value: 0x7f0b003f
+			public const int withText = 2131427391;
 			
-			// aapt resource value: 0x7f0b002e
-			public const int wrap_content = 2131427374;
+			// aapt resource value: 0x7f0b0031
+			public const int wrap_content = 2131427377;
 			
 			static Id()
 			{
@@ -6341,8 +8826,8 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0d016e
 			public const int Animation_Design_BottomSheetDialog = 2131558766;
 			
-			// aapt resource value: 0x7f0d0191
-			public const int AppCompatDialogStyle = 2131558801;
+			// aapt resource value: 0x7f0d0199
+			public const int AppCompatDialogStyle = 2131558809;
 			
 			// aapt resource value: 0x7f0d00a9
 			public const int Base_AlertDialog_AppCompat = 2131558569;
@@ -6845,11 +9330,35 @@ namespace ShoppingApp.Droid
 			// aapt resource value: 0x7f0d000e
 			public const int CardView_Light = 2131558414;
 			
+			// aapt resource value: 0x7f0d0194
+			public const int DarkPopupMenu = 2131558804;
+			
+			// aapt resource value: 0x7f0d0196
+			public const int DarkPopupMenuTextAppearanceLarge = 2131558806;
+			
+			// aapt resource value: 0x7f0d0195
+			public const int DarkPopupMenuTextAppearanceSmall = 2131558805;
+			
+			// aapt resource value: 0x7f0d0193
+			public const int GridThemeDark = 2131558803;
+			
 			// aapt resource value: 0x7f0d018f
-			public const int MainTheme = 2131558799;
+			public const int GridThemeLight = 2131558799;
 			
 			// aapt resource value: 0x7f0d0190
-			public const int MainTheme_Base = 2131558800;
+			public const int LightPopupMenu = 2131558800;
+			
+			// aapt resource value: 0x7f0d0192
+			public const int LightPopupMenuTextAppearanceLarge = 2131558802;
+			
+			// aapt resource value: 0x7f0d0191
+			public const int LightPopupMenuTextAppearanceSmall = 2131558801;
+			
+			// aapt resource value: 0x7f0d0197
+			public const int MainTheme = 2131558807;
+			
+			// aapt resource value: 0x7f0d0198
+			public const int MainTheme_Base = 2131558808;
 			
 			// aapt resource value: 0x7f0d002d
 			public const int Platform_AppCompat = 2131558445;
