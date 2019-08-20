@@ -1,11 +1,11 @@
-﻿using Bit.ViewModel;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ShoppingApp.ViewModels
 {
-    public class StoreViewModel:BitViewModelBase
+    public class StoreViewModel
     {
     }
 }
