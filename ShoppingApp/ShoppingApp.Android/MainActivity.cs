@@ -18,7 +18,7 @@ namespace ShoppingApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-           // ZXing.Mobile.MobileBarcodeScanner.Initialize(Application);
+            ZXing.Mobile.MobileBarcodeScanner.Initialize(Application);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
