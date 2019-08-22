@@ -110,26 +110,25 @@ namespace ShoppingApp.Views
             }
         }
        void OnSwipeButtonShowing(object sender, SwipeButtonShowingEventArgs e)
-        {
-            if ((!(Boolean)this.devgrid.GetCellValue(e.RowHandle, "ItemName")))
-                //&& (e.ButtonInfo.ButtonName == "RightBtn"))
+       {
+           var cellValue = (bool)this.devgrid.GetCellValue(e.RowHandle, "Select");
+           if (!cellValue
+                && (e.ButtonInfo.ButtonName == "RightBtn"))
             {
                 e.IsVisible = false;
             }
-        }
+       }
 
         void OnSwipeButtonClick(object sender, SwipeButtonEventArgs e)
         {
-            if (e.ButtonInfo.ButtonName == "LeftButton")
+            if (e.ButtonInfo.ButtonName == "LeftBtn")
             {
-                DateTime orderDate = (DateTime)devgrid.GetCellValue(e.RowHandle, "Date");
-                string orderDateDay = orderDate.ToString("dddd");
-                DisplayAlert("Alert from " + e.ButtonInfo.ButtonName, "Day: " + orderDateDay, "OK");
+                DisplayAlert("Alert from " + e.ButtonInfo.Caption, "Delete ", "OK");
             }
-            if (e.ButtonInfo.ButtonName == "RightBtn")
-            {
-                devgrid.DeleteRow(e.RowHandle);
-            }
+            //if (e.ButtonInfo.ButtonName == "RightBtn")
+            //{
+            //    devgrid.DeleteRow(e.RowHandle);
+            //}
         }
 
         void OnCustomizeCell(CustomizeCellEventArgs e)
@@ -147,6 +146,35 @@ namespace ShoppingApp.Views
                 }
 
                 e.Handled = true;
+            }
+        }
+
+        private void Row_Edited(object sender, RowEditingEventArgs e)
+        {
+            if (e.Action == EditingRowAction.Apply)
+            {
+                var rowData = this.devgrid.GetRow(e.RowHandle);
+                var tempQuantity = rowData.GetFieldValue("Quantity");
+                var tempUnitPrice = rowData.GetFieldValue("UnitPrice");
+                if (tempUnitPrice != null && tempQuantity != null)
+                {
+                    var unitPrice = decimal.Parse(tempUnitPrice.ToString());
+                    var quantity= decimal.Parse(tempQuantity.ToString());
+                    var devgridItemsSource = (BindingList<InvoiceItem>) this.devgrid.ItemsSource;
+                    for (int i = 0; i < devgridItemsSource.Count; i++)
+                    {
+                        var item = rowData.GetFieldValue("ItemName");
+                        if (devgridItemsSource[i].ItemName == item.ToString())
+                        {
+                            devgridItemsSource[i].TotalPrice = unitPrice * quantity;
+                            break;
+                            
+                        }
+                    }
+
+                    this.devgrid.ItemsSource = devgridItemsSource;
+                }
+
             }
         }
     }

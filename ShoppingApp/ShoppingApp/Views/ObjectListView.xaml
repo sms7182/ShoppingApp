@@ -13,16 +13,18 @@
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20">
          <StackLayout Padding="10">
             <Button Text="AddItem" Clicked="btn_clicked"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
-            <devGrid:GridControl x:Name="devgrid"  ItemsSource="{Binding InvoiceItems}"  CustomizeCell="OnCustomizeCell">
+            <devGrid:GridControl x:Name="devgrid" AllowDeleteRows="True" RowEditMode="Inplace" EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick" SwipeButtonShowing="OnSwipeButtonShowing" ItemsSource="{Binding InvoiceItems}" 
+                                 CustomizeCell="OnCustomizeCell">
                  <devGrid:GridControl.LeftSwipeButtons>
-                     <devGrid:SwipeButtonInfo ButtonName="RightBtn"  Caption="Delete" BackgroundColor="Red" Width="150"></devGrid:SwipeButtonInfo>
+                     <devGrid:SwipeButtonInfo ButtonName="LeftBtn"  Caption="Delete" BackgroundColor="Red" Width="150"></devGrid:SwipeButtonInfo>
                  </devGrid:GridControl.LeftSwipeButtons>
                  <devGrid:GridControl.Columns >
-                     <devGrid:TextColumn  AllowSort="True" FieldName="ItemName" Caption="Item" Width="300"></devGrid:TextColumn>
-                     <devGrid:NumberColumn FieldName="Quantity" Caption="Quantity" ></devGrid:NumberColumn>
-                     <devGrid:TextColumn FieldName="Unit"></devGrid:TextColumn>
-                     <devGrid:NumberColumn FieldName="UnitPrice" Caption="UnitPrice" DisplayFormat="C00" ></devGrid:NumberColumn>
-                     <devGrid:NumberColumn AllowSort="True" FieldName="TotalPrice" Caption="Price" DisplayFormat="C00" ></devGrid:NumberColumn>
+                     <devGrid:TextColumn IsReadOnly="True" AllowSort="True"  FieldName="ItemName" Caption="Item" Width="150"></devGrid:TextColumn>
+                     <devGrid:NumberColumn FieldName="Quantity"  Caption="Quantity" ></devGrid:NumberColumn>
+                     <devGrid:TextColumn IsReadOnly="True" FieldName="Unit"></devGrid:TextColumn>
+                     <devGrid:NumberColumn IsReadOnly="True" FieldName="UnitPrice" Caption="UnitPrice" DisplayFormat="C00" ></devGrid:NumberColumn>
+                     <devGrid:NumberColumn IsReadOnly="True" AllowSort="True" FieldName="TotalPrice" Caption="Price" DisplayFormat="C00" ></devGrid:NumberColumn>
+                     <devGrid:SwitchColumn FieldName="Select" AllowAutoFilter="False"  Caption="Select" ></devGrid:SwitchColumn>
                  </devGrid:GridControl.Columns>
                 <devGrid:GridControl.GroupSummaries>
                     <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Max"/>

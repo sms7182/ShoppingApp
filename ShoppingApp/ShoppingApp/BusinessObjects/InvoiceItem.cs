@@ -10,6 +10,19 @@ namespace ShoppingBusinessObject
 {
     public class InvoiceItem:ModelObject
     {
+        private bool select;
+        public bool Select
+        {
+            get { return @select; }
+            set
+            {
+                if (@select != value)
+                {
+                    @select = value;
+                    RaisePropertyChanged("Select");
+                }
+            }
+        }
         private string itemName;
         public string ItemName
         {
