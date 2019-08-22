@@ -55,7 +55,7 @@ namespace ShoppingBusinessObject
             get { return unit; }
             set
             {
-                if (unit != null)
+                if (unit != value)
                 {
                     unit = value;
                     RaisePropertyChanged("Unit");

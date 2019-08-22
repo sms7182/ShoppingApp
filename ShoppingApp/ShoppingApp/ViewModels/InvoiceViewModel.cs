@@ -29,21 +29,7 @@ namespace ShoppingApp.ViewModels
        
         public InvoiceViewModel()
         {
-            invoiceItems=new BindingList<InvoiceItem>();
-           
-
-            ///todo for testing bind
-            invoiceItems.Add(new InvoiceItem()
-            {
-                ItemName = "7575",
-                Quantity = 1,
-                UnitPrice = 12,
-                Unit = "Number",
-                TotalPrice = 60
-
-
-            });
-           
+         
         }
 
         public Invoice Invoice { get; set; }

@@ -61,45 +61,50 @@ namespace ShoppingApp.Views
             if (result != null)
             {
                 this.devgrid.BatchBegin();
+                this.devgrid.BatchBegin();
                 
-                var dataGridItemsSource = this.devgrid.ItemsSource; 
-                if (dataGridItemsSource != null)
+                var dataGridItemsSource = this.devgrid.ItemsSource;
+                if (dataGridItemsSource == null)
                 {
-                    var invoiceItems = ((BindingList<InvoiceItem>) dataGridItemsSource);
+                    this.devgrid.ItemsSource = new BindingList<InvoiceItem>();
+                    dataGridItemsSource = this.devgrid.ItemsSource;
+                }
 
-                  
-                    if (invoiceItems.Any(d => d.ItemName == result.Text))
+                var invoiceItems = ((BindingList<InvoiceItem>) dataGridItemsSource);
+
+
+                if (invoiceItems.Any(d => d.ItemName == result.Text))
+                {
+
+                    for (int i = 0; i < invoiceItems.Count; i++)
                     {
-
-                        for (int i = 0; i < invoiceItems.Count; i++)
+                        if (invoiceItems[i].ItemName == result.Text)
                         {
-                            if (invoiceItems[i].ItemName == result.Text)
-                            {
-                                invoiceItems[i].Quantity = invoiceItems[i].Quantity + 1;
-                                invoiceItems[i].TotalPrice = (invoiceItems[i].Quantity * invoiceItems[i].UnitPrice);
-                                break;
+                            invoiceItems[i].Quantity = invoiceItems[i].Quantity + 1;
+                            invoiceItems[i].TotalPrice = (invoiceItems[i].Quantity * invoiceItems[i].UnitPrice);
+                            break;
 
-                            }
                         }
                     }
-                    else
-                    {
-                        var invoiceItem = new InvoiceItem();
-                        invoiceItem.Quantity = 1;
-                        invoiceItem.ItemName = result.Text;
-                        invoiceItem.Unit = "Number";
-                        invoiceItem.UnitPrice = 750;
-                        invoiceItem.TotalPrice = 750;
-
-                        invoiceItems.Add(invoiceItem);
-
-                    }
-
-                    this.devgrid.ItemsSource = invoiceItems;
-
-                  
                 }
-           
+                else
+                {
+                    var invoiceItem = new InvoiceItem();
+                    invoiceItem.Quantity = 1;
+                    invoiceItem.ItemName = result.Text;
+                    invoiceItem.Unit = "Number";
+                    invoiceItem.UnitPrice = 750;
+                    invoiceItem.TotalPrice = 750;
+
+                    invoiceItems.Add(invoiceItem);
+
+                }
+
+                this.devgrid.ItemsSource = invoiceItems;
+
+                this.devgrid.RefreshData();
+               
+               this.devgrid.BatchCommit();
                 
             }
         }
