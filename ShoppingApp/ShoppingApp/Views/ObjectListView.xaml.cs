@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DevExpress.Mobile.DataGrid;
 using ShoppingApp.ViewModels;
 using ShoppingBusinessObject;
 using Xamarin.Forms;
@@ -60,7 +61,7 @@ namespace ShoppingApp.Views
         {
             if (result != null)
             {
-                this.devgrid.BatchBegin();
+               
                 this.devgrid.BatchBegin();
                 
                 var dataGridItemsSource = this.devgrid.ItemsSource;
@@ -106,6 +107,46 @@ namespace ShoppingApp.Views
                
                this.devgrid.BatchCommit();
                 
+            }
+        }
+       void OnSwipeButtonShowing(object sender, SwipeButtonShowingEventArgs e)
+        {
+            if ((!(Boolean)this.devgrid.GetCellValue(e.RowHandle, "ItemName")))
+                //&& (e.ButtonInfo.ButtonName == "RightBtn"))
+            {
+                e.IsVisible = false;
+            }
+        }
+
+        void OnSwipeButtonClick(object sender, SwipeButtonEventArgs e)
+        {
+            if (e.ButtonInfo.ButtonName == "LeftButton")
+            {
+                DateTime orderDate = (DateTime)devgrid.GetCellValue(e.RowHandle, "Date");
+                string orderDateDay = orderDate.ToString("dddd");
+                DisplayAlert("Alert from " + e.ButtonInfo.ButtonName, "Day: " + orderDateDay, "OK");
+            }
+            if (e.ButtonInfo.ButtonName == "RightBtn")
+            {
+                devgrid.DeleteRow(e.RowHandle);
+            }
+        }
+
+        void OnCustomizeCell(CustomizeCellEventArgs e)
+        {
+            if (e.FieldName == "TotalPrice" && !e.IsSelected)
+            {
+                decimal total = Convert.ToDecimal(e.Value.ToString());
+                if (total < 850)
+                {
+                    e.ForeColor=Color.Red;
+                }
+                else if (total > 1400)
+                {
+                    e.ForeColor=Color.Green;
+                }
+
+                e.Handled = true;
             }
         }
     }

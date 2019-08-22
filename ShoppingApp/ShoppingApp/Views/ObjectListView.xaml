@@ -13,39 +13,25 @@
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20">
          <StackLayout Padding="10">
             <Button Text="AddItem" Clicked="btn_clicked"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
-             <devGrid:GridControl x:Name="devgrid"  ItemsSource="{Binding InvoiceItems}">
-                <devGrid:GridControl.Columns>
-                     <devGrid:TextColumn FieldName="ItemName" Caption="Item" Width="150"></devGrid:TextColumn>
+            <devGrid:GridControl x:Name="devgrid"  ItemsSource="{Binding InvoiceItems}"  CustomizeCell="OnCustomizeCell">
+                 <devGrid:GridControl.LeftSwipeButtons>
+                     <devGrid:SwipeButtonInfo ButtonName="RightBtn"  Caption="Delete" BackgroundColor="Red" Width="150"></devGrid:SwipeButtonInfo>
+                 </devGrid:GridControl.LeftSwipeButtons>
+                 <devGrid:GridControl.Columns >
+                     <devGrid:TextColumn  AllowSort="True" FieldName="ItemName" Caption="Item" Width="300"></devGrid:TextColumn>
                      <devGrid:NumberColumn FieldName="Quantity" Caption="Quantity" ></devGrid:NumberColumn>
                      <devGrid:TextColumn FieldName="Unit"></devGrid:TextColumn>
                      <devGrid:NumberColumn FieldName="UnitPrice" Caption="UnitPrice" DisplayFormat="C00" ></devGrid:NumberColumn>
-                     <devGrid:NumberColumn FieldName="TotalPrice" Caption="Price" DisplayFormat="C00" ></devGrid:NumberColumn>
+                     <devGrid:NumberColumn AllowSort="True" FieldName="TotalPrice" Caption="Price" DisplayFormat="C00" ></devGrid:NumberColumn>
                  </devGrid:GridControl.Columns>
-               </devGrid:GridControl>
+                <devGrid:GridControl.GroupSummaries>
+                    <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Max"/>
+                </devGrid:GridControl.GroupSummaries>
+                <devGrid:GridControl.TotalSummaries>
+                    <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum" DisplayFormat="Total:{0:C00}"></devGrid:GridColumnSummary>
+                </devGrid:GridControl.TotalSummaries>
+</devGrid:GridControl>
              
-<!--<dataGrid:DataGrid x:Name="dataGrid"    ItemsSource="{Binding InvoiceItems}" VerticalOptions="FillAndExpand"  SelectionEnabled="True" IsEnabled="True"  SelectedItem="{Binding InvoiceItem}"  RowHeight="70" HeaderHeight="50" BorderColor="#CCCCCC" HeaderBackground="#E0E6F8"  ActiveRowColor="#8899AA">
-                  <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                  </Grid.RowDefinitions>
-                <dataGrid:DataGrid.Columns>
-                   <dataGrid:DataGridColumn Title="Item" PropertyName="ItemName" Width="4*"/>
-                   <dataGrid:DataGridColumn Title="Quantity" PropertyName="Quantity" Width="4*" />
-                   <dataGrid:DataGridColumn Title="Unit" PropertyName="Unit" Width="4*"/>
-                   <dataGrid:DataGridColumn Title="UnitPrice" PropertyName="UnitPrice" Width="4*"/>
-                   <dataGrid:DataGridColumn Title="Price" PropertyName="TotalPrice" Width="4*"/>
-                </dataGrid:DataGrid.Columns>
-            <dataGrid:DataGrid.RowsBackgroundColorPalette>
-                <dataGrid:PaletteCollection>
-                    <Color>#F2F2F2</Color>
-                    <Color>#FFFFFF</Color>
-                </dataGrid:PaletteCollection>
-            </dataGrid:DataGrid.RowsBackgroundColorPalette>
-            <dataGrid:DataGrid.Resources>
-                <ResourceDictionary>
-                    <conv:InvoiceViewModel x:Key="InvoiceViewModel"/>
-                </ResourceDictionary>
-            </dataGrid:DataGrid.Resources>
-        </dataGrid:DataGrid>-->
-         </StackLayout>
+        </StackLayout>
     </ContentView>
 </ContentPage>
