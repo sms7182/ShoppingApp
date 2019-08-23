@@ -4,6 +4,7 @@
              xmlns:devGrid="clr-namespace:DevExpress.Mobile.DataGrid;assembly=DevExpress.Mobile.Grid.v18.2"
              xmlns:vm="clr-namespace:ShoppingApp.ViewModels;assembly=ShoppingApp"
              x:Class="ShoppingApp.Views.ObjectListView"
+             xmlns:translators="clr-namespace:ShoppingApp.Helpers;assembly=ShoppingApp"
              x:Name="ContentPage"
              Title="DataGrid Test">
 
@@ -12,25 +13,25 @@
     </ContentPage.BindingContext>
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20">
          <StackLayout Padding="10">
-            <Button Text="AddItem" Clicked="btn_clicked"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
+            <Button Text="{translators:Translate AddItem}" Clicked="btn_clicked"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
             <devGrid:GridControl x:Name="devgrid" AllowDeleteRows="True"  RowEditMode="Inplace" EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick" SwipeButtonShowing="OnSwipeButtonShowing" ItemsSource="{Binding InvoiceItems}" 
                                  CustomizeCell="OnCustomizeCell">
                  <devGrid:GridControl.LeftSwipeButtons>
-                     <devGrid:SwipeButtonInfo ButtonName="LeftBtn"  Caption="Delete" BackgroundColor="Red" Width="150"></devGrid:SwipeButtonInfo>
+                     <devGrid:SwipeButtonInfo ButtonName="LeftBtn"  Caption="{translators:Translate Delete}" BackgroundColor="Red" Width="150"></devGrid:SwipeButtonInfo>
                  </devGrid:GridControl.LeftSwipeButtons>
                  <devGrid:GridControl.Columns >
-                     <devGrid:TextColumn IsReadOnly="True" AllowSort="True"  FieldName="ItemName" Caption="Item" Width="150"></devGrid:TextColumn>
-                     <devGrid:NumberColumn FieldName="Quantity"  Caption="Quantity" ></devGrid:NumberColumn>
-                     <devGrid:TextColumn IsReadOnly="True" FieldName="Unit"></devGrid:TextColumn>
-                     <devGrid:NumberColumn IsReadOnly="True" FieldName="UnitPrice" Caption="UnitPrice" DisplayFormat="C00" ></devGrid:NumberColumn>
-                     <devGrid:NumberColumn IsReadOnly="True" AllowSort="True" FieldName="TotalPrice" Caption="Price" DisplayFormat="C00" Width="200" ></devGrid:NumberColumn>
-                     <devGrid:SwitchColumn FieldName="Select" AllowAutoFilter="False"  Caption="Select" ></devGrid:SwitchColumn>
+                     <devGrid:TextColumn IsReadOnly="True" AllowSort="True"  FieldName="ItemName" Caption="{translators:Translate Item}" Width="150"></devGrid:TextColumn>
+                     <devGrid:NumberColumn FieldName="Quantity"  Caption="{translators:Translate Quantity}" ></devGrid:NumberColumn>
+                     <devGrid:TextColumn IsReadOnly="True" FieldName="Unit" Caption="{translators:Translate Unit}"></devGrid:TextColumn>
+                     <devGrid:NumberColumn IsReadOnly="True" FieldName="UnitPrice" Caption="{translators:Translate UnitPrice}" DisplayFormat="C00" ></devGrid:NumberColumn>
+                     <devGrid:NumberColumn IsReadOnly="True" AllowSort="True" FieldName="TotalPrice" Caption="{translators:Translate Price}" DisplayFormat="C00" Width="200" ></devGrid:NumberColumn>
+                     <devGrid:SwitchColumn FieldName="Select" AllowAutoFilter="False"  Caption="{translators:Translate Select}" ></devGrid:SwitchColumn>
                  </devGrid:GridControl.Columns>
                 <devGrid:GridControl.GroupSummaries>
-                    <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Max"/>
+                    <devGrid:GridColumnSummary FieldName="TotalPrice"  Type="Max"/>
                 </devGrid:GridControl.GroupSummaries>
                 <devGrid:GridControl.TotalSummaries>
-                    <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum"  DisplayFormat="Total:{0:C00}" ></devGrid:GridColumnSummary>
+                    <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum"   DisplayFormat="Total:{0:C00}" ></devGrid:GridColumnSummary>
                 </devGrid:GridControl.TotalSummaries>
 </devGrid:GridControl>
              
