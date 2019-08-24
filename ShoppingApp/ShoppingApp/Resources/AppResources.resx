@@ -123,6 +123,9 @@
   <data name="Delete" xml:space="preserve">
     <value>حذف</value>
   </data>
+  <data name="History" xml:space="preserve">
+    <value>تاریخچه خرید های من</value>
+  </data>
   <data name="Item" xml:space="preserve">
     <value>کالا</value>
   </data>
@@ -135,8 +138,14 @@
   <data name="Password" xml:space="preserve">
     <value>رمز عبور</value>
   </data>
+  <data name="PreInvoice" xml:space="preserve">
+    <value>اقلام خریدنی</value>
+  </data>
   <data name="Price" xml:space="preserve">
     <value>قیمت</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>اطلاعات من</value>
   </data>
   <data name="Quantity" xml:space="preserve">
     <value>تعداد</value>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ShoppingApp.Views"
+             xmlns:translators="clr-namespace:ShoppingApp.Helpers;assembly=ShoppingApp"
              x:Class="ShoppingApp.Views.HomePage">
-    <ContentPage.Content>
-        <StackLayout>
-            
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    <local:ProfilePage Title="{translators:Translate Profile}"/>
+    <local:ObjectListView Title="{translators:Translate PreInvoice}"/>
+    <local:HistoryPage Title="{translators:Translate History}"/>
+</TabbedPage>
