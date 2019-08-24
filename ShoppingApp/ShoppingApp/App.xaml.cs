@@ -14,10 +14,11 @@ namespace ShoppingApp
             //MainPage = new MainPage();
             Xamarin.Forms.DataGrid.DataGridComponent.Init();
 
-            MainPage = new ObjectListView();
-            {
-                BindingContext = new ViewModels.InvoiceViewModel();
-            };
+            MainPage=new NavigationPage(new MainPage());
+            //MainPage = new ObjectListView();
+            //{
+            //    BindingContext = new ViewModels.InvoiceViewModel();
+            //};
         }
 
         protected override void OnStart()

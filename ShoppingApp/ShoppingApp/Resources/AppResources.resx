@@ -126,6 +126,15 @@
   <data name="Item" xml:space="preserve">
     <value>کالا</value>
   </data>
+  <data name="Login" xml:space="preserve">
+    <value>ورود به سیستم</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>موبایل</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
   <data name="Price" xml:space="preserve">
     <value>قیمت</value>
   </data>

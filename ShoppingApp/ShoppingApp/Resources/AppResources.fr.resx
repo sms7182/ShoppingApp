@@ -126,6 +126,15 @@
   <data name="Item" xml:space="preserve">
     <value>des biens</value>
   </data>
+  <data name="Login" xml:space="preserve">
+    <value>s'identifier</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>mobile</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>mot de passe</value>
+  </data>
   <data name="Price" xml:space="preserve">
     <value>montant</value>
   </data>
