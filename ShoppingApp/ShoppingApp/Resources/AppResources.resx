@@ -118,27 +118,27 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddItem" xml:space="preserve">
-    <value>Adding goods</value>
+    <value>افزودن کالا</value>
   </data>
   <data name="Delete" xml:space="preserve">
-    <value>Delete</value>
+    <value>حذف</value>
   </data>
   <data name="Item" xml:space="preserve">
-    <value>Goods</value>
+    <value>کالا</value>
   </data>
   <data name="Price" xml:space="preserve">
-    <value>Amount</value>
+    <value>قیمت</value>
   </data>
   <data name="Quantity" xml:space="preserve">
-    <value>Qty</value>
+    <value>تعداد</value>
   </data>
   <data name="Select" xml:space="preserve">
-    <value>Select</value>
+    <value>انتخاب</value>
   </data>
   <data name="Unit" xml:space="preserve">
-    <value>Unit</value>
+    <value>واحد کالا</value>
   </data>
   <data name="UnitPrice" xml:space="preserve">
-    <value>UnitCost</value>
+    <value>فی</value>
   </data>
 </root>

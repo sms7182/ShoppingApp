@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Globalization;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
@@ -16,6 +18,7 @@ namespace ShoppingApp
         public MainPage()
         {
             InitializeComponent();
+            Thread.CurrentThread.CurrentCulture=new CultureInfo("fa-Ir");
         }
 
         private int count = 0;
