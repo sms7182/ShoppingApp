@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Xamarin.Forms.DataGrid;
+using System.IO;
 
 namespace ShoppingApp.Droid
 {
@@ -24,7 +25,12 @@ namespace ShoppingApp.Droid
             ZXing.Mobile.MobileBarcodeScanner.Initialize(Application);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+
+            var dbName = "shopping_db.sqlite";
+            var folderPath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+            var fullPath = Path.Combine(folderPath, dbName);
+
+            LoadApplication(new App(fullPath));
         }
         
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)

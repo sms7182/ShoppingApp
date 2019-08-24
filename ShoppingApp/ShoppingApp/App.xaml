@@ -3,6 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingApp.App">
     <Application.Resources>
-     
+        <ResourceDictionary>
+            <Color x:Key="blueColor">#1E90FF</Color>
+            <Color x:Key="grayColor">#808080</Color>
+            <Color x:Key="whiteColor">#FFFFFF</Color>
+
+            <Style x:Key="normalButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource blueColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+            </Style>
+            <Style x:Key="simpleButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource grayColor}"/>
+                <Setter Property="TextColor" Value="{StaticResource whiteColor}"/>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

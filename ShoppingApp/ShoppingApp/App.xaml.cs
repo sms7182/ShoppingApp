@@ -7,18 +7,32 @@ namespace ShoppingApp
 {
     public partial class App : Application
     {
+        public static string DatabaseLocation = string.Empty;
+
         public App()
         {
-            //InitializeComponent();
 
-            //MainPage = new MainPage();
-            Xamarin.Forms.DataGrid.DataGridComponent.Init();
+            //Xamarin.Forms.DataGrid.DataGridComponent.Init();
 
-            MainPage = new ObjectListView();
-            {
-                BindingContext = new ViewModels.InvoiceViewModel();
-            };
+            //MainPage = new ObjectListView();
+            //{
+            //    BindingContext = new ViewModels.InvoiceViewModel();
+            //};
+
+            InitializeComponent();
+
+            MainPage = new NavigationPage(new LoginPage());
         }
+
+        public App(string databaseLocation)
+        {
+            InitializeComponent();
+
+            MainPage = new NavigationPage(new LoginPage());
+            DatabaseLocation = databaseLocation;           
+
+        }
+
 
         protected override void OnStart()
         {
