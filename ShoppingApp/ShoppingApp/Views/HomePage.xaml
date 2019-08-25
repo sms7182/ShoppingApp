@@ -2,8 +2,9 @@
 <TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ShoppingApp"
+             xmlns:translators="clr-namespace:ShoppingApp.Helpers;assembly=ShoppingApp"
              x:Class="ShoppingApp.HomePage">
-   
-   <local:FavouritePage Title="Favourite" />
-   <local:StorePage Title="Stores" />
+
+    <local:FavoritePage Title="{translators:Translate Favourite}" Icon="favorite.png" />
+    <local:StorePage Title="{translators:Translate Stores}" Icon="store.png" />
 </TabbedPage>

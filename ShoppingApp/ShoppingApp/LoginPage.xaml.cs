@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Globalization;
+using System.Threading;
 
 namespace ShoppingApp
 {
@@ -17,6 +19,7 @@ namespace ShoppingApp
         public LoginPage()
         {
             InitializeComponent();
+            Thread.CurrentThread.CurrentCulture = new CultureInfo("fa-Ir");
             var assembly = typeof(LoginPage);
             //iconImage.Source = ImageSource.FromResource("ShoppingApp.Assets.Image.interface.png", assembly);
         }
@@ -39,9 +42,9 @@ namespace ShoppingApp
 
         private void LoginButton_OnClicked(object sender, EventArgs e)
         {
-            var isEmailEmpty = string.IsNullOrWhiteSpace(emailEntry.Text);
+            var isMobileEmpty = string.IsNullOrWhiteSpace(mobileEntry.Text);
             var isPasswordEmpty = string.IsNullOrWhiteSpace(passwordEntry.Text);
-            if (isEmailEmpty || isPasswordEmpty)
+            if (isMobileEmpty || isPasswordEmpty)
             {
 
             }
@@ -55,7 +58,7 @@ namespace ShoppingApp
                 //    {
                 //        savedUserInfo = new SavedUser();                        
                 //    }
-                //    savedUserInfo.UserName = emailEntry.Text;
+                //    savedUserInfo.UserName = mobileEntry.Text;
                 //    savedUserInfo.Password = passwordEntry.Text;
                 //    var rows = conn.Insert(savedUserInfo);
                 //}
@@ -66,9 +69,9 @@ namespace ShoppingApp
 
         private void SignupButton_OnClicked(object sender, EventArgs e)
         {
-            var isEmailEmpty = string.IsNullOrWhiteSpace(emailEntry.Text);
+            var isMobileEmpty = string.IsNullOrWhiteSpace(mobileEntry.Text);
             var isPasswordEmpty = string.IsNullOrWhiteSpace(passwordEntry.Text);
-            if (isEmailEmpty || isPasswordEmpty)
+            if (isMobileEmpty || isPasswordEmpty)
             {
 
             }

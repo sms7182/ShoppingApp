@@ -22,8 +22,13 @@ namespace ShoppingApp
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            var stores = new List<StoreViewModel>() { new StoreViewModel { Name = "Store01", Address = "Street 01,block02" },
-                new StoreViewModel{ Name = "Store02", Address = "Street 015,block0552" } };
+            var stores = new List<StoreViewModel>() {
+                new StoreViewModel{ Name = "سوپرمارکت ماد", Address = "تهران-میدان توحید-خیابان اردشیر-پلاک 77" },
+                new StoreViewModel{ Name = "مرکز خرید بزرگ", Address = "تهران-پیروزان-کوچه علیمردانی-نبش آگاهی-پلاک 33" },
+                new StoreViewModel { Name = "فروشگاه کوروش", Address = "تهران-خیابان ولیعصر- پلاک 45" },
+                new StoreViewModel{ Name = "فروشگاه رفاه", Address = "تهران-تجریش-میدان قدس-پلاک 11" } ,
+                new StoreViewModel{ Name = "فروشگاه شهروند", Address = "تهران-تجریش-پلاک 1" }
+            };
 
             storeListView.ItemsSource = stores;
         }

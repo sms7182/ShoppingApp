@@ -123,17 +123,44 @@
   <data name="Delete" xml:space="preserve">
     <value>supprime</value>
   </data>
+  <data name="Favourite" xml:space="preserve">
+    <value>Favourite</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>Histoire de mes achats</value>
+  </data>
   <data name="Item" xml:space="preserve">
     <value>des biens</value>
   </data>
+  <data name="Login" xml:space="preserve">
+    <value>s'identifier</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>mobile</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>mot de passe</value>
+  </data>
+  <data name="PreInvoice" xml:space="preserve">
+    <value>facture d'achat</value>
+  </data>
   <data name="Price" xml:space="preserve">
     <value>montant</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>profil</value>
   </data>
   <data name="Quantity" xml:space="preserve">
     <value>quantité</value>
   </data>
   <data name="Select" xml:space="preserve">
     <value>sélectionner</value>
+  </data>
+  <data name="Signup" xml:space="preserve">
+    <value>Signup</value>
+  </data>
+  <data name="Stores" xml:space="preserve">
+    <value>Stores</value>
   </data>
   <data name="Unit" xml:space="preserve">
     <value>Unité</value>

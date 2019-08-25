@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ShoppingApp
+namespace ShoppingApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FavouritePage : ContentPage
+    public partial class HistoryPage : ContentPage
     {
-        public FavouritePage()
+        public HistoryPage()
         {
             InitializeComponent();
         }
