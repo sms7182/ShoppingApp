@@ -12,15 +12,16 @@
         <vm:InvoiceViewModel/>
     </ContentPage.BindingContext>
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20">
-         <StackLayout Padding="10">
+         <StackLayout Padding="10" >
             <Button Text="{translators:Translate AddItem}" Clicked="btn_clicked"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
-            <devGrid:GridControl x:Name="devgrid" AllowDeleteRows="True"  RowEditMode="Inplace" EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick" SwipeButtonShowing="OnSwipeButtonShowing" ItemsSource="{Binding InvoiceItems}" 
+            <devGrid:GridControl x:Name="devgrid" AllowDeleteRows="True"   RowEditMode="Inplace" EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick" SwipeButtonShowing="OnSwipeButtonShowing" ItemsSource="{Binding InvoiceItems}" 
                                  CustomizeCell="OnCustomizeCell">
-                 <devGrid:GridControl.LeftSwipeButtons>
+                
+                <devGrid:GridControl.LeftSwipeButtons>
                      <devGrid:SwipeButtonInfo ButtonName="LeftBtn"  Caption="{translators:Translate Delete}" BackgroundColor="Red" Width="150"></devGrid:SwipeButtonInfo>
                  </devGrid:GridControl.LeftSwipeButtons>
                  <devGrid:GridControl.Columns >
-                     <devGrid:TextColumn IsReadOnly="True" AllowSort="True"  FieldName="ItemName" Caption="{translators:Translate Item}" Width="150"></devGrid:TextColumn>
+                     <devGrid:TextColumn IsReadOnly="True" AllowSort="True"   FieldName="ItemName" Caption="{translators:Translate Item}" Width="150"></devGrid:TextColumn>
                      <devGrid:NumberColumn FieldName="Quantity"  Caption="{translators:Translate Quantity}" ></devGrid:NumberColumn>
                      <devGrid:TextColumn IsReadOnly="True" FieldName="Unit" Caption="{translators:Translate Unit}"></devGrid:TextColumn>
                      <devGrid:NumberColumn IsReadOnly="True" FieldName="UnitPrice" Caption="{translators:Translate UnitPrice}" DisplayFormat="C00" ></devGrid:NumberColumn>
@@ -33,7 +34,8 @@
                 <devGrid:GridControl.TotalSummaries>
                     <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum"   DisplayFormat="Total:{0:C00}" ></devGrid:GridColumnSummary>
                 </devGrid:GridControl.TotalSummaries>
-</devGrid:GridControl>
+             </devGrid:GridControl>
+            <Button Text="{translators:Translate InvoicePayment}" Clicked="Invoice_PaymentClicked" BackgroundColor="DodgerBlue" TextColor="White"></Button>
              
         </StackLayout>
     </ContentView>

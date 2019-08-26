@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,7 +14,11 @@ namespace ShoppingBusinessObject
         public Invoice()
         {
             InvoiceItems=new List<InvoiceItem>();
+            Id=Guid.NewGuid();
+            
         }
+
+        public Guid Id { get; set; }
         public UserInfo User { get; set; }
         public Store Store { get; set; }
         public string Code { get; set; }
@@ -24,6 +29,7 @@ namespace ShoppingBusinessObject
         public decimal DecPrice { get; set; }
         public DateTime CreationDate { get; set; }
 
+        
         public List<InvoiceItem> InvoiceItems { get; set; }
     }
 }
