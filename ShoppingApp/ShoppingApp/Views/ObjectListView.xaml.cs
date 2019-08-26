@@ -18,20 +18,14 @@ namespace ShoppingApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ObjectListView : ContentPage
     {
-        
-
+        private int paymentsetting = 2;
+        private InvoiceViewModel invoiceViewModel;
         public ObjectListView()
         {
             InitializeComponent();
-            //for (int row = 0; row < 10; row++)
-            //{
-            //    var button = new Button() {Text = string.Format("{0}", "Remove")};
-            //    button.Clicked += OnClicked;
-            //    ;
-            //    Grid.SetRow(button,row);
-            //    this.dataGrid.Children.Add(button);
-            //}
+           invoiceViewModel=new InvoiceViewModel();
 
+           
         }
 
         private void OnClicked(object sender, EventArgs e)
@@ -176,6 +170,24 @@ namespace ShoppingApp.Views
                 }
 
             }
+        }
+
+        private async void Invoice_PaymentClicked(object sender, EventArgs e)
+        {
+            if (paymentsetting == 1)
+            {
+                //{
+            //    var paymentPage = new PaymentPage();
+            //    paymentPage.BindingContext = ((InvoiceViewModel)this.BindingContext);
+            //    await  Navigation.PushAsync(paymentPage);
+            var paymentPage = new PaymentPage();
+            await Navigation.PushAsync(paymentPage);
+            }
+            else
+            {
+               await Navigation.PushAsync(new PaymentQRCodePage((BindingList<InvoiceItem>)this.devgrid.ItemsSource));
+            }
+
         }
     }
 }

@@ -10,6 +10,13 @@ namespace ShoppingBusinessObject
 {
     public class InvoiceItem:ModelObject
     {
+        public InvoiceItem()
+        {
+            Id=Guid.NewGuid();
+            
+        }
+        public Guid Id { get; set; }
+
         private bool select;
         public bool Select
         {
@@ -23,6 +30,8 @@ namespace ShoppingBusinessObject
                 }
             }
         }
+        
+
         private string itemName;
         public string ItemName
         {

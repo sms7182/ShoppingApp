@@ -126,6 +126,9 @@
   <data name="History" xml:space="preserve">
     <value>Histoire de mes achats</value>
   </data>
+  <data name="InvoicePayment" xml:space="preserve">
+    <value>پرداخت</value>
+  </data>
   <data name="Item" xml:space="preserve">
     <value>des biens</value>
   </data>

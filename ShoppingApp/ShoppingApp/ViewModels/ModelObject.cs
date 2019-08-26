@@ -11,6 +11,7 @@ namespace ShoppingApp.ViewModels
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
+        
         protected void RaisePropertyChanged(string name)
         {
             if (PropertyChanged != null)
