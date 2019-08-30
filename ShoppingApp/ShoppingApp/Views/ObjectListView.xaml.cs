@@ -24,8 +24,9 @@ namespace ShoppingApp.Views
         {
             InitializeComponent();
            invoiceViewModel=new InvoiceViewModel();
+            
+           BindingContext = invoiceViewModel;
 
-           
         }
 
         private void OnClicked(object sender, EventArgs e)

@@ -8,13 +8,12 @@
              x:Name="ContentPage"
              Title="DataGrid Test">
 
-    <ContentPage.BindingContext>
-        <vm:InvoiceViewModel/>
-    </ContentPage.BindingContext>
+  
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20">
          <StackLayout Padding="10" >
-            <Button Text="{translators:Translate AddItem}" Clicked="btn_clicked"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
-            <devGrid:GridControl x:Name="devgrid" AllowDeleteRows="True"   RowEditMode="Inplace" EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick" SwipeButtonShowing="OnSwipeButtonShowing" ItemsSource="{Binding InvoiceItems}" 
+            <Button Text="{translators:Translate AddItem}"  Command="{Binding BarcodeScanCommand}"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
+            <devGrid:GridControl x:Name="devgrid"  AllowDeleteRows="True"    EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick"
+                                 SwipeButtonShowing="OnSwipeButtonShowing"  IsPullToRefreshEnabled="True"  ItemsSource="{Binding InvoiceItems ,Mode=TwoWay }" IsEnabled="True"  
                                  CustomizeCell="OnCustomizeCell">
                 
                 <devGrid:GridControl.LeftSwipeButtons>
