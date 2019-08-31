@@ -10,6 +10,7 @@ using System.Windows.Input;
 using DevExpress.Mobile.DataGrid;
 using ShoppingApp.Annotations;
 using ShoppingApp.ViewModels.Commands;
+using ShoppingApp.Views;
 using ShoppingBusinessObject;
 using Xamarin.Forms;
 using ZXing;
@@ -24,6 +25,8 @@ namespace ShoppingApp.ViewModels
         private readonly BindingList<InvoiceItem> invoiceItems;
         #endregion
         public BarcodeCommand BarcodeScanCommand { get; set; }
+        public QRCodePaymentCommand QrCodePaymentCommand { get; set; }
+        
         public BindingList<InvoiceItem> InvoiceItems
         {
             get { return invoiceItems; }
@@ -35,6 +38,7 @@ namespace ShoppingApp.ViewModels
         public InvoiceViewModel()
         {
             BarcodeScanCommand = new BarcodeCommand(this);
+            QrCodePaymentCommand=new QRCodePaymentCommand(this);
             invoiceItems=new BindingList<InvoiceItem>();
             InvoiceItems.AllowNew = true;
             
@@ -96,6 +100,12 @@ namespace ShoppingApp.ViewModels
                 
                 
             }
+        }
+
+        public async void NavigateToQRCodePage()
+        {
+            var paymentQrCodePage = new PaymentQRCodePage(this);
+           await App.Current.MainPage.Navigation.PushAsync(paymentQrCodePage);
         }
     }
 }
