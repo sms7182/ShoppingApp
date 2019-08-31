@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ShoppingApp.ViewModels;
 using ShoppingBusinessObject;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -14,17 +15,25 @@ namespace ShoppingApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PaymentQRCodePage : ContentPage
-    {
-    
-        public PaymentQRCodePage(BindingList<InvoiceItem> invoiceItems)
+    { 
+        
+
+        public PaymentQRCodePage(InvoiceViewModel invoiceViewModel)
         {
             InitializeComponent();
-
-            CreateQRCodeFromInvoice(invoiceItems);
+            BindingContext = invoiceViewModel;
+            CreateQRCodeFromInvoice();
         }
 
-        private void CreateQRCodeFromInvoice(BindingList<InvoiceItem> invoiceItems)
+        private void CreateQRCodeFromInvoice()
         {
+            if (this.BindingContext == null)
+            {
+                return;
+                
+            }
+            var invoiceViewModel = ((InvoiceViewModel) this.BindingContext);
+            var invoiceItems = invoiceViewModel.InvoiceItems;
             var invoice = new Invoice();
             invoice.InvoiceItems = invoiceItems.Cast<InvoiceItem>().ToList();
             invoice.Code = "1";

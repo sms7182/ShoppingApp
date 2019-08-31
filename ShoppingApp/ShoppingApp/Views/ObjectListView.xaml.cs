@@ -186,7 +186,7 @@ namespace ShoppingApp.Views
             }
             else
             {
-               await Navigation.PushAsync(new PaymentQRCodePage((BindingList<InvoiceItem>)this.devgrid.ItemsSource));
+              // await Navigation.PushAsync(new PaymentQRCodePage((BindingList<InvoiceItem>)this.devgrid.ItemsSource));
             }
 
         }

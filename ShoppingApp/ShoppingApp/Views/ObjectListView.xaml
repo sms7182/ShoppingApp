@@ -34,7 +34,7 @@
                     <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum"   DisplayFormat="Total:{0:C00}" ></devGrid:GridColumnSummary>
                 </devGrid:GridControl.TotalSummaries>
              </devGrid:GridControl>
-            <Button Text="{translators:Translate InvoicePayment}" Clicked="Invoice_PaymentClicked" BackgroundColor="DodgerBlue" TextColor="White"></Button>
+            <Button Text="{translators:Translate InvoicePayment}" Command="{Binding QrCodePaymentCommand}" BackgroundColor="DodgerBlue" TextColor="White"></Button>
              
         </StackLayout>
     </ContentView>

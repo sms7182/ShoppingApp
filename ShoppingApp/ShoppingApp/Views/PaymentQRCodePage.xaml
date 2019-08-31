@@ -6,7 +6,7 @@
              x:Class="ShoppingApp.Views.PaymentQRCodePage">
     <ContentPage.Content>
         <StackLayout>
-            <forms:ZXingBarcodeImageView x:Name="QRCodeView" IsVisible="True" BarcodeFormat="QR_CODE" HeightRequest="300" WidthRequest="300"  >
+            <forms:ZXingBarcodeImageView x:Name="QRCodeView" IsVisible="True"  BarcodeFormat="QR_CODE" HeightRequest="300" WidthRequest="300"  >
                 <forms:ZXingBarcodeImageView.BarcodeOptions>
                     <common:EncodingOptions Width="300" Height="300" />
                 </forms:ZXingBarcodeImageView.BarcodeOptions>
