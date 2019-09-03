@@ -10,15 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace ShoppingApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HomePage : TabbedPage
+    public partial class ViewStorePage : ContentPage
     {
-        public HomePage()
+        public ViewStorePage()
         {
             InitializeComponent();
-            NavigationPage.SetHasBackButton(this, false);
-
         }
-
-
     }
 }

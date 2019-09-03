@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ShoppingApp.StorePage">
+             x:Class="ShoppingApp.Views.StorePage">
     <ListView x:Name="storeListView" HorizontalOptions="FillAndExpand" Margin="20,0" ItemSelected="StoreListView_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
@@ -9,7 +9,7 @@
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
-                            <!--<ColumnDefinition Width="Auto"/>-->
+                            <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
@@ -18,7 +18,7 @@
 
                         <Label Text="{Binding Name}" FontAttributes="Bold"/>
                         <Label Grid.Row="1" TextColor="DodgerBlue" Text="{Binding Address}"/>
-                        <!--<Button Grid.Column="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Text="Select"/>-->
+                        <ImageButton x:Name="viewButton" Grid.RowSpan="2" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center"  Source="edit.png" BackgroundColor="Gray" Clicked="ViewButton_Clicked"/>
 
                     </Grid>
                 </ViewCell>

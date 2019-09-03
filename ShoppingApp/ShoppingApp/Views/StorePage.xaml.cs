@@ -9,7 +9,7 @@ using Xamarin.Forms.Xaml;
 using ShoppingApp.ViewModels;
 using ShoppingApp.Views;
 
-namespace ShoppingApp
+namespace ShoppingApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StorePage : ContentPage
@@ -38,6 +38,11 @@ namespace ShoppingApp
             Xamarin.Forms.DataGrid.DataGridComponent.Init();
 
             Navigation.PushAsync(new ObjectListView());
+        }
+
+        private void ViewButton_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new ViewStorePage());
         }
     }
 }

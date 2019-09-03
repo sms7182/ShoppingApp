@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using System.Globalization;
 using System.Threading;
+using SQLite;
+using ShoppingApp.Views;
 
 namespace ShoppingApp
 {
@@ -20,25 +22,25 @@ namespace ShoppingApp
         {
             InitializeComponent();
             Thread.CurrentThread.CurrentCulture = new CultureInfo("fa-Ir");
+            NavigationPage.SetHasBackButton(this, false);
             var assembly = typeof(LoginPage);
-            
             //iconImage.Source = ImageSource.FromResource("ShoppingApp.Assets.Image.interface.png", assembly);
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            //using (var conn = new SQLiteConnection(App.DatabaseLocation))
-            //{
-            //    conn.CreateTable<SavedUser>();
-            //    var savedUserInfo = conn.Table<SavedUser>().FirstOrDefault();
-            //    if (savedUserInfo!=null)
-            //    {
-            //        emailEntry.Text = savedUserInfo.UserName;
-            //        passwordEntry.Text = savedUserInfo.Password;
-            //        LoginButton_OnClicked(this, new EventArgs());
-            //    }
-            //}
+            using (var conn = new SQLiteConnection(App.DatabaseLocation))
+            {
+                conn.CreateTable<SavedUser>();
+                var savedUserInfo = conn.Table<SavedUser>().FirstOrDefault();
+                if (savedUserInfo != null)
+                {
+                    mobileEntry.Text = savedUserInfo.UserName;
+                    passwordEntry.Text = savedUserInfo.Password;
+                    LoginButton_OnClicked(this, new EventArgs());
+                }
+            }
         }
 
         private void LoginButton_OnClicked(object sender, EventArgs e)
@@ -51,18 +53,18 @@ namespace ShoppingApp
             }
             else
             {
-                //using (var conn = new SQLiteConnection(App.DatabaseLocation))
-                //{
-                //    conn.CreateTable<SavedUser>();
-                //    var savedUserInfo = conn.Table<SavedUser>().FirstOrDefault();
-                //    if (savedUserInfo == null)
-                //    {
-                //        savedUserInfo = new SavedUser();                        
-                //    }
-                //    savedUserInfo.UserName = mobileEntry.Text;
-                //    savedUserInfo.Password = passwordEntry.Text;
-                //    var rows = conn.Insert(savedUserInfo);
-                //}
+                using (var conn = new SQLiteConnection(App.DatabaseLocation))
+                {
+                    conn.CreateTable<SavedUser>();
+                    var savedUserInfo = conn.Table<SavedUser>().FirstOrDefault();
+                    if (savedUserInfo == null)
+                    {
+                        savedUserInfo = new SavedUser();
+                    }
+                    savedUserInfo.UserName = mobileEntry.Text;
+                    savedUserInfo.Password = passwordEntry.Text;
+                    var rows = conn.Insert(savedUserInfo);
+                }
 
                 Navigation.PushAsync(new HomePage());
             }
@@ -78,7 +80,7 @@ namespace ShoppingApp
             }
             else
             {
-                Navigation.PushAsync(new HomePage());
+                Navigation.PushAsync(new RegistrationPage());
             }
 
         }

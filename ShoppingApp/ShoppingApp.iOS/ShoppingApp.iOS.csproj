@@ -64,6 +64,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ISQLiteDbInterface_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
@@ -130,6 +131,9 @@
     <PackageReference Include="Plugin.Multilingual">
       <Version>1.0.2</Version>
     </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.5.231</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
     <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
     <PackageReference Include="Xamarin.Forms.DataGrid">
@@ -175,5 +179,32 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\favorite%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\delete%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\delete%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\edit%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\edit%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\list%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\list%403x.png" />
   </ItemGroup>
 </Project>
