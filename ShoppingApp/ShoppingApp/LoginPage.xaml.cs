@@ -21,6 +21,7 @@ namespace ShoppingApp
             InitializeComponent();
             Thread.CurrentThread.CurrentCulture = new CultureInfo("fa-Ir");
             var assembly = typeof(LoginPage);
+            
             //iconImage.Source = ImageSource.FromResource("ShoppingApp.Assets.Image.interface.png", assembly);
         }
 
