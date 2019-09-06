@@ -2,11 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingApp.Views.HistoryPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="My history!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <ListView x:Name="invoiceListView" HorizontalOptions="FillAndExpand" Margin="20,0" ItemSelected="InvoiceListView_ItemSelected">
+        <ListView.Header>
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="3*"/>
+
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                
+                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="2" HorizontalTextAlignment="Center" Text="تاریخ" />
+                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="1" HorizontalTextAlignment="Center" Text="فروشگاه"/>
+                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="0" HorizontalTextAlignment="Center" Text="مبلغ"/>
+
+            </Grid>
+        </ListView.Header>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="3*"/>
+                            <ColumnDefinition Width="3*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Column="2" BackgroundColor="LightBlue"  HorizontalTextAlignment="Center" Text="{Binding CreationDate}" />
+                        <Label Grid.Column="1" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="{Binding Store.Name}"/>
+                        <Label Grid.Column="0" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" TextColor="DodgerBlue" Text="{Binding TotalPrice}"/>
+                       
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>

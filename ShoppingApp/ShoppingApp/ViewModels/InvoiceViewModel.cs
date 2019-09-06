@@ -22,6 +22,16 @@ namespace ShoppingApp.ViewModels
     {
         #region fields
 
+        public UserInfoViewModel User { get; set; }
+        public StoreViewModel Store { get; set; }
+        public string Code { get; set; }
+        public Status Status { get; set; }
+        public decimal TotalPrice { get; set; }
+        public decimal NetPrice { get; set; }
+        public decimal IncPrice { get; set; }
+        public decimal DecPrice { get; set; }
+        public DateTime CreationDate { get; set; }
+
         private readonly BindingList<InvoiceItem> invoiceItems;
         #endregion
         public BarcodeCommand BarcodeScanCommand { get; set; }
