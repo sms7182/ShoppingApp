@@ -41,26 +41,10 @@ namespace ShoppingApp
             {                
                 mobileEntry.Text = savedUserInfo.UserName;
                 passwordEntry.Text = savedUserInfo.Password;
-                //viewModel.Login();
+                viewModel.Login();
             }
 
         }
-
-
-
-        private void SignupButton_OnClicked(object sender, EventArgs e)
-        {
-            var isMobileEmpty = string.IsNullOrWhiteSpace(mobileEntry.Text);
-            var isPasswordEmpty = string.IsNullOrWhiteSpace(passwordEntry.Text);
-            if (isMobileEmpty || isPasswordEmpty)
-            {
-
-            }
-            else
-            {
-                Navigation.PushAsync(new RegistrationPage());
-            }
-
-        }
+        
     }
 }

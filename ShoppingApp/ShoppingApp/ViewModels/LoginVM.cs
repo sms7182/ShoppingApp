@@ -10,7 +10,7 @@ using System.Text;
 
 namespace ShoppingApp.ViewModels
 {
-    public class LoginVM : INotifyPropertyChanged
+    public class LoginVM : INotifyPropertyChanged, INavigatedPage
     {
         public NavigationCommand NavCommand { get; set; }
         private UserInfo user;
@@ -63,7 +63,7 @@ namespace ShoppingApp.ViewModels
        
         public void Navigate()
         {
-            App.Current.MainPage.Navigation.PushAsync(new HomePage());
+            App.Current.MainPage.Navigation.PushAsync(new RegistrationPage());
         }
 
         public async void Login()

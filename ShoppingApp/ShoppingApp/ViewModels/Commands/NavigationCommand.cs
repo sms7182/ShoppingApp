@@ -7,12 +7,12 @@ namespace ShoppingApp.ViewModels.Commands
 {
     public class NavigationCommand : ICommand
     {
-        public LoginVM LoginViewModel { get; set; }
+        public INavigatedPage ViewModel { get; set; }
         public event EventHandler CanExecuteChanged;
 
-        public NavigationCommand(LoginVM loginVM)
+        public NavigationCommand(INavigatedPage vM)
         {
-            LoginViewModel = loginVM;
+            ViewModel = vM;
         }
         public bool CanExecute(object parameter)
         {
@@ -21,7 +21,7 @@ namespace ShoppingApp.ViewModels.Commands
 
         public void Execute(object parameter)
         {
-            LoginViewModel.Navigate();
+            ViewModel.Navigate();
         }
     }
 }

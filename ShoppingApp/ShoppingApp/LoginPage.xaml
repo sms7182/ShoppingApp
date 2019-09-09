@@ -13,7 +13,7 @@
         <Entry x:Name="passwordEntry" Placeholder="{translators:Translate Password}" Text="{Binding Password, Mode=TwoWay}" TextColor="{StaticResource blueColor}" IsPassword="True"></Entry>
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Margin="0,50,0,0">
             <Button x:Name="loginButton" Text="{translators:Translate Login}" HorizontalOptions="FillAndExpand" Command="{Binding LoginCommand}" CommandParameter="{Binding User}" Style="{StaticResource normalButton}"></Button>
-            <Button x:Name="signupButton" Text="{translators:Translate Signup}" HorizontalOptions="FillAndExpand" Clicked="SignupButton_OnClicked" Style="{StaticResource simpleButton}"></Button>
+            <Button x:Name="signupButton" Text="{translators:Translate Signup}" HorizontalOptions="FillAndExpand" Command="{Binding NavCommand}" Style="{StaticResource simpleButton}"></Button>
         </StackLayout>
    
     </StackLayout>
