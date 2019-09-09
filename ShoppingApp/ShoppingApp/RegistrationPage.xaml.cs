@@ -1,5 +1,6 @@
 ﻿using ShoppingApp.Helpers;
 using ShoppingApp.ViewModels;
+using ShoppingBusinessObject;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +15,13 @@ namespace ShoppingApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegistrationPage : ContentPage
     {
-        UserInfoViewModel newUser = new UserInfoViewModel();
-        UserDB userDB = new UserDB();
-
+        UserInfo newUser;
+        
         public RegistrationPage()
         {
             InitializeComponent();
+            newUser = new UserInfo();
+            containerLayout.BindingContext = newUser;
             NavigationPage.SetHasBackButton(this, false);            
            passwordEntry.ReturnCommand = new Command(() => confirmpasswordEntry.Focus());
             confirmpasswordEntry.ReturnCommand = new Command(() => phoneEntry.Focus());
@@ -47,19 +49,17 @@ namespace ShoppingApp
             }
             else
             {                
-                newUser.Password = passwordEntry.Text;
-                newUser.PhoneNumber = phoneEntry.Text.ToString();
                 try
                 {
-                    var retrunvalue = userDB.AddUser(newUser);
-                    if (retrunvalue == "Sucessfully Added")
+                    var retrunvalue = UserDB.AddUser(newUser);
+                    if (retrunvalue)
                     {
-                        await DisplayAlert("User Add", retrunvalue, "OK");
+                        await DisplayAlert("کاربر جدید", "کاربر جدید با موفقیت اضافه شد.", "OK");
                         await Navigation.PushAsync(new LoginPage());
                     }
                     else
                     {
-                        await DisplayAlert("User Add", retrunvalue, "OK");
+                        await DisplayAlert("کاربر جدید", "خطا در هنگام ثبت کاربر جدید رخ داد.", "OK");
                         warningLabel.IsVisible = false;                                              
                         passwordEntry.Text = string.Empty;
                         confirmpasswordEntry.Text = string.Empty;
@@ -68,6 +68,7 @@ namespace ShoppingApp
                 }
                 catch (Exception ex)
                 {
+                    await DisplayAlert("کاربر جدید", ex.Message, "OK");
                     //Debug.WriteLine(ex);
                 }
             }

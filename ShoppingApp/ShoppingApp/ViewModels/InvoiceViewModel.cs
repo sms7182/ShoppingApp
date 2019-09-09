@@ -22,8 +22,8 @@ namespace ShoppingApp.ViewModels
     {
         #region fields
 
-        public UserInfoViewModel User { get; set; }
-        public StoreViewModel Store { get; set; }
+        public UserInfo User { get; set; }
+        public Store Store { get; set; }
         public string Code { get; set; }
         public Status Status { get; set; }
         public decimal TotalPrice { get; set; }
