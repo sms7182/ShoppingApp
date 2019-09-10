@@ -13,6 +13,7 @@ namespace ShoppingApp.ViewModels
     public class LoginVM : INotifyPropertyChanged, INavigatedPage
     {
         public NavigationCommand NavCommand { get; set; }
+        public LoginCommand LoginCommand { get; set; }
         private UserInfo user;
         private string phoneNumber;
         private string password;
@@ -27,8 +28,7 @@ namespace ShoppingApp.ViewModels
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-
-        public LoginCommand LoginCommand { get; set; }
+        
         public string PhoneNumber
         {
             get => phoneNumber; set
@@ -75,7 +75,7 @@ namespace ShoppingApp.ViewModels
             }
             else
             {
-                await App.Current.MainPage.DisplayAlert("خطا","دوباره تلاش کنید","قبول");
+                await App.Current.MainPage.DisplayAlert("خطا","دوباره تلاش کنید","باشه");
             }
         }
 

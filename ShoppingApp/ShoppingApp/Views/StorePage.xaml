@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ShoppingApp.Views.StorePage">
-    <ListView x:Name="storeListView" HorizontalOptions="FillAndExpand" Margin="20,0" ItemSelected="StoreListView_ItemSelected">
+             x:Class="ShoppingApp.Views.StorePage"
+             x:Name="storePage">
+    <ListView x:Name="storeListView" ItemsSource="{Binding Stores}" HorizontalOptions="FillAndExpand" Margin="20,0" SelectedItem="{Binding SelectedStore, Mode=TwoWay}">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -18,7 +19,7 @@
 
                         <Label Text="{Binding Name}" FontAttributes="Bold"/>
                         <Label Grid.Row="1" TextColor="DodgerBlue" Text="{Binding Address}"/>
-                        <ImageButton x:Name="viewButton" Grid.RowSpan="2" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center"  Source="edit.png" BackgroundColor="Gray" Clicked="ViewButton_Clicked"/>
+                        <ImageButton x:Name="viewButton" Grid.RowSpan="2" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center"  Source="edit.png" BackgroundColor="Gray" Command="{Binding Source={x:Reference storePage}, Path=BindingContext.StoreViewCommand}" CommandParameter="{Binding Id}"/>
 
                     </Grid>
                 </ViewCell>
