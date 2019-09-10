@@ -52,7 +52,9 @@ namespace ShoppingApp.ViewModels
         public void CreateInvoice(Store selectedStore)
         {
             Xamarin.Forms.DataGrid.DataGridComponent.Init();
-            App.Current.MainPage.Navigation.PushAsync(new ObjectListView());
+            var newInvoiceVM = new InvoiceViewModel() { Store = selectedStore };
+            var createPage = new ObjectListView(newInvoiceVM);
+            App.Current.MainPage.Navigation.PushAsync(createPage);
         }
     }
 }

@@ -41,7 +41,7 @@ namespace ShoppingApp
             {                
                 mobileEntry.Text = savedUserInfo.UserName;
                 passwordEntry.Text = savedUserInfo.Password;
-                viewModel.Login();
+               // viewModel.Login();
             }
 
         }

@@ -27,9 +27,9 @@ namespace ShoppingApp.Views
 
         private void FavoriteListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            Xamarin.Forms.DataGrid.DataGridComponent.Init();
+            //Xamarin.Forms.DataGrid.DataGridComponent.Init();
 
-            Navigation.PushAsync(new ObjectListView());
+            //Navigation.PushAsync(new ObjectListView());
         }
       
         private void DeleteButton_Clicked(object sender, System.EventArgs e)

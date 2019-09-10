@@ -20,11 +20,10 @@ namespace ShoppingApp.Views
     {
         private int paymentsetting = 2;
         private InvoiceViewModel invoiceViewModel;
-        public ObjectListView()
+        public ObjectListView(InvoiceViewModel viewModel)
         {
             InitializeComponent();
-           invoiceViewModel=new InvoiceViewModel();
-            
+            invoiceViewModel = viewModel;
            BindingContext = invoiceViewModel;
 
         }

@@ -15,16 +15,20 @@ namespace ShoppingApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class RegistrationPage : ContentPage
     {
+        RegisterVM viewModel;
         UserInfo newUser;
         
         public RegistrationPage()
         {
             InitializeComponent();
-            newUser = new UserInfo();
-            containerLayout.BindingContext = newUser;
+            viewModel = new RegisterVM();
+            BindingContext = viewModel;
+
+            //newUser = new UserInfo();
+            //containerLayout.BindingContext = newUser;
             NavigationPage.SetHasBackButton(this, false);            
-           passwordEntry.ReturnCommand = new Command(() => confirmpasswordEntry.Focus());
-            confirmpasswordEntry.ReturnCommand = new Command(() => phoneEntry.Focus());
+           //passwordEntry.ReturnCommand = new Command(() => confirmpasswordEntry.Focus());
+           // confirmpasswordEntry.ReturnCommand = new Command(() => phoneEntry.Focus());
         }
         private async void SignupValidation_ButtonClicked(object sender, EventArgs e)
         {

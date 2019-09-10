@@ -6,7 +6,7 @@
              x:Class="ShoppingApp.Views.ObjectListView"
              xmlns:translators="clr-namespace:ShoppingApp.Helpers;assembly=ShoppingApp"
              x:Name="ContentPage"
-             Title="DataGrid Test">
+             Title="{Binding Store.Name}">
 
   
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20">
