@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ShoppingApp.ViewModels
 {
-    public class RegisterVM : INotifyPropertyChanged
+    public class RegisterVM : INotifyPropertyChanged,INavigatedPage
     {
         private string phoneNumber;
         private string password;
@@ -17,6 +17,7 @@ namespace ShoppingApp.ViewModels
 
         public event PropertyChangedEventHandler PropertyChanged;
         public RegistrationCommand RegistrationCommand { get; set; }
+        public NavigationCommand NavigationCommand { get; set; }
 
         public UserInfo User
         {
@@ -47,6 +48,7 @@ namespace ShoppingApp.ViewModels
             get => confirmPassword; set
             {
                 confirmPassword = value;
+                User = new UserInfo { PhoneNumber = this.PhoneNumber, Password = this.Password };
                 OnPropertyChanged("ConfirmPassword");
             }
         }
@@ -54,7 +56,9 @@ namespace ShoppingApp.ViewModels
         public RegisterVM()
         {
             RegistrationCommand = new RegistrationCommand(this);
+            NavigationCommand = new NavigationCommand(this);
         }
+
         private void OnPropertyChanged(string propertyName)
         {
             if (PropertyChanged != null)
@@ -63,9 +67,32 @@ namespace ShoppingApp.ViewModels
             }
         }
 
-        public void Register(UserInfo newUser)
+        public async void Register(UserInfo newUser)
         {
-            var retrunvalue = UserDB.AddUser(newUser);
+            
+            try
+            {
+                var retrunvalue = UserDB.AddUser(newUser);
+                if (retrunvalue)
+                {
+                    await App.Current.MainPage.DisplayAlert("کاربر جدید", "کاربر جدید با موفقیت اضافه شد.", "OK");
+                    await App.Current.MainPage.Navigation.PushAsync(new LoginPage());
+                }
+                else
+                {
+                    await App.Current.MainPage.DisplayAlert("کاربر جدید", "خطا در هنگام ثبت کاربر جدید رخ داد.", "OK");                    
+                }
+            }
+            catch (Exception ex)
+            {
+                await App.Current.MainPage.DisplayAlert("کاربر جدید", ex.Message, "OK");
+                //Debug.WriteLine(ex);
+            }
+        }
+
+        public void Navigate()
+        {
+            App.Current.MainPage.Navigation.PushAsync(new LoginPage());
         }
     }
 }

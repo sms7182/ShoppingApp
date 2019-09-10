@@ -22,12 +22,28 @@ namespace ShoppingApp.ViewModels.Commands
                 return false;
             }
 
+           // return true;
+
+
+            if ((string.IsNullOrWhiteSpace(ViewModel.PhoneNumber)) || (string.IsNullOrWhiteSpace(ViewModel.Password)))
+            {
+                return false;
+            }
+            else if (!string.Equals(ViewModel.Password, ViewModel.ConfirmPassword))
+            {
+                return false;
+            }
+            else if (ViewModel.PhoneNumber.Length < 11)
+            {
+                return false;
+            }
+
             return true;
         }
 
         public void Execute(object parameter)
         {
-            //   viewModel.Register()
+            ViewModel.Register(ViewModel.User);
         }
     }
 }
