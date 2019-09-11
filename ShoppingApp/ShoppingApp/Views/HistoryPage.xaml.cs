@@ -1,5 +1,6 @@
 ﻿using ShoppingApp.Helpers;
-
+using ShoppingApp.ViewModels;
+using ShoppingBusinessObject;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -8,22 +9,13 @@ namespace ShoppingApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HistoryPage : ContentPage
     {
+        HistoryVM viewModel;
         public HistoryPage()
         {
             InitializeComponent();
+            viewModel = new HistoryVM();
+            BindingContext = viewModel;
         }
-
-        protected override async void OnAppearing()
-        {
-            base.OnAppearing();
-
-            var invoices = await InvoiceDB.Read();
-            invoiceListView.ItemsSource = invoices;
-        }
-
-        private void InvoiceListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            Navigation.PushAsync(new ViewInvoicePage());
-        }
+           
     }
 }

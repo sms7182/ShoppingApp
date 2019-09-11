@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingApp.Views.HistoryPage">
-    <ListView x:Name="invoiceListView" HorizontalOptions="FillAndExpand" Margin="20,0" ItemSelected="InvoiceListView_ItemSelected">
+    <ListView x:Name="invoiceListView" FlowDirection="RightToLeft" ItemsSource="{Binding Invoices}" HorizontalOptions="FillAndExpand" Margin="20,0" SelectedItem="{Binding SelectedInvoice, Mode=TwoWay}">
         <ListView.Header>
             <Grid >
                 <Grid.ColumnDefinitions>
@@ -15,9 +15,9 @@
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
                 
-                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="2" HorizontalTextAlignment="Center" Text="تاریخ" />
-                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="1" HorizontalTextAlignment="Center" Text="فروشگاه"/>
-                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="0" HorizontalTextAlignment="Center" Text="مبلغ"/>
+                <Label Grid.Row="0" BackgroundColor="LightBlue" Grid.Column="0" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="تاریخ" />
+                <Label Grid.Row="0" BackgroundColor="LightBlue" Grid.Column="1" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="فروشگاه"/>
+                <Label Grid.Row="0" BackgroundColor="LightBlue" Grid.Column="2" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="مبلغ"/>
 
             </Grid>
         </ListView.Header>
@@ -35,9 +35,9 @@
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
 
-                        <Label Grid.Column="2" BackgroundColor="LightBlue"  HorizontalTextAlignment="Center" Text="{Binding CreationDate}" />
-                        <Label Grid.Column="1" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="{Binding Store.Name}"/>
-                        <Label Grid.Column="0" BackgroundColor="LightBlue" HorizontalTextAlignment="Center" TextColor="DodgerBlue" Text="{Binding TotalPrice}"/>
+                        <Label Grid.Column="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="{Binding CreationDate}" />
+                        <Label Grid.Column="1" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="{Binding Store.Name}"/>
+                        <Label Grid.Column="2" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" TextColor="DodgerBlue" Text="{Binding TotalPrice}"/>
                        
                     </Grid>
                 </ViewCell>

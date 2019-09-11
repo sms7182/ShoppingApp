@@ -3,20 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingApp.Views.ViewInvoicePage">
     <ContentPage.Content>
-        <StackLayout >
+        <StackLayout BindingContext="{Binding Invoice}">
             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label x:Name="creationDateLabel" Text="CreationDate"/>
+                <Label x:Name="creationDateLabel" Text="{Binding CreationDate}"/>
                 <Label Text="تاریخ : "/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label x:Name="storeLabel" Text="Store"/>
+                <Label x:Name="storeLabel" Text="{Binding Store.Name}"/>
                 <Label Text="فروشگاه : "/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label x:Name="totalLabel" Text="TotalPrice"/>
+                <Label x:Name="totalLabel" Text="{Binding TotalPrice}"/>
                 <Label Text="مبلغ : "/>
             </StackLayout>
-            <ListView x:Name="invoiceLineListView" HorizontalOptions="FillAndExpand" Margin="20,0" >
+            <ListView x:Name="invoiceLineListView" FlowDirection="RightToLeft" ItemsSource="{Binding InvoiceItems}" HorizontalOptions="FillAndExpand" Margin="20,0" >
                 <ListView.Header>
                     <Grid >
                         <Grid.ColumnDefinitions>
@@ -31,11 +31,11 @@
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
 
-                        <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="4" HorizontalTextAlignment="Center" Text="کالا"/>
-                        <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="3" HorizontalTextAlignment="Center" Text="تعداد"/>
-                        <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="2" HorizontalTextAlignment="Center" Text="فی"/>
-                        <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="1" HorizontalTextAlignment="Center" Text="تخفیف"/>
-                        <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="0" HorizontalTextAlignment="Center" Text="مبلغ"/>
+                        <Label Grid.Row="0" BackgroundColor="LightBlue" FlowDirection="RightToLeft" Grid.Column="0" HorizontalTextAlignment="Center" Text="کالا"/>
+                        <Label Grid.Row="0" BackgroundColor="LightBlue" FlowDirection="RightToLeft" Grid.Column="1" HorizontalTextAlignment="Center" Text="تعداد"/>
+                        <Label Grid.Row="0" BackgroundColor="LightBlue" FlowDirection="RightToLeft" Grid.Column="2" HorizontalTextAlignment="Center" Text="فی"/>
+                        <Label Grid.Row="0" BackgroundColor="LightBlue" FlowDirection="RightToLeft" Grid.Column="3" HorizontalTextAlignment="Center" Text="تخفیف"/>
+                        <Label Grid.Row="0" BackgroundColor="LightBlue" FlowDirection="RightToLeft" Grid.Column="4" HorizontalTextAlignment="Center" Text="مبلغ"/>
 
                     </Grid>
                 </ListView.Header>
@@ -55,11 +55,11 @@
                                     <RowDefinition Height="*"/>
                                 </Grid.RowDefinitions>
 
-                                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="4" HorizontalTextAlignment="Center" x:Name="lineItemLabel" Text="کالا"/>
-                                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="3" HorizontalTextAlignment="Center" x:Name="lineQuantityLabel" Text="تعداد"/>
-                                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="2" HorizontalTextAlignment="Center" x:Name="linePriceLabel" Text="فی"/>
-                                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="1" HorizontalTextAlignment="Center" x:Name="lineDecLabel" Text="تخفیف"/>
-                                <Label Grid.Row="0" BackgroundColor="LightGray" Grid.Column="0" HorizontalTextAlignment="Center" x:Name="lineTotalPriceLabel" Text="مبلغ"/>
+                                <Label Grid.Row="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" Grid.Column="0" HorizontalTextAlignment="Center" x:Name="lineItemLabel" Text="{Binding ItemName}"/>
+                                <Label Grid.Row="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" Grid.Column="1" HorizontalTextAlignment="Center" x:Name="lineQuantityLabel" Text="{Binding Quantity}"/>
+                                <Label Grid.Row="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" Grid.Column="2" HorizontalTextAlignment="Center" x:Name="linePriceLabel" Text="{Binding UnitPrice}"/>
+                                <Label Grid.Row="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" Grid.Column="3" HorizontalTextAlignment="Center" x:Name="lineDecLabel" Text="{Binding DecPrice}"/>
+                                <Label Grid.Row="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" Grid.Column="4" HorizontalTextAlignment="Center" x:Name="lineTotalPriceLabel" Text="{Binding TotalPrice}"/>
 
                             </Grid>
                         </ViewCell>
