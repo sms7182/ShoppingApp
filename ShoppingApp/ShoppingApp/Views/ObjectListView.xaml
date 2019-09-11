@@ -6,26 +6,26 @@
              x:Class="ShoppingApp.Views.ObjectListView"
              xmlns:translators="clr-namespace:ShoppingApp.Helpers;assembly=ShoppingApp"
              x:Name="ContentPage"
-             Title="{Binding Store.Name}">
+             Title="{Binding Store.Name}" FlowDirection="RightToLeft">
 
   
-    <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20">
-         <StackLayout Padding="10" >
+    <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20" FlowDirection="RightToLeft">
+         <StackLayout Padding="10">
             <Button Text="{translators:Translate AddItem}"  Command="{Binding BarcodeScanCommand}"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
-            <devGrid:GridControl x:Name="devgrid"  AllowDeleteRows="True"    EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick"
+            <devGrid:GridControl x:Name="devgrid" FlowDirection="RightToLeft" AllowDeleteRows="True"    EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick"
                                  SwipeButtonShowing="OnSwipeButtonShowing"  IsPullToRefreshEnabled="True"  ItemsSource="{Binding InvoiceItems ,Mode=TwoWay }" IsEnabled="True"  
-                                 CustomizeCell="OnCustomizeCell">
-                
+                                 CustomizeCell="OnCustomizeCell" BackgroundColor="LightBlue">
+
                 <devGrid:GridControl.LeftSwipeButtons>
-                     <devGrid:SwipeButtonInfo ButtonName="LeftBtn"  Caption="{translators:Translate Delete}" BackgroundColor="Red" Width="150"></devGrid:SwipeButtonInfo>
-                 </devGrid:GridControl.LeftSwipeButtons>
-                 <devGrid:GridControl.Columns >
-                     <devGrid:TextColumn IsReadOnly="True" AllowSort="True"   FieldName="ItemName" Caption="{translators:Translate Item}" Width="150"></devGrid:TextColumn>
-                     <devGrid:NumberColumn FieldName="Quantity"  Caption="{translators:Translate Quantity}" ></devGrid:NumberColumn>
-                     <devGrid:TextColumn IsReadOnly="True" FieldName="Unit" Caption="{translators:Translate Unit}"></devGrid:TextColumn>
-                     <devGrid:NumberColumn IsReadOnly="True" FieldName="UnitPrice" Caption="{translators:Translate UnitPrice}" DisplayFormat="C00" ></devGrid:NumberColumn>
-                     <devGrid:NumberColumn IsReadOnly="True" AllowSort="True" FieldName="TotalPrice" Caption="{translators:Translate Price}" DisplayFormat="C00" Width="200" ></devGrid:NumberColumn>
-                     <devGrid:SwitchColumn FieldName="Select" AllowAutoFilter="False"  Caption="{translators:Translate Select}" ></devGrid:SwitchColumn>
+                    <devGrid:SwipeButtonInfo ButtonName="LeftBtn"  Caption="{translators:Translate Delete}" BackgroundColor="Red" Width="150"></devGrid:SwipeButtonInfo>
+                </devGrid:GridControl.LeftSwipeButtons>
+                <devGrid:GridControl.Columns>
+                    <devGrid:SwitchColumn ContentAlignment="End" FieldName="Select" AllowAutoFilter="False"  Caption="{translators:Translate Select}" ></devGrid:SwitchColumn>
+                    <devGrid:NumberColumn ContentAlignment="Center" IsReadOnly="True" AllowSort="True" FieldName="TotalPrice" Caption="{translators:Translate Price}" DisplayFormat="C00" Width="200" ></devGrid:NumberColumn>
+                    <devGrid:NumberColumn ContentAlignment="Center" IsReadOnly="True" FieldName="UnitPrice" Caption="{translators:Translate UnitPrice}" DisplayFormat="C00" ></devGrid:NumberColumn>
+                    <devGrid:TextColumn ContentAlignment="Start" IsReadOnly="True" FieldName="Unit" Caption="{translators:Translate Unit}"></devGrid:TextColumn>
+                    <devGrid:NumberColumn ContentAlignment="Center" FieldName="Quantity"  Caption="{translators:Translate Quantity}" ></devGrid:NumberColumn>
+                    <devGrid:TextColumn ContentAlignment="Start" IsReadOnly="True" AllowSort="True" FieldName="ItemName" Caption="{translators:Translate Item}" Width="150"></devGrid:TextColumn>
                  </devGrid:GridControl.Columns>
                 <devGrid:GridControl.GroupSummaries>
                     <devGrid:GridColumnSummary FieldName="TotalPrice"  Type="Max"/>

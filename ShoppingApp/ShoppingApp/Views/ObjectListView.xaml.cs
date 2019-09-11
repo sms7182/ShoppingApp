@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DevExpress.Mobile.DataGrid;
+using DevExpress.Mobile.DataGrid.Theme;
 using ShoppingApp.ViewModels;
 using ShoppingBusinessObject;
 using Xamarin.Forms;
@@ -26,6 +27,34 @@ namespace ShoppingApp.Views
             invoiceViewModel = viewModel;
            BindingContext = invoiceViewModel;
 
+            ThemeManager.ThemeName = Themes.Light;
+
+            // Header customization.
+            ThemeManager.Theme.HeaderCustomizer.BackgroundColor = Color.LightBlue;//FromRgb(187, 228, 208);
+            ThemeFontAttributes myFont = new ThemeFontAttributes("Verdana",
+                                        ThemeFontAttributes.FontSizeFromNamedSize(NamedSize.Large),
+                                        FontAttributes.None, Color.Black);
+            ThemeManager.Theme.HeaderCustomizer.Font = myFont;
+
+
+            // Cell customization.
+            ThemeManager.Theme.CellCustomizer.SelectionColor = Color.LightGray;//.FromRgb(186, 220, 225);
+            ThemeFontAttributes myFont1 = new ThemeFontAttributes("Verdana",
+                                        ThemeFontAttributes.FontSizeFromNamedSize(NamedSize.Medium),
+                                        FontAttributes.None, Color.Black);
+            ThemeManager.Theme.CellCustomizer.Font = myFont1;
+
+
+            // Various customization.
+            ThemeManager.Theme.TotalSummaryCustomizer.BackgroundColor = Color.LightGreen;//.FromRgb(163, 162, 168);
+            ThemeFontAttributes myFont2 = new ThemeFontAttributes("Verdana",
+                                ThemeFontAttributes.FontSizeFromNamedSize(NamedSize.Default),
+                                FontAttributes.None, Color.Black);
+            ThemeManager.Theme.TotalSummaryCustomizer.Font = myFont2;
+            ThemeManager.Theme.NewItemRowCustomizer.Font = myFont2;
+
+
+            ThemeManager.RefreshTheme();
         }
 
         private void OnClicked(object sender, EventArgs e)
