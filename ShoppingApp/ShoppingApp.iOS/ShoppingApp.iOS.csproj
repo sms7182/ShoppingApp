@@ -128,6 +128,9 @@
     <PackageReference Include="DevExpress.Mobile.Grid">
       <Version>18.2.3</Version>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>12.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Plugin.Multilingual">
       <Version>1.0.2</Version>
     </PackageReference>

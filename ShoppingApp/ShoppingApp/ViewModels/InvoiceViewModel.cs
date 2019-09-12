@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Net.Http;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,9 +16,19 @@ using ShoppingBusinessObject;
 using Xamarin.Forms;
 using ZXing;
 using ZXing.Mobile;
+using Newtonsoft.Json;
+using ShoppingApp.Helpers;
 
 namespace ShoppingApp.ViewModels
 {
+    public class ItemInfo {
+        public Guid Id { get; set; }
+        public string Code { get; set; }
+        public string Name { get; set; }
+        public decimal UnitPrice { get; set; }
+        public int Unit { get; set; }
+
+    }
     public class InvoiceViewModel:ModelObject
     {
         #region fields
@@ -62,9 +73,10 @@ namespace ShoppingApp.ViewModels
             scanner.BottomText = "wait for the barcode automatically  scan!";
 
             ZXing.Result result = await scanner.Scan(mobileBarcodeScanningOptions);
-            HandleResult(result);
+         await   HandleResult(result);
         }
-        private void HandleResult(Result result)
+      
+        private async Task HandleResult(Result result)
         {
             if (result != null)
             {
@@ -86,15 +98,43 @@ namespace ShoppingApp.ViewModels
                 }
                 else
                 {
-                    var invoiceItem = new InvoiceItem();
-                    invoiceItem.Quantity = 1;
-                    invoiceItem.ItemName = result.Text;
-                    invoiceItem.Unit = "Number";
-                    invoiceItem.UnitPrice = 750;
-                    invoiceItem.TotalPrice = 750;
-                    InvoiceItems.Add(invoiceItem);
-                    
-                   
+
+                    using (HttpClient client = new HttpClient())
+                    {
+                        try
+                        {
+                            var url = ApiConfiguration.GetItemByCodeUrl;
+                            
+                            var response= await client.GetStringAsync(string.Format(url,result.Text));
+                            if (!string.IsNullOrWhiteSpace(response))
+                            {
+                              var itemInfo=    JsonConvert.DeserializeObject<ItemInfo>(response);
+
+                                if (itemInfo != null)
+                                {
+
+                                    var invoiceItem = new InvoiceItem();
+                                    invoiceItem.Quantity = 1;
+                                    invoiceItem.ItemName = itemInfo.Name;
+                                    invoiceItem.Unit = itemInfo.Unit.ToString();
+                                    invoiceItem.UnitPrice = itemInfo.UnitPrice;
+                                    invoiceItem.TotalPrice = itemInfo.UnitPrice;
+                                    invoiceItem.NetPrice=itemInfo.UnitPrice;
+
+                                    InvoiceItems.Add(invoiceItem);
+
+                                }
+
+                            }
+                          
+                        }
+                        catch (Exception e)
+                        {
+
+                        }
+                    }
+
+
                 }
                 InvoiceItems.ResetBindings();
                 
