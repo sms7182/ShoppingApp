@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using DevExpress.Mobile.DataGrid;
 using DevExpress.Mobile.DataGrid.Theme;
 using ShoppingApp.ViewModels;
@@ -21,11 +22,27 @@ namespace ShoppingApp.Views
     {
         private int paymentsetting = 2;
         private InvoiceViewModel invoiceViewModel;
+        private ICommand swipeButtonCommand;
+
         public ObjectListView(InvoiceViewModel viewModel)
         {
             InitializeComponent();
+
+            devgrid.CustomUnboundColumnData += (object sender, DevExpress.Mobile.DataGrid.GridColumnDataEventArgs e) =>
+            {
+                if (e.Column.FieldName == "IncButton")
+                {
+                    e.Value = ImageSource.FromResource("ShoppingApp.Resources.IncIcon.png");
+                }
+
+                if (e.Column.FieldName == "DecButton")
+                {
+                    e.Value = ImageSource.FromResource("ShoppingApp.Resources.DecIcon.png");
+                }
+            };
+
             invoiceViewModel = viewModel;
-           BindingContext = invoiceViewModel;
+            BindingContext = invoiceViewModel;
 
             ThemeManager.ThemeName = Themes.Light;
 
@@ -59,7 +76,7 @@ namespace ShoppingApp.Views
 
         private void OnClicked(object sender, EventArgs e)
         {
-            
+
         }
 
 
@@ -75,7 +92,7 @@ namespace ShoppingApp.Views
             }
             scanner.TopText = "Hold the camera up to  the barcode ";
             scanner.BottomText = "wait for the barcode automatically  scan!";
-           
+
             ZXing.Result result = await scanner.Scan(mobileBarcodeScanningOptions);
             HandleResult(result);
         }
@@ -84,9 +101,9 @@ namespace ShoppingApp.Views
         {
             if (result != null)
             {
-               
+
                 this.devgrid.BatchBegin();
-                
+
                 var dataGridItemsSource = this.devgrid.ItemsSource;
                 if (dataGridItemsSource == null)
                 {
@@ -94,7 +111,7 @@ namespace ShoppingApp.Views
                     dataGridItemsSource = this.devgrid.ItemsSource;
                 }
 
-                var invoiceItems = ((BindingList<InvoiceItem>) dataGridItemsSource);
+                var invoiceItems = ((BindingList<InvoiceItem>)dataGridItemsSource);
 
 
                 if (invoiceItems.Any(d => d.ItemName == result.Text))
@@ -127,32 +144,22 @@ namespace ShoppingApp.Views
                 this.devgrid.ItemsSource = invoiceItems;
 
                 this.devgrid.RefreshData();
-               
-               this.devgrid.BatchCommit();
-                
+
+                this.devgrid.BatchCommit();
+
             }
-        }
-       void OnSwipeButtonShowing(object sender, SwipeButtonShowingEventArgs e)
-       {
-           var cellValue = (bool)this.devgrid.GetCellValue(e.RowHandle, "Select");
-           if (!cellValue
-                && (e.ButtonInfo.ButtonName == "RightBtn"))
-            {
-                e.IsVisible = false;
-            }
-       }
+        }     
 
         void OnSwipeButtonClick(object sender, SwipeButtonEventArgs e)
         {
-            if (e.ButtonInfo.ButtonName == "LeftBtn")
+            if (e.ButtonInfo.ButtonName == "DeleteButton")
             {
-                DisplayAlert("Alert from " + e.ButtonInfo.Caption, "Delete ", "OK");
+                //DisplayAlert("Alert from " + e.ButtonInfo.Caption, "Delete ", "OK");
+                //invoiceViewModel.DeleteLine(e.SourceRowIndex);
+                devgrid.DeleteRow(e.RowHandle);
             }
-            //if (e.ButtonInfo.ButtonName == "RightBtn")
-            //{
-            //    devgrid.DeleteRow(e.RowHandle);
-            //}
         }
+
 
         void OnCustomizeCell(CustomizeCellEventArgs e)
         {
@@ -161,11 +168,11 @@ namespace ShoppingApp.Views
                 decimal total = Convert.ToDecimal(e.Value.ToString());
                 if (total < 850)
                 {
-                    e.ForeColor=Color.Red;
+                    e.ForeColor = Color.Red;
                 }
                 else if (total > 1400)
                 {
-                    e.ForeColor=Color.Green;
+                    e.ForeColor = Color.Green;
                 }
 
                 e.Handled = true;
@@ -182,8 +189,8 @@ namespace ShoppingApp.Views
                 if (tempUnitPrice != null && tempQuantity != null)
                 {
                     var unitPrice = decimal.Parse(tempUnitPrice.ToString());
-                    var quantity= decimal.Parse(tempQuantity.ToString());
-                    var devgridItemsSource = (BindingList<InvoiceItem>) this.devgrid.ItemsSource;
+                    var quantity = decimal.Parse(tempQuantity.ToString());
+                    var devgridItemsSource = (BindingList<InvoiceItem>)this.devgrid.ItemsSource;
                     for (int i = 0; i < devgridItemsSource.Count; i++)
                     {
                         var item = rowData.GetFieldValue("ItemName");
@@ -191,7 +198,7 @@ namespace ShoppingApp.Views
                         {
                             devgridItemsSource[i].TotalPrice = unitPrice * quantity;
                             break;
-                            
+
                         }
                     }
 
@@ -206,15 +213,27 @@ namespace ShoppingApp.Views
             if (paymentsetting == 1)
             {
                 //{
-            //    var paymentPage = new PaymentPage();
-            //    paymentPage.BindingContext = ((InvoiceViewModel)this.BindingContext);
-            //    await  Navigation.PushAsync(paymentPage);
-            var paymentPage = new PaymentPage();
-            await Navigation.PushAsync(paymentPage);
+                //    var paymentPage = new PaymentPage();
+                //    paymentPage.BindingContext = ((InvoiceViewModel)this.BindingContext);
+                //    await  Navigation.PushAsync(paymentPage);
+                var paymentPage = new PaymentPage();
+                await Navigation.PushAsync(paymentPage);
             }
             else
             {
-              // await Navigation.PushAsync(new PaymentQRCodePage((BindingList<InvoiceItem>)this.devgrid.ItemsSource));
+                // await Navigation.PushAsync(new PaymentQRCodePage((BindingList<InvoiceItem>)this.devgrid.ItemsSource));
+            }
+
+        }
+
+        private void Devgrid_RowTap(object sender, RowTapEventArgs e)
+        {
+            if(e.FieldName == "IncButton")
+            {
+                invoiceViewModel.IncQuantity(e.RowHandle);
+            }else if(e.FieldName == "DecButton")
+            {
+                invoiceViewModel.DecQuantity(e.RowHandle);
             }
 
         }

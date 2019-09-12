@@ -11,6 +11,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\DecIcon.png" />
+    <None Remove="Resources\IncIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\DecIcon.png" />
+    <EmbeddedResource Include="Resources\IncIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="DevExpress.Mobile.Grid" Version="18.2.3" />
     <PackageReference Include="Plugin.Multilingual" Version="1.0.2" />
     <PackageReference Include="sqlite-net-pcl" Version="1.5.231" />
