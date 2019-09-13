@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ShoppingApp.Views.HistoryPage">
+             x:Class="ShoppingApp.Views.HistoryPage"
+             xmlns:converters="clr-namespace:ShoppingApp.ViewModels.Converters">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:DateTimeToStringConverter x:Key="converter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
     <ListView x:Name="invoiceListView" FlowDirection="RightToLeft" ItemsSource="{Binding Invoices}" HorizontalOptions="FillAndExpand" Margin="20,0" SelectedItem="{Binding SelectedInvoice, Mode=TwoWay}">
         <ListView.Header>
             <Grid >
@@ -35,7 +43,7 @@
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
 
-                        <Label Grid.Column="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="{Binding CreationDate}" />
+                        <Label Grid.Column="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="{Binding CreationDate ,Converter={StaticResource converter}}" />
                         <Label Grid.Column="1" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="{Binding Store.Name}"/>
                         <Label Grid.Column="2" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" TextColor="DodgerBlue" Text="{Binding TotalPrice}"/>
                        

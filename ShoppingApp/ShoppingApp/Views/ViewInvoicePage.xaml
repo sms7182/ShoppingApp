@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ShoppingApp.Views.ViewInvoicePage">
+             x:Class="ShoppingApp.Views.ViewInvoicePage"
+             xmlns:converters="clr-namespace:ShoppingApp.ViewModels.Converters">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:DateTimeToStringConverter x:Key="converter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <ContentPage.Content>
         <StackLayout BindingContext="{Binding Invoice}">
             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label x:Name="creationDateLabel" Text="{Binding CreationDate}"/>
+                <Label x:Name="creationDateLabel" Text="{Binding CreationDate ,Converter={StaticResource converter}}"/>
                 <Label Text="تاریخ : "/>
             </StackLayout>
             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
