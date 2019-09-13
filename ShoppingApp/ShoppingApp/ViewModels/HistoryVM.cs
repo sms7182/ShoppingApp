@@ -4,6 +4,7 @@ using ShoppingApp.Views;
 using ShoppingBusinessObject;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace ShoppingApp.ViewModels
@@ -11,7 +12,7 @@ namespace ShoppingApp.ViewModels
     public class HistoryVM
     {
         public HistoryCommand HistoryCommand { get; set; }
-        public List<Invoice> Invoices { get; set; }
+        public ObservableCollection<Invoice> Invoices { get; set; }
         private Invoice selectedInvoice;
 
         public Invoice SelectedInvoice
@@ -32,13 +33,20 @@ namespace ShoppingApp.ViewModels
         public HistoryVM()
         {
             HistoryCommand = new HistoryCommand(this);
-            GetInvoices();
+            Invoices = new ObservableCollection<Invoice>();
         }
 
         public async void GetInvoices()
         {
             var invoices = await InvoiceDB.Read();
-            Invoices = invoices;
+            if (invoices != null)
+            {
+                Invoices.Clear();
+                foreach (var invoice in invoices)
+                {
+                    Invoices.Add(invoice);
+                }
+            }
         }
 
         public async void ViewInvoice(Invoice selectedInvoice)

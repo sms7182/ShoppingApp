@@ -27,7 +27,7 @@ namespace ShoppingApp.Views
         public ObjectListView(InvoiceViewModel viewModel)
         {
             InitializeComponent();
-
+            
             devgrid.CustomUnboundColumnData += (object sender, DevExpress.Mobile.DataGrid.GridColumnDataEventArgs e) =>
             {
                 if (e.Column.FieldName == "IncButton")
@@ -107,11 +107,11 @@ namespace ShoppingApp.Views
                 var dataGridItemsSource = this.devgrid.ItemsSource;
                 if (dataGridItemsSource == null)
                 {
-                    this.devgrid.ItemsSource = new BindingList<InvoiceItem>();
+                    this.devgrid.ItemsSource = new ObservableCollection<InvoiceItem>();
                     dataGridItemsSource = this.devgrid.ItemsSource;
                 }
 
-                var invoiceItems = ((BindingList<InvoiceItem>)dataGridItemsSource);
+                var invoiceItems = ((ObservableCollection<InvoiceItem>)dataGridItemsSource);
 
 
                 if (invoiceItems.Any(d => d.ItemName == result.Text))
@@ -155,8 +155,8 @@ namespace ShoppingApp.Views
             if (e.ButtonInfo.ButtonName == "DeleteButton")
             {
                 //DisplayAlert("Alert from " + e.ButtonInfo.Caption, "Delete ", "OK");
-                //invoiceViewModel.DeleteLine(e.SourceRowIndex);
-                devgrid.DeleteRow(e.RowHandle);
+                invoiceViewModel.DeleteLine(e.SourceRowIndex);
+                //devgrid.DeleteRow(e.RowHandle);
             }
         }
 
@@ -190,7 +190,7 @@ namespace ShoppingApp.Views
                 {
                     var unitPrice = decimal.Parse(tempUnitPrice.ToString());
                     var quantity = decimal.Parse(tempQuantity.ToString());
-                    var devgridItemsSource = (BindingList<InvoiceItem>)this.devgrid.ItemsSource;
+                    var devgridItemsSource = (ObservableCollection<InvoiceItem>)this.devgrid.ItemsSource;
                     for (int i = 0; i < devgridItemsSource.Count; i++)
                     {
                         var item = rowData.GetFieldValue("ItemName");
@@ -230,12 +230,23 @@ namespace ShoppingApp.Views
         {
             if(e.FieldName == "IncButton")
             {
-                invoiceViewModel.IncQuantity(e.RowHandle);
-            }else if(e.FieldName == "DecButton")
-            {
-                invoiceViewModel.DecQuantity(e.RowHandle);
-            }
+                this.devgrid.BatchBegin();
 
+                invoiceViewModel.IncQuantity(e.RowHandle);
+                devgrid.RefreshData();
+                this.devgrid.BatchCommit();
+
+            }
+            else if(e.FieldName == "DecButton")
+            {
+                this.devgrid.BatchBegin();
+
+                invoiceViewModel.DecQuantity(e.RowHandle);
+                
+                devgrid.RefreshData();
+                this.devgrid.BatchCommit();
+
+            }
         }
     }
 }

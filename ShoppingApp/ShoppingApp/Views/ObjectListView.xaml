@@ -32,11 +32,11 @@
                     <devGrid:ImageColumn FieldName="IncButton" Caption=" " ContentAlignment="Center" UnboundType="Object" AllowSort="False" Width="50"></devGrid:ImageColumn>
 
                 </devGrid:GridControl.Columns>
-                <devGrid:GridControl.GroupSummaries>
+                <!--<devGrid:GridControl.GroupSummaries>
                     <devGrid:GridColumnSummary FieldName="TotalPrice"  Type="Max"/>
-                </devGrid:GridControl.GroupSummaries>
+                </devGrid:GridControl.GroupSummaries>-->
                 <devGrid:GridControl.TotalSummaries>
-                    <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum"   DisplayFormat="Total:{0:C00}" ></devGrid:GridColumnSummary>
+                    <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum" DisplayFormat="Total:{0:C00}" ></devGrid:GridColumnSummary>
                 </devGrid:GridControl.TotalSummaries>
              </devGrid:GridControl>
             <Button Text="{translators:Translate InvoicePayment}" Command="{Binding QrCodePaymentCommand}" BackgroundColor="DodgerBlue" TextColor="White"></Button>

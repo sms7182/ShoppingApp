@@ -16,6 +16,11 @@ namespace ShoppingApp.Views
             viewModel = new HistoryVM();
             BindingContext = viewModel;
         }
-           
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            viewModel.GetInvoices();
+        }
     }
 }
