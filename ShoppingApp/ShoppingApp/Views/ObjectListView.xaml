@@ -5,12 +5,32 @@
              xmlns:vm="clr-namespace:ShoppingApp.ViewModels;assembly=ShoppingApp"
              x:Class="ShoppingApp.Views.ObjectListView"
              xmlns:translators="clr-namespace:ShoppingApp.Helpers;assembly=ShoppingApp"
+             xmlns:converters="clr-namespace:ShoppingApp.ViewModels.Converters"
              x:Name="ContentPage"
              Title="{Binding Store.Name}" FlowDirection="RightToLeft">
 
-  
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:DateTimeToStringConverter x:Key="converter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20" FlowDirection="RightToLeft">
          <StackLayout Padding="10">
+             
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
+                <Label Text="تاریخ :"/>
+                <Label x:Name="creationDateLabel" Text="{Binding CreationDate ,Converter={StaticResource converter}}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
+                <Label Text="تعداد اقلام : "/>
+                <Label x:Name="countLabel" Text="{Binding ItemCount, Mode=TwoWay}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
+                <Label Text="مبلغ کل : "/>
+                <Label x:Name="totalLabel" Text="{Binding TotalPrice, Mode=TwoWay}"/>
+            </StackLayout>
+             
             <Button Text="{translators:Translate AddItem}"  Command="{Binding BarcodeScanCommand}"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
             <devGrid:GridControl x:Name="devgrid" FlowDirection="RightToLeft" AllowDeleteRows="True"    EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick" 
                                  IsPullToRefreshEnabled="True"  ItemsSource="{Binding InvoiceItems ,Mode=TwoWay }" IsEnabled="True"  
@@ -35,9 +55,9 @@
                 <!--<devGrid:GridControl.GroupSummaries>
                     <devGrid:GridColumnSummary FieldName="TotalPrice"  Type="Max"/>
                 </devGrid:GridControl.GroupSummaries>-->
-                <devGrid:GridControl.TotalSummaries>
+                <!--<devGrid:GridControl.TotalSummaries>
                     <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum" DisplayFormat="Total:{0:C00}" ></devGrid:GridColumnSummary>
-                </devGrid:GridControl.TotalSummaries>
+                </devGrid:GridControl.TotalSummaries>-->
              </devGrid:GridControl>
             <Button Text="{translators:Translate InvoicePayment}" Command="{Binding QrCodePaymentCommand}" BackgroundColor="DodgerBlue" TextColor="White"></Button>
              
