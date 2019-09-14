@@ -31,5 +31,6 @@ namespace ShoppingBusinessObject
 
         
         public List<InvoiceItem> InvoiceItems { get; set; }
+      
     }
 }

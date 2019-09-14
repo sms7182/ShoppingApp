@@ -1,79 +1,112 @@
-﻿using ShoppingApp.ViewModels;
+﻿using ShoppingBusinessObject;
 using SQLite;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace ShoppingApp.Helpers
 {
-    public class UserDB
+    public abstract class UserDB
     {
-        public SQLiteConnection Connect()
+        public static SQLiteConnection Connect()
         {
-           var _SQLiteConnection = DependencyService.Get<ISQLiteInterface>().GetSQLiteConnection();
-            _SQLiteConnection.CreateTable<UserInfoViewModel>();
+            var _SQLiteConnection = DependencyService.Get<ISQLiteInterface>().GetSQLiteConnection();
+            _SQLiteConnection.CreateTable<UserInfo>();
             return _SQLiteConnection;
         }
-        public IEnumerable<UserInfoViewModel> GetUsers()
+
+        public static async Task<bool> Login(string username, string password)
         {
-            using (var _SQLiteConnection = Connect())
+            var isMobileEmpty = string.IsNullOrWhiteSpace(username);
+            var isPasswordEmpty = string.IsNullOrWhiteSpace(password);
+            if (isMobileEmpty || isPasswordEmpty)
             {
-                return (from u in _SQLiteConnection.Table<UserInfoViewModel>()
-                        select u).ToList(); 
+                return false;
+            }
+            else
+            {
+                //todo: Loading User from Server
+                UserInfo user = new UserInfo();
+
+                if (user != null)
+                {
+                    //if (user.Password == password)
+                    {
+                        using (var conn = Connect())
+                        {
+                            conn.CreateTable<SavedUser>();
+                            var savedUserInfo = conn.Table<SavedUser>().FirstOrDefault();
+                            if (savedUserInfo == null)
+                            {
+                                savedUserInfo = new SavedUser();
+                            }
+                            savedUserInfo.UserName = username;
+                            savedUserInfo.Password = password;
+                            var rows = conn.Insert(savedUserInfo);
+                        }
+
+                        return true;
+                    }
+                    //else
+                    //{
+                    //    return false;
+                    //}
+                }
+                else
+                {
+                    return false;
+                }
+
+
             }
         }
-        public UserInfoViewModel GetSpecificUser(Guid id)
+
+        public static async Task<SavedUser> GetLocalUser()
         {
-            using (var _SQLiteConnection = Connect())
+            using (var conn = Connect())
             {
-                return _SQLiteConnection.Table<UserInfoViewModel>().FirstOrDefault(t => t.Id == id); 
+                conn.CreateTable<SavedUser>();
+                var savedUserInfo = conn.Table<SavedUser>().FirstOrDefault();
+                if (savedUserInfo != null)
+                {
+                    return savedUserInfo;
+                }
             }
+
+            return null;
         }
+
         public void DeleteUser(int id)
         {
             using (var _SQLiteConnection = Connect())
             {
-                _SQLiteConnection.Delete<UserInfoViewModel>(id); 
+                _SQLiteConnection.Delete<UserInfo>(id);
             }
         }
-        public string AddUser(UserInfoViewModel user)
+
+        public static bool AddUser(UserInfo user)
         {
             using (var _SQLiteConnection = Connect())
             {
-                var data = _SQLiteConnection.Table<UserInfoViewModel>();
+                var data = _SQLiteConnection.Table<UserInfo>();
                 var d1 = data.Where(x => x.PhoneNumber == user.PhoneNumber).FirstOrDefault();
                 if (d1 == null)
                 {
                     _SQLiteConnection.Insert(user);
-                    return "Sucessfully Added";
-                }
-                else
-                    return "Already Phone id Exist"; 
-            }
-        }
-        public bool updateUserValidation(string userid)
-        {
-            using (var _SQLiteConnection = Connect())
-            {
-                var data = _SQLiteConnection.Table<UserInfoViewModel>();
-                var d1 = (from values in data
-                          where values.PhoneNumber == userid
-                          select values).SingleOrDefault();
-                if (d1 != null)
-                {
                     return true;
                 }
                 else
-                    return false; 
+                    throw new Exception("شماره موبایل قبلاً ثبت شده است.");
             }
         }
-        public bool updateUser(string username, string pwd)
+
+
+        public static bool updateUser(string username, string pwd)
         {
             using (var _SQLiteConnection = Connect())
             {
-                var data = _SQLiteConnection.Table<UserInfoViewModel>();
+                var data = _SQLiteConnection.Table<UserInfo>();
                 var d1 = (from values in data
                           where values.PhoneNumber == username
                           select values).SingleOrDefault();
@@ -84,22 +117,14 @@ namespace ShoppingApp.Helpers
                     return true;
                 }
                 else
-                    return false; 
+                    return false;
             }
         }
-        public bool LoginValidate(string userName1, string pwd1)
-        {
-            using (var _SQLiteConnection = Connect())
-            {
-                var data = _SQLiteConnection.Table<UserInfoViewModel>();
-                var d1 = data.Where(x => x.PhoneNumber == userName1 && x.Password == pwd1).FirstOrDefault();
-                if (d1 != null)
-                {
-                    return true;
-                }
-                else
-                    return false; 
-            }
-        }
+    }
+
+    public class SavedUser
+    {
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }

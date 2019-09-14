@@ -120,6 +120,9 @@
   <data name="AddItem" xml:space="preserve">
     <value>Ajout de marchandises</value>
   </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>تکرار رمز عبور</value>
+  </data>
   <data name="Delete" xml:space="preserve">
     <value>supprime</value>
   </data>

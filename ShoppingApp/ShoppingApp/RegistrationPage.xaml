@@ -2,24 +2,26 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ShoppingApp"
+             xmlns:translators="clr-namespace:ShoppingApp.Helpers;assembly=ShoppingApp"             
              x:Class="ShoppingApp.RegistrationPage">
+
     <ContentPage.Content>
         <AbsoluteLayout Margin="5,0,5,5">
-            <FlexLayout IsVisible="True" JustifyContent="SpaceEvenly" Direction="Column" AlignItems="Center" Margin="30,0,30,0" >
+            <FlexLayout x:Name="containerLayout" IsVisible="True" JustifyContent="SpaceEvenly" Direction="Column" AlignItems="Center" Margin="30,0,30,0" >
                 <Image Source="hakuna.png" HeightRequest="60" WidthRequest="60" FlexLayout.AlignSelf="Center" BackgroundColor="Transparent" />
-                <Entry x:Name="phoneEntry" ReturnType="Done" MaxLength="10" Keyboard="Telephone" Placeholder="Phone No" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" >
+                <Entry x:Name="phoneEntry" Text="{Binding PhoneNumber, Mode=TwoWay}" ReturnType="Done" MaxLength="11" Keyboard="Telephone" Placeholder="{translators:Translate Mobile}" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" >
                     <!--<Entry.Behaviors>
                         <local:NumberValidationBehavior></local:NumberValidationBehavior>
                     </Entry.Behaviors>-->
                 </Entry>
                 <Label x:Name="phoneWarLabel" Text="" IsVisible="False" TextColor="Blue" FontSize="15" BackgroundColor="Transparent" FlexLayout.AlignSelf="End"/>
-                <Entry x:Name="userNameEntry" ReturnType="Next" MaxLength="10" Placeholder="User Name" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" Keyboard="Text" />
-                <Entry x:Name="passwordEntry" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
-                <Entry x:Name="confirmpasswordEntry" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="Confirm Password" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <!--<Entry x:Name="userNameEntry" ReturnType="Next" MaxLength="10" Placeholder="User Name" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" Keyboard="Text" />-->
+                <Entry x:Name="passwordEntry" Text="{Binding Password, Mode=TwoWay}" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="{translators:Translate Password}" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+                <Entry x:Name="confirmpasswordEntry"  Text="{Binding ConfirmPassword, Mode=TwoWay}" ReturnType="Next" MaxLength="12" IsPassword="True" Placeholder="{translators:Translate ConfirmPassword}" FontSize="Medium" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
                 <Label x:Name="warningLabel" Text="" IsVisible="False" TextColor="Blue" FontSize="15" BackgroundColor="Transparent" FlexLayout.AlignSelf="End"/>
-                
-                <Button x:Name="signUp" Clicked="SignupValidation_ButtonClicked" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#00b33c"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="Sign Up"/>
-                <Button TextColor="Black" BackgroundColor="Transparent" Clicked="login_ClickedEvent" Text="Login" FontSize="13" FlexLayout.AlignSelf="Start" />
+
+                <Button x:Name="signUp" Command="{Binding RegistrationCommand}" CommandParameter="{Binding User}" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#00b33c"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="{translators:Translate Signup}"/>
+                <Button TextColor="Black" BackgroundColor="Transparent" Command="{Binding NavigationCommand}" Text="{translators:Translate Login}" FontSize="13" FlexLayout.AlignSelf="Start" />
             </FlexLayout>
         </AbsoluteLayout>
     </ContentPage.Content>
