@@ -40,7 +40,26 @@ namespace ShoppingBusinessObject
                 {
                     itemName = value;
                     RaisePropertyChanged("ItemName");
-                }} }
+                }}
+        }
+
+
+        private string itemNumber;
+        public string ItemNumber
+        {
+            get { return itemNumber; }
+            set
+            {
+                if (itemNumber != value)
+                {
+                    itemNumber = value;
+                    RaisePropertyChanged("ItemNumber");
+                }
+            }
+        }
+
+        public Guid ItemId { get; set; }
+
         public string Code { get; set; }
         public DateTime CreationDate { get; set; }
 
@@ -57,6 +76,8 @@ namespace ShoppingBusinessObject
             }
 
         }
+
+
         private decimal quantity;
         public decimal Quantity
         {
@@ -101,6 +122,6 @@ namespace ShoppingBusinessObject
         }
         public decimal IncPrice { get; set; }
         public decimal DecPrice { get; set; }
-        public string ItemNumber { get; set; }
+       
     }
 }

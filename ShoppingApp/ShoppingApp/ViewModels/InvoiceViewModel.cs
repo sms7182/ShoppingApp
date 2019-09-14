@@ -119,13 +119,13 @@ namespace ShoppingApp.ViewModels
             if (result != null)
             {
 
-
-                if (InvoiceItems.Any(d => d.ItemName == result.Text))
+             
+                if (InvoiceItems.Any(d => d.ItemNumber == result.Text))
                 {
 
                     for (int i = 0; i < InvoiceItems.Count; i++)
                     {
-                        if (InvoiceItems[i].ItemName == result.Text)
+                        if (InvoiceItems[i].ItemNumber == result.Text)
                         {
                             InvoiceItems[i].Quantity = InvoiceItems[i].Quantity + 1;
                             InvoiceItems[i].TotalPrice = (InvoiceItems[i].Quantity * InvoiceItems[i].UnitPrice);
@@ -156,6 +156,8 @@ namespace ShoppingApp.ViewModels
                                     var invoiceItem = new InvoiceItem();
                                     invoiceItem.Quantity = 1;
                                     invoiceItem.ItemName = itemInfo.Name;
+                                    invoiceItem.ItemNumber = itemInfo.Code;
+                                    invoiceItem.ItemId = itemInfo.Id;
                                     invoiceItem.Unit = itemInfo.Unit.ToString();
                                     invoiceItem.UnitPrice = itemInfo.UnitPrice;
                                     invoiceItem.TotalPrice = itemInfo.UnitPrice;
