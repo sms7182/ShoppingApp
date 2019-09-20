@@ -144,8 +144,8 @@ namespace ShoppingApp.ViewModels
                         try
                         {
                             var url = ApiConfiguration.GetItemByCodeUrl;
-
-                            var response = await client.GetStringAsync(string.Format(url, result.Text));
+                            
+                            var response=  client.GetStringAsync(string.Format(url,result.Text)).Result;
                             if (!string.IsNullOrWhiteSpace(response))
                             {
                                 var itemInfo = JsonConvert.DeserializeObject<ItemInfo>(response);

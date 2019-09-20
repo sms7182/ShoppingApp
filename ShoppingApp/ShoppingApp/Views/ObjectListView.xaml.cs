@@ -213,11 +213,11 @@ namespace ShoppingApp.Views
             if (paymentsetting == 1)
             {
                 //{
-                //    var paymentPage = new PaymentPage();
-                //    paymentPage.BindingContext = ((InvoiceViewModel)this.BindingContext);
-                //    await  Navigation.PushAsync(paymentPage);
-                var paymentPage = new PaymentPage();
-                await Navigation.PushAsync(paymentPage);
+            //    var paymentPage = new PaymentPage();
+            //    paymentPage.BindingContext = ((InvoiceViewModel)this.BindingContext);
+            //    await  Navigation.PushAsync(paymentPage);
+            var paymentPage = new PaymentPage((InvoiceViewModel)this.BindingContext);
+            await Navigation.PushAsync(paymentPage);
             }
             else
             {
