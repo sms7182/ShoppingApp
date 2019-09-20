@@ -46,6 +46,10 @@ namespace ShoppingApp.Views
 
         private async void CreateQRCodeFromInvoice()
         {
+
+            //var invoiceId = Service.CreateInvoice(((InvoiceViewModel)this.BindingContext));
+            //this.QRCodeView.BarcodeValue =invoiceId.HasValue?invoiceId.Value.ToString():Guid.Empty.ToString();
+            //return;
             if (this.BindingContext == null)
             {
                 return;
@@ -54,9 +58,12 @@ namespace ShoppingApp.Views
             var invoiceViewModel = ((InvoiceViewModel) this.BindingContext);
             var invoiceItems = invoiceViewModel.InvoiceItems;
             var invoice = new InvoiceInfo();
+             invoice.Id = Guid.NewGuid();
+            invoice.CreatedBy = "09123794709";
             for (int i = 0; i < invoiceItems.Count; i++)
             {
                 var temp=new InvoiceInfoLine();
+                temp.Id = Guid.NewGuid();
                 temp.ItemCode= invoiceItems[i].ItemNumber;
                 temp.ItemName = invoiceItems[i].ItemName;
                 temp.ItemId = invoiceItems[i].ItemId;
@@ -78,13 +85,15 @@ namespace ShoppingApp.Views
                 try
                 {
 
-                  var httpContent=  CreateHttpContent(invoice);
 
-                  
+
                     var url = ApiConfiguration.PostInvoiceUrl;
+                    var json = JsonConvert.SerializeObject(invoice);
+                    var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
 
-                    var response = await client.PostAsync(url,httpContent);
-                    
+                    var response = client.PostAsync(url, stringContent).Result;
+
+
 
                 }
                 catch (Exception e)
@@ -93,17 +102,6 @@ namespace ShoppingApp.Views
                 }
             }
 
-            ///todo insert to db 
-            //var qrCodeEncodingOptions = new QrCodeEncodingOptions()
-            //{
-            //    DisableECI = true,
-            //    CharacterSet = "UTF-8",
-            //    Width = 250,
-            //    Height = 250
-            //};
-            //var barcodeWriter = new BarcodeWriter<Guid>();
-            //barcodeWriter.Format = BarcodeFormat.QR_CODE;
-            //barcodeWriter.Options = qrCodeEncodingOptions;
             this.QRCodeView.BarcodeValue = invoice.Id.ToString();
         }
     }

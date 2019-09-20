@@ -181,7 +181,7 @@ namespace ShoppingApp.Views
             //    var paymentPage = new PaymentPage();
             //    paymentPage.BindingContext = ((InvoiceViewModel)this.BindingContext);
             //    await  Navigation.PushAsync(paymentPage);
-            var paymentPage = new PaymentPage();
+            var paymentPage = new PaymentPage((InvoiceViewModel)this.BindingContext);
             await Navigation.PushAsync(paymentPage);
             }
             else
