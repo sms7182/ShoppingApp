@@ -19,6 +19,7 @@ using ZXing;
 using ZXing.Mobile;
 using Newtonsoft.Json;
 using ShoppingApp.Helpers;
+using ShoppingApp.ViewModels.Contracts;
 
 namespace ShoppingApp.ViewModels
 {
@@ -35,7 +36,7 @@ namespace ShoppingApp.ViewModels
         #region fields
 
         public UserInfo User { get; set; }
-        public Store Store { get; set; }
+        public StoreInfo Store { get; set; }
         public string Code { get; set; }
         public Status Status { get; set; }
         public decimal TotalPrice
@@ -86,6 +87,13 @@ namespace ShoppingApp.ViewModels
             //    new InvoiceItem{Code = "03",CreationDate=DateTime.Now.AddDays(-1),Id = Guid.NewGuid(),ItemName="مایع ظرفشویی اتک",ItemNumber="331",Quantity = 2 ,UnitPrice = 1000,Unit="عدد",TotalPrice=2000,NetPrice =2000},
             //}
             ;
+
+            var r = new Random(20);
+            var count = r.Next(20);
+            for (int i = 0; i < count; i++)
+            {
+                HandleResult(new Result(((char)r.Next(65, 90)).ToString() ,null,null,BarcodeFormat.All_1D));
+            }
 
             ItemCount = invoiceItems.Count;
             TotalPrice = invoiceItems.Sum(it => it.TotalPrice);

@@ -1,4 +1,6 @@
 ﻿
+using ShoppingApp.Helpers;
+using ShoppingApp.ViewModels.Contracts;
 using ShoppingBusinessObject;
 using System;
 using System.Collections.Generic;
@@ -8,10 +10,17 @@ namespace ShoppingApp.ViewModels
 {
     public class InvoiceVM
     {
-        public Invoice Invoice { get; set; }
-        public InvoiceVM(Invoice selectedInvoice)
+        public InvoiceInfo Invoice { get; set; }
+        private Guid InvoiceId;
+        public InvoiceVM(Guid id)
         {
-            Invoice= selectedInvoice;
+            InvoiceId = id;
+        }
+
+        public async void GetInvoice()
+        {
+            Invoice = await InvoiceDB.GetById(InvoiceId);
+           
         }
     }
 

@@ -1,4 +1,5 @@
 ﻿
+using ShoppingApp.ViewModels.Contracts;
 using ShoppingBusinessObject;
 using System;
 using System.Collections.Generic;
@@ -8,8 +9,8 @@ namespace ShoppingApp.ViewModels
 {
     public class StoreVM
     {
-        public Store Store { get; set; }
-        public StoreVM(Store selectedStore)
+        public StoreInfo Store { get; set; }
+        public StoreVM(StoreInfo selectedStore)
         {
             Store = selectedStore;
         }

@@ -4,13 +4,12 @@ using System.Text;
 
 namespace ShoppingApp.ViewModels.Contracts
 {
-    public class InvoiceInfo
+    public class FlatInvoiceInfo
     {
-        public InvoiceInfo()
-        {
-            InvoiceInfoLines = new List<InvoiceInfoLine>();
-        }
+       
         public virtual string Code { get; set; }
+        public string StoreName { get; set; }
+
         public virtual DateTime CreationDate { get; set; }
 
         public virtual string CreatedBy { get; set; }
@@ -18,6 +17,16 @@ namespace ShoppingApp.ViewModels.Contracts
         public virtual decimal NetPrice { get; set; }
         public virtual decimal TotalPrice { get; set; }
         public Guid Id { get; set; }
+     
+    }
+
+    public class InvoiceInfo:FlatInvoiceInfo
+    {
+        public InvoiceInfo()
+        {
+            InvoiceInfoLines = new List<InvoiceInfoLine>();
+        }
+        
         public List<InvoiceInfoLine> InvoiceInfoLines { get; set; }
 
     }

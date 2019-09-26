@@ -19,12 +19,13 @@ namespace ShoppingApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PaymentQRCodePage : ContentPage
-    { 
-        
+    {
+        private InvoiceViewModel viewModel;
 
         public PaymentQRCodePage(InvoiceViewModel invoiceViewModel)
         {
             InitializeComponent();
+            viewModel = invoiceViewModel;
             BindingContext = invoiceViewModel;
             CreateQRCodeFromInvoice();
         }
@@ -55,7 +56,7 @@ namespace ShoppingApp.Views
                 return;
                 
             }
-            var invoiceViewModel = ((InvoiceViewModel) this.BindingContext);
+            var invoiceViewModel = viewModel;
             var invoiceItems = invoiceViewModel.InvoiceItems;
             var invoice = new InvoiceInfo();
              invoice.Id = Guid.NewGuid();

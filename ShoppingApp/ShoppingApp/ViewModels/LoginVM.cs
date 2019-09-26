@@ -68,9 +68,10 @@ namespace ShoppingApp.ViewModels
 
         public async void Login()
         {
-            bool canLogin = await UserDB.Login(User.PhoneNumber, User.Password);
-            if(canLogin)
+            var findUser = await UserDB.Login(User.PhoneNumber, User.Password);
+            if(findUser != null && findUser!=Guid.Empty)
             {
+                App.CurrentUserId = findUser;
                 await App.Current.MainPage.Navigation.PushAsync(new HomePage());
             }
             else

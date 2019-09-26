@@ -6,8 +6,19 @@ namespace ShoppingApp.Helpers
 {
     public class ApiConfiguration
     {
-        public const string GetItemByCodeUrl = "http://192.168.1.52/fatalerror/api/item/byid?itemcode={0}";
-        public const string GetInvoiceByUserUrl = "http://192.168.1.52/fatalerror/api/invoice/byid?userid={0}";
-        public const string PostInvoiceUrl = "http://192.168.1.52/fatalerror/api/invoice/";
+        private const string Url = "http://localhost:56157";
+
+        public const string GetUserByName = Url + "/api/login/byusername?userName={0}";
+        public const string DeleteUser = Url + "/api/login/deluser/";
+        public const string PostUser = Url + "/api/login/byuser/";
+
+        
+        public const string GetItemByCodeUrl = Url + "/api/item/byid?itemcode={0}";
+        public const string GetInvoiceByUserUrl = Url + "/api/invoice/byUserId?userid={0}";
+        public const string GetInvoiceById = Url + "/api/invoice/byid?id={0}";
+        public const string PostInvoiceUrl = Url + "/api/invoice/";
+
+        public const string GetAllStores = Url + "/api/store/getAll";
+        public const string GetStoreById = Url + "/api/store/byid?id={0}";
     }
 }
