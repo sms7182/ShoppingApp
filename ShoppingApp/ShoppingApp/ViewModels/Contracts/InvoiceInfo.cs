@@ -9,6 +9,8 @@ namespace ShoppingApp.ViewModels.Contracts
        
         public virtual string Code { get; set; }
         public string StoreName { get; set; }
+        public Guid StoreId { get; set; }
+
 
         public virtual DateTime CreationDate { get; set; }
 

@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using ShoppingApp.ViewModels;
 using ShoppingApp.ViewModels.Contracts;
 using ShoppingBusinessObject;
 using System;
@@ -87,7 +88,7 @@ namespace ShoppingApp.Helpers
         }
 
 
-        public static async Task<bool> Save(Invoice invoice)
+        public static async Task<bool> Save(InvoiceInfo invoice)
         {
             var success = false;
             using (HttpClient client = new HttpClient())
@@ -112,6 +113,31 @@ namespace ShoppingApp.Helpers
             }
 
             return success;
+        }
+
+        public static async Task<ItemInfo> GetItemByCode(string itemCode)
+        {
+            ItemInfo findItem = null;
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {
+                    var url = ApiConfiguration.GetItemByCodeUrl;
+
+                    var response = client.GetStringAsync(string.Format(url, itemCode)).Result;
+                    if (!string.IsNullOrWhiteSpace(response))
+                    {
+                        findItem = JsonConvert.DeserializeObject<ItemInfo>(response);                        
+                    }
+
+                }
+                catch (Exception e)
+                {
+
+                }
+            }
+
+            return findItem;
         }
     }
 }
