@@ -66,7 +66,7 @@ namespace ShoppingApp.Views
 
             }
 
-            this.QRCodeView.BarcodeValue = invoiceId.ToString();
+            this.QRCodeView.BarcodeValue = invoiceId.ToString();           
         }
     }
 }

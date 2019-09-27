@@ -34,7 +34,7 @@ namespace ShoppingApp.ViewModels
     public class InvoiceViewModel : ModelObject
     {
         #region fields
-
+        public Guid Id { get; set; }
         public UserInfo User { get; set; }
         public StoreInfo Store { get; set; }
         public string Code { get; set; }
@@ -81,6 +81,7 @@ namespace ShoppingApp.ViewModels
             BarcodeScanCommand = new BarcodeCommand(this);
             QrCodePaymentCommand = new QRCodePaymentCommand(this);
             CreationDate = DateTime.Now;
+            Id = Guid.NewGuid();
             invoiceItems = new ObservableCollection<InvoiceItem>()
             //{
             //    new InvoiceItem{Code = "02",CreationDate=DateTime.Now.AddDays(-1),Id = Guid.NewGuid(),ItemName="دستمال آشپزخانه",ItemNumber="122",Quantity = 1 ,UnitPrice = 1500,Unit="عدد",TotalPrice=1500,NetPrice =1500},
@@ -101,7 +102,43 @@ namespace ShoppingApp.ViewModels
 
 
         }
-        
+
+        public async void SaveLocal()
+        {
+            var localInvoice = new InvoiceInfo
+            {
+                Id = Id,
+                Code = Code,
+                CreationDate = CreationDate,
+                CreatedById = App.CurrentUserId,
+                StoreId = Store.Id,
+                StoreName = Store.Name,
+                NetPrice = NetPrice,
+                TotalPrice = TotalPrice
+            };
+
+            for (int i = 0; i < InvoiceItems.Count; i++)
+            {
+                var lineItem = InvoiceItems[i];
+                var newLine = new InvoiceInfoLine
+                {
+                    Id = lineItem.Id,
+                    ItemId = lineItem.ItemId,
+                    ItemCode = lineItem.ItemNumber,
+                    ItemName = lineItem.ItemName,
+                    Quantity = lineItem.Quantity,
+                    UnitPrice = lineItem.UnitPrice,
+                    NetPrice = lineItem.NetPrice,
+                    TotalPrice = lineItem.TotalPrice
+                };
+
+                localInvoice.InvoiceInfoLines.Add(newLine);
+
+            }
+
+            await InvoiceDB.SaveLocal(localInvoice);
+        }
+
         public async void Scan()
         {
             var scanner = new MobileBarcodeScanner();
@@ -169,8 +206,7 @@ namespace ShoppingApp.ViewModels
                     }
                                           
                 }
-                //InvoiceItems.ResetBindings();
-
+                //InvoiceItems.ResetBindings();               
 
             }
         }
@@ -253,6 +289,7 @@ namespace ShoppingApp.ViewModels
 
             if(result)
             {
+                await InvoiceDB.DeleteLocal(invoice.Id);
                 return invoice.Id;
             }
 

@@ -2,16 +2,95 @@
 using ShoppingApp.ViewModels;
 using ShoppingApp.ViewModels.Contracts;
 using ShoppingBusinessObject;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace ShoppingApp.Helpers
 {
     public class InvoiceDB
     {
+        public static SQLiteConnection Connect()
+        {
+            var _SQLiteConnection = DependencyService.Get<ISQLiteInterface>().GetSQLiteConnection();
+            _SQLiteConnection.CreateTable<UserInfo>();
+            return _SQLiteConnection;
+        }
+
+        public static async Task<InvoiceInfo> GetLocalInvoice(Guid storeId,Guid userId)
+        {
+            using (var conn = Connect())
+            {
+                conn.CreateTable<InvoiceInfo>();
+                var savedInvoiceInfo = conn.Table<InvoiceInfo>()
+                    .Where(it => it.CreatedById == userId && it.StoreId == storeId)
+                    .OrderByDescending(it => it.CreationDate)
+                    .FirstOrDefault();
+
+                if (savedInvoiceInfo != null)
+                {
+                    return savedInvoiceInfo;
+                }
+                
+            }
+
+            return null;
+        }
+
+        public static async Task<bool> SaveLocal(InvoiceInfo invoice)
+        {
+            try
+            {
+                using (var conn = Connect())
+                {
+                    conn.CreateTable<InvoiceInfo>();
+                    var savedInvoiceInfo = conn.Table<InvoiceInfo>().Where(it=>it.Id == invoice.Id).FirstOrDefault();
+                    if (savedInvoiceInfo == null)
+                    {
+                        conn.Insert(invoice);
+                    }
+                    else
+                    {
+                        conn.Update(invoice);
+                    }                    
+                }
+            }
+            catch (Exception e)
+            {
+
+                return false;
+            }
+
+            return true;
+        }
+
+        public static async Task<bool> DeleteLocal(Guid invoiceId)
+        {
+            try
+            {
+                using (var conn = Connect())
+                {
+                    conn.CreateTable<InvoiceInfo>();
+                    var savedInvoiceInfo = conn.Table<InvoiceInfo>().Where(it => it.Id == invoiceId).FirstOrDefault();
+                    if (savedInvoiceInfo != null)
+                    {
+                        conn.Delete(savedInvoiceInfo);
+                    }                    
+                }
+            }
+            catch (Exception e)
+            {
+
+                return false;
+            }
+
+            return true;
+        }
+
         public static async Task<List<FlatInvoiceInfo>> Read()
         {
             var invoices = new List<FlatInvoiceInfo>();

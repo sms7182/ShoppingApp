@@ -74,6 +74,12 @@ namespace ShoppingApp.Views
             ThemeManager.RefreshTheme();
         }
 
+        protected override void OnDisappearing()
+        {
+            invoiceViewModel.SaveLocal();
+            base.OnDisappearing();
+        }
+
         private void OnClicked(object sender, EventArgs e)
         {
 
