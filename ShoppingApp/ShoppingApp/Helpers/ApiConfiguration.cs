@@ -6,7 +6,7 @@ namespace ShoppingApp.Helpers
 {
     public class ApiConfiguration
     {
-        private const string Url = "http://localhost:56157";
+        private const string Url = "http://marketwebservice-fatalerror.fandogh.cloud";
 
         public const string GetUserByName = Url + "/api/login/byusername?userName={0}";
         public const string DeleteUser = Url + "/api/login/deluser/";
