@@ -44,7 +44,7 @@
                         </Grid.RowDefinitions>
 
                         <Label Grid.Column="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="{Binding CreationDate ,Converter={StaticResource converter}}" />
-                        <Label Grid.Column="1" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="{Binding Store.Name}"/>
+                        <Label Grid.Column="1" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="{Binding StoreName}"/>
                         <Label Grid.Column="2" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" TextColor="DodgerBlue" Text="{Binding TotalPrice}"/>
                        
                     </Grid>

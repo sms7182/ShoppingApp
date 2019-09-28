@@ -8,6 +8,8 @@ namespace ShoppingApp
     public partial class App : Application
     {
         public static string DatabaseLocation = string.Empty;
+        public static Guid CurrentUserId;
+
 
         public App()
         {

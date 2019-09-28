@@ -19,12 +19,13 @@ namespace ShoppingApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PaymentQRCodePage : ContentPage
-    { 
-        
+    {
+        private InvoiceViewModel viewModel;
 
         public PaymentQRCodePage(InvoiceViewModel invoiceViewModel)
         {
             InitializeComponent();
+            viewModel = invoiceViewModel;
             BindingContext = invoiceViewModel;
             CreateQRCodeFromInvoice();
         }
@@ -55,54 +56,17 @@ namespace ShoppingApp.Views
                 return;
                 
             }
-            var invoiceViewModel = ((InvoiceViewModel) this.BindingContext);
-            var invoiceItems = invoiceViewModel.InvoiceItems;
-            var invoice = new InvoiceInfo();
-             invoice.Id = Guid.NewGuid();
-            invoice.CreatedBy = "09123794709";
-            for (int i = 0; i < invoiceItems.Count; i++)
+
+            var invoiceId = await viewModel.Save();
+            if(invoiceId == null)
             {
-                var temp=new InvoiceInfoLine();
-                temp.Id = Guid.NewGuid();
-                temp.ItemCode= invoiceItems[i].ItemNumber;
-                temp.ItemName = invoiceItems[i].ItemName;
-                temp.ItemId = invoiceItems[i].ItemId;
-                temp.NetPrice= invoiceItems[i].NetPrice;
-                temp.Quantity = invoiceItems[i].Quantity;
-                temp.TotalPrice = invoiceItems[i].TotalPrice;
-                temp.UnitPrice = invoiceItems[i].UnitPrice;
-                
-                invoice.InvoiceInfoLines.Add(temp); 
+                await App.Current.MainPage.DisplayAlert("خطا", "دوباره تلاش کنید", "OK");
+                this.QRCodeView.BarcodeValue = string.Empty;
+                return;
+
             }
 
-            invoice.Code ="75";
-            invoice.CreationDate=DateTime.UtcNow;
-            invoice.NetPrice = invoiceItems.Sum(s => s.DecPrice);
-            invoice.TotalPrice = invoiceItems.Sum(d => d.TotalPrice);
-
-            using (HttpClient client = new HttpClient())
-            {
-                try
-                {
-
-
-
-                    var url = ApiConfiguration.PostInvoiceUrl;
-                    var json = JsonConvert.SerializeObject(invoice);
-                    var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
-
-                    var response = client.PostAsync(url, stringContent).Result;
-
-
-
-                }
-                catch (Exception e)
-                {
-
-                }
-            }
-
-            this.QRCodeView.BarcodeValue = invoice.Id.ToString();
+            this.QRCodeView.BarcodeValue = invoiceId.ToString();           
         }
     }
 }

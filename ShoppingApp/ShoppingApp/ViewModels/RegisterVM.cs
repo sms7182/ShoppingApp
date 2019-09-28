@@ -72,7 +72,7 @@ namespace ShoppingApp.ViewModels
             
             try
             {
-                var retrunvalue = UserDB.AddUser(newUser);
+                var retrunvalue = await UserDB.AddUser(newUser);
                 if (retrunvalue)
                 {
                     await App.Current.MainPage.DisplayAlert("کاربر جدید", "کاربر جدید با موفقیت اضافه شد.", "OK");

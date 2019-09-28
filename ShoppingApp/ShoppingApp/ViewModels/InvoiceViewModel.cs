@@ -19,6 +19,7 @@ using ZXing;
 using ZXing.Mobile;
 using Newtonsoft.Json;
 using ShoppingApp.Helpers;
+using ShoppingApp.ViewModels.Contracts;
 
 namespace ShoppingApp.ViewModels
 {
@@ -33,9 +34,9 @@ namespace ShoppingApp.ViewModels
     public class InvoiceViewModel : ModelObject
     {
         #region fields
-
+        public Guid Id { get; set; }
         public UserInfo User { get; set; }
-        public Store Store { get; set; }
+        public StoreInfo Store { get; set; }
         public string Code { get; set; }
         public Status Status { get; set; }
         public decimal TotalPrice
@@ -80,12 +81,20 @@ namespace ShoppingApp.ViewModels
             BarcodeScanCommand = new BarcodeCommand(this);
             QrCodePaymentCommand = new QRCodePaymentCommand(this);
             CreationDate = DateTime.Now;
+            Id = Guid.NewGuid();
             invoiceItems = new ObservableCollection<InvoiceItem>()
             //{
             //    new InvoiceItem{Code = "02",CreationDate=DateTime.Now.AddDays(-1),Id = Guid.NewGuid(),ItemName="دستمال آشپزخانه",ItemNumber="122",Quantity = 1 ,UnitPrice = 1500,Unit="عدد",TotalPrice=1500,NetPrice =1500},
             //    new InvoiceItem{Code = "03",CreationDate=DateTime.Now.AddDays(-1),Id = Guid.NewGuid(),ItemName="مایع ظرفشویی اتک",ItemNumber="331",Quantity = 2 ,UnitPrice = 1000,Unit="عدد",TotalPrice=2000,NetPrice =2000},
             //}
             ;
+
+            //var r = new Random(20);
+            //var count = r.Next(20);
+            //for (int i = 0; i < count; i++)
+            //{
+            //    HandleResult(new Result(((char)r.Next(65, 90)).ToString() ,null,null,BarcodeFormat.All_1D));
+            //}
 
             ItemCount = invoiceItems.Count;
             TotalPrice = invoiceItems.Sum(it => it.TotalPrice);
@@ -94,8 +103,41 @@ namespace ShoppingApp.ViewModels
 
         }
 
-        public Invoice Invoice { get; set; }
+        public async void SaveLocal()
+        {
+            var localInvoice = new InvoiceInfo
+            {
+                Id = Id,
+                Code = Code,
+                CreationDate = CreationDate,
+                CreatedById = App.CurrentUserId,
+                StoreId = Store.Id,
+                StoreName = Store.Name,
+                NetPrice = NetPrice,
+                TotalPrice = TotalPrice
+            };
 
+            for (int i = 0; i < InvoiceItems.Count; i++)
+            {
+                var lineItem = InvoiceItems[i];
+                var newLine = new InvoiceInfoLine
+                {
+                    Id = lineItem.Id,
+                    ItemId = lineItem.ItemId,
+                    ItemCode = lineItem.ItemNumber,
+                    ItemName = lineItem.ItemName,
+                    Quantity = lineItem.Quantity,
+                    UnitPrice = lineItem.UnitPrice,
+                    NetPrice = lineItem.NetPrice,
+                    TotalPrice = lineItem.TotalPrice
+                };
+
+                localInvoice.InvoiceInfoLines.Add(newLine);
+
+            }
+
+            await InvoiceDB.SaveLocal(localInvoice);
+        }
 
         public async void Scan()
         {
@@ -138,51 +180,33 @@ namespace ShoppingApp.ViewModels
                 }
                 else
                 {
-
-                    using (HttpClient client = new HttpClient())
+                    var itemInfo = await InvoiceDB.GetItemByCode(result.Text);
+                    if (itemInfo != null)
                     {
-                        try
-                        {
-                            var url = ApiConfiguration.GetItemByCodeUrl;
-                            
-                            var response=  client.GetStringAsync(string.Format(url,result.Text)).Result;
-                            if (!string.IsNullOrWhiteSpace(response))
-                            {
-                                var itemInfo = JsonConvert.DeserializeObject<ItemInfo>(response);
 
-                                if (itemInfo != null)
-                                {
+                        var invoiceItem = new InvoiceItem();
+                        invoiceItem.Quantity = 1;
+                        invoiceItem.ItemName = itemInfo.Name;
+                        invoiceItem.ItemNumber = itemInfo.Code;
+                        invoiceItem.ItemId = itemInfo.Id;
+                        invoiceItem.Unit = itemInfo.Unit.ToString();
+                        invoiceItem.UnitPrice = itemInfo.UnitPrice;
+                        invoiceItem.TotalPrice = itemInfo.UnitPrice;
+                        invoiceItem.NetPrice = itemInfo.UnitPrice;
 
-                                    var invoiceItem = new InvoiceItem();
-                                    invoiceItem.Quantity = 1;
-                                    invoiceItem.ItemName = itemInfo.Name;
-                                    invoiceItem.ItemNumber = itemInfo.Code;
-                                    invoiceItem.ItemId = itemInfo.Id;
-                                    invoiceItem.Unit = itemInfo.Unit.ToString();
-                                    invoiceItem.UnitPrice = itemInfo.UnitPrice;
-                                    invoiceItem.TotalPrice = itemInfo.UnitPrice;
-                                    invoiceItem.NetPrice = itemInfo.UnitPrice;
+                        InvoiceItems.Add(invoiceItem);
 
-                                    InvoiceItems.Add(invoiceItem);
+                        ItemCount++;
+                        TotalPrice += invoiceItem.TotalPrice;
 
-                                    ItemCount++;
-                                    TotalPrice += invoiceItem.TotalPrice;
-
-                                }
-
-                            }
-
-                        }
-                        catch (Exception e)
-                        {
-
-                        }
                     }
-
-
+                    else
+                    {
+                        await App.Current.MainPage.DisplayAlert("خطا", "دوباره تلاش کنید", "باشه");
+                    }
+                                          
                 }
-                //InvoiceItems.ResetBindings();
-
+                //InvoiceItems.ResetBindings();               
 
             }
         }
@@ -230,6 +254,47 @@ namespace ShoppingApp.ViewModels
             InvoiceItems[rowNo].TotalPrice = InvoiceItems[rowNo].NetPrice + InvoiceItems[rowNo].IncPrice - InvoiceItems[rowNo].DecPrice;
             ItemCount--;
             TotalPrice -= invoiceItems[rowNo].UnitPrice;
+        }
+
+        public async Task<Guid?> Save()
+        {            
+            //var invoiceItems = invoiceViewModel.InvoiceItems;
+            var invoice = new InvoiceInfo();
+            invoice.Id = Guid.NewGuid();
+            invoice.CreatedById = App.CurrentUserId;
+            for (int i = 0; i < invoiceItems.Count; i++)
+            {
+                var temp = new InvoiceInfoLine();
+                temp.Id = Guid.NewGuid();
+                temp.ItemCode = invoiceItems[i].ItemNumber;
+                temp.ItemName = invoiceItems[i].ItemName;
+                temp.ItemId = invoiceItems[i].ItemId;
+                temp.NetPrice = invoiceItems[i].NetPrice;
+                temp.Quantity = invoiceItems[i].Quantity;
+                temp.TotalPrice = invoiceItems[i].TotalPrice;
+                temp.UnitPrice = invoiceItems[i].UnitPrice;
+
+                invoice.InvoiceInfoLines.Add(temp);
+            }
+
+            //invoice.Code = "75";
+            invoice.CreationDate = DateTime.UtcNow;
+            invoice.StoreName = Store.Name;
+            invoice.StoreId = Store.Id;
+
+            invoice.NetPrice = invoiceItems.Sum(s => s.DecPrice);
+            invoice.TotalPrice = invoiceItems.Sum(d => d.TotalPrice);
+
+            var result = await InvoiceDB.Save(invoice);
+
+            if(result)
+            {
+                await InvoiceDB.DeleteLocal(invoice.Id);
+                return invoice.Id;
+            }
+
+            return null;
+
         }
     }
 

@@ -19,7 +19,7 @@ namespace ShoppingBusinessObject
         }
 
         public Guid Id { get; set; }
-        public UserInfo User { get; set; }
+        public Guid CreatedById { get; set; }
         public Store Store { get; set; }
         public string Code { get; set; }
         public Status Status { get; set; }

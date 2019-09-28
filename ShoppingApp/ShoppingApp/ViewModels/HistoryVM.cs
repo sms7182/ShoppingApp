@@ -1,5 +1,6 @@
 ﻿using ShoppingApp.Helpers;
 using ShoppingApp.ViewModels.Commands;
+using ShoppingApp.ViewModels.Contracts;
 using ShoppingApp.Views;
 using ShoppingBusinessObject;
 using System;
@@ -12,10 +13,10 @@ namespace ShoppingApp.ViewModels
     public class HistoryVM
     {
         public HistoryCommand HistoryCommand { get; set; }
-        public ObservableCollection<Invoice> Invoices { get; set; }
-        private Invoice selectedInvoice;
+        public ObservableCollection<FlatInvoiceInfo> Invoices { get; set; }
+        private FlatInvoiceInfo selectedInvoice;
 
-        public Invoice SelectedInvoice
+        public FlatInvoiceInfo SelectedInvoice
         {
             get => selectedInvoice; set
             {
@@ -33,7 +34,7 @@ namespace ShoppingApp.ViewModels
         public HistoryVM()
         {
             HistoryCommand = new HistoryCommand(this);
-            Invoices = new ObservableCollection<Invoice>();
+            Invoices = new ObservableCollection<FlatInvoiceInfo>();
         }
 
         public async void GetInvoices()
@@ -49,10 +50,10 @@ namespace ShoppingApp.ViewModels
             }
         }
 
-        public async void ViewInvoice(Invoice selectedInvoice)
+        public async void ViewInvoice(FlatInvoiceInfo selectedInvoice)
         {
             var invoicePage = new ViewInvoicePage();
-            var invoiceVM = new InvoiceVM(selectedInvoice);
+            var invoiceVM = new InvoiceVM(selectedInvoice.Id);
             invoicePage.BindingContext = invoiceVM;
             await App.Current.MainPage.Navigation.PushAsync(invoicePage);
         }

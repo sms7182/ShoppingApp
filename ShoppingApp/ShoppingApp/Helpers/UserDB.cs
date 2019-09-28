@@ -1,7 +1,10 @@
-﻿using ShoppingBusinessObject;
+﻿using Newtonsoft.Json;
+using ShoppingBusinessObject;
 using SQLite;
 using System;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
@@ -16,22 +19,40 @@ namespace ShoppingApp.Helpers
             return _SQLiteConnection;
         }
 
-        public static async Task<bool> Login(string username, string password)
+        public static async Task<Guid> Login(string username, string password)
         {
             var isMobileEmpty = string.IsNullOrWhiteSpace(username);
             var isPasswordEmpty = string.IsNullOrWhiteSpace(password);
             if (isMobileEmpty || isPasswordEmpty)
             {
-                return false;
+                return Guid.Empty;
             }
             else
             {
                 //todo: Loading User from Server
-                UserInfo user = new UserInfo();
+                UserInfo user = null;
+                using (HttpClient client = new HttpClient())
+                {
+                    try
+                    {
+                        var url = ApiConfiguration.GetUserByName;
+
+                        var response = client.GetStringAsync(string.Format(url, username)).Result;
+                        if (!string.IsNullOrWhiteSpace(response))
+                        {
+                            user = JsonConvert.DeserializeObject<UserInfo>(response);
+                        }
+
+                    }
+                    catch (Exception e)
+                    {
+
+                    }
+                }
 
                 if (user != null)
                 {
-                    //if (user.Password == password)
+                    if (user.Password == password)
                     {
                         using (var conn = Connect())
                         {
@@ -46,20 +67,12 @@ namespace ShoppingApp.Helpers
                             var rows = conn.Insert(savedUserInfo);
                         }
 
-                        return true;
-                    }
-                    //else
-                    //{
-                    //    return false;
-                    //}
-                }
-                else
-                {
-                    return false;
-                }
-
-
+                        return user.Id;
+                    }                    
+                }              
             }
+
+            return Guid.Empty;
         }
 
         public static async Task<SavedUser> GetLocalUser()
@@ -77,28 +90,87 @@ namespace ShoppingApp.Helpers
             return null;
         }
 
-        public void DeleteUser(int id)
+        public async Task<bool> DeleteUser(Guid id)
         {
-            using (var _SQLiteConnection = Connect())
+            var success = false;
+            using (HttpClient client = new HttpClient())
             {
-                _SQLiteConnection.Delete<UserInfo>(id);
+                try
+                {
+                    var url = ApiConfiguration.DeleteUser;
+
+                    var response = await client.DeleteAsync(string.Format(url, id));
+                    if (response != null && response.IsSuccessStatusCode)
+                    {
+                        var contents = await response.Content.ReadAsStringAsync();
+                        success = JsonConvert.DeserializeObject<bool>(contents);
+                    }
+
+                }
+                catch (Exception e)
+                {
+
+                }
             }
+
+            if (success)
+            {
+                using (var _SQLiteConnection = Connect())
+                {
+                    _SQLiteConnection.Delete<UserInfo>(id);
+                } 
+            }
+
+            return success;
         }
 
-        public static bool AddUser(UserInfo user)
+        public static async Task<bool> AddUser(UserInfo user)
         {
-            using (var _SQLiteConnection = Connect())
+
+            var success = false;
+            using (HttpClient client = new HttpClient())
             {
-                var data = _SQLiteConnection.Table<UserInfo>();
-                var d1 = data.Where(x => x.PhoneNumber == user.PhoneNumber).FirstOrDefault();
-                if (d1 == null)
+                try
                 {
-                    _SQLiteConnection.Insert(user);
-                    return true;
+                    var url = ApiConfiguration.GetUserByName;
+
+                    var response = client.GetStringAsync(string.Format(url, user.PhoneNumber)).Result;
+                    if (!string.IsNullOrWhiteSpace(response))
+                    {
+                        throw new Exception("شماره موبایل قبلاً ثبت شده است.");
+                    }
+
                 }
-                else
-                    throw new Exception("شماره موبایل قبلاً ثبت شده است.");
+                catch(Exception)
+                {
+                    throw;
+                }
             }
+                               
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {                   
+                    var url = ApiConfiguration.PostUser;
+                    var json = JsonConvert.SerializeObject(user);
+                    var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
+
+                    var response = await client.PostAsync(url, stringContent);
+                    if (response != null && response.IsSuccessStatusCode)
+                    {
+                        var contents = await response.Content.ReadAsStringAsync();
+                        success = JsonConvert.DeserializeObject<bool>(contents);
+                    }
+
+                }
+                catch (Exception e)
+                {
+
+                }
+            }
+
+            return true;                                    
+            
         }
 
 

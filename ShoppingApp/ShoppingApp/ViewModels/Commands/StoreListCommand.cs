@@ -1,4 +1,5 @@
-﻿using ShoppingBusinessObject;
+﻿using ShoppingApp.ViewModels.Contracts;
+using ShoppingBusinessObject;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -23,7 +24,7 @@ namespace ShoppingApp.ViewModels.Commands
 
         public void Execute(object parameter)
         {
-            var selectedStore = (Store)parameter;
+            var selectedStore = (StoreInfo)parameter;
             viewModel.CreateInvoice(selectedStore);
         }
     }

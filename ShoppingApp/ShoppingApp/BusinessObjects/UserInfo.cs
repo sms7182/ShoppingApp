@@ -1,9 +1,10 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 
 namespace ShoppingBusinessObject
 {
     public class UserInfo : INotifyPropertyChanged
-    {
+    {        
         private string firstName;
         private string lastName;
         private string nationalityCode;
@@ -11,6 +12,7 @@ namespace ShoppingBusinessObject
         private string email;
         private string password;
 
+        public Guid Id { get; set; }
         public string FirstName
         {
             get => firstName; set
