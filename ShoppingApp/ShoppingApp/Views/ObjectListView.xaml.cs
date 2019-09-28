@@ -194,8 +194,8 @@ namespace ShoppingApp.Views
                 var tempUnitPrice = rowData.GetFieldValue("UnitPrice");
                 if (tempUnitPrice != null && tempQuantity != null)
                 {
-                    var unitPrice = decimal.Parse(tempUnitPrice.ToString());
-                    var quantity = decimal.Parse(tempQuantity.ToString());
+                    var unitPrice = double.Parse(tempUnitPrice.ToString());
+                    var quantity = double.Parse(tempQuantity.ToString());
                     var devgridItemsSource = (ObservableCollection<InvoiceItem>)this.devgrid.ItemsSource;
                     for (int i = 0; i < devgridItemsSource.Count; i++)
                     {

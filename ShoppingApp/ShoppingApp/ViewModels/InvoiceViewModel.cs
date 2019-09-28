@@ -27,7 +27,7 @@ namespace ShoppingApp.ViewModels
         public Guid Id { get; set; }
         public string Code { get; set; }
         public string Name { get; set; }
-        public decimal UnitPrice { get; set; }
+        public double UnitPrice { get; set; }
         public int Unit { get; set; }
 
     }
@@ -39,7 +39,7 @@ namespace ShoppingApp.ViewModels
         public StoreInfo Store { get; set; }
         public string Code { get; set; }
         public Status Status { get; set; }
-        public decimal TotalPrice
+        public double TotalPrice
         {
             get => totalPrice; set
             {
@@ -47,7 +47,7 @@ namespace ShoppingApp.ViewModels
                 RaisePropertyChanged("TotalPrice");
             }
         }
-        public decimal ItemCount
+        public double ItemCount
         {
             get => itemCount; set
             {
@@ -56,14 +56,14 @@ namespace ShoppingApp.ViewModels
             }
         }
 
-        public decimal NetPrice { get; set; }
-        public decimal IncPrice { get; set; }
-        public decimal DecPrice { get; set; }
+        public double NetPrice { get; set; }
+        public double IncPrice { get; set; }
+        public double DecPrice { get; set; }
         public DateTime CreationDate { get; set; }
 
         private ObservableCollection<InvoiceItem> invoiceItems;
-        private decimal itemCount;
-        private decimal totalPrice;
+        private double itemCount;
+        private double totalPrice;
 
         #endregion
 

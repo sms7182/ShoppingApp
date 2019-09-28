@@ -63,8 +63,8 @@ namespace ShoppingBusinessObject
         public string Code { get; set; }
         public DateTime CreationDate { get; set; }
 
-        private decimal unitPrice;
-        public decimal UnitPrice {
+        private double unitPrice;
+        public double UnitPrice {
             get { return  unitPrice; }
             set
             {
@@ -78,8 +78,8 @@ namespace ShoppingBusinessObject
         }
 
 
-        private decimal quantity;
-        public decimal Quantity
+        private double quantity;
+        public double Quantity
         {
             get { return quantity;}
             set
@@ -106,9 +106,9 @@ namespace ShoppingBusinessObject
             }
         }
 
-        public decimal NetPrice { get; set; }
-        private decimal totalPrice;
-        public decimal TotalPrice
+        public double NetPrice { get; set; }
+        private double totalPrice;
+        public double TotalPrice
         {
             get { return totalPrice;}
             set
@@ -120,8 +120,8 @@ namespace ShoppingBusinessObject
                 }
             }
         }
-        public decimal IncPrice { get; set; }
-        public decimal DecPrice { get; set; }
+        public double IncPrice { get; set; }
+        public double DecPrice { get; set; }
        
     }
 }

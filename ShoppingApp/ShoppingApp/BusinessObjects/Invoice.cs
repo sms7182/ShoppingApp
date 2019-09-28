@@ -23,10 +23,10 @@ namespace ShoppingBusinessObject
         public Store Store { get; set; }
         public string Code { get; set; }
         public Status Status { get; set; }
-        public decimal TotalPrice { get; set; }
-        public decimal NetPrice { get; set; }
-        public decimal IncPrice { get; set; }
-        public decimal DecPrice { get; set; }
+        public double TotalPrice { get; set; }
+        public double NetPrice { get; set; }
+        public double IncPrice { get; set; }
+        public double DecPrice { get; set; }
         public DateTime CreationDate { get; set; }
 
         
