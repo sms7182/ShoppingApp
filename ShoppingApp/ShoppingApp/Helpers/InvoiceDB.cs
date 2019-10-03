@@ -23,20 +23,28 @@ namespace ShoppingApp.Helpers
 
         public static async Task<InvoiceInfo> GetLocalInvoice(Guid storeId,Guid userId)
         {
-            using (var conn = Connect())
+            try
             {
-                conn.CreateTable<InvoiceInfo>();
-                var savedInvoiceInfo = conn.Table<InvoiceInfo>()
-                    .Where(it => it.CreatedById == userId && it.StoreId == storeId)
-                    .OrderByDescending(it => it.CreationDate)
-                    .FirstOrDefault();
-
-                if (savedInvoiceInfo != null)
+                using (var conn = Connect())
                 {
-                    return savedInvoiceInfo;
+                    conn.CreateTable<InvoiceInfo>();
+                    var savedInvoiceInfo = conn.Table<InvoiceInfo>()
+                        .Where(it => it.CreatedById == userId && it.StoreId == storeId)
+                        .OrderByDescending(it => it.CreationDate)
+                        .FirstOrDefault();
+
+                    if (savedInvoiceInfo != null)
+                    {
+                        return savedInvoiceInfo;
+                    }
+
                 }
-                
             }
+            catch(Exception e)
+            {
+                return null;
+            }
+            
 
             return null;
         }
@@ -178,10 +186,10 @@ namespace ShoppingApp.Helpers
                     var json = JsonConvert.SerializeObject(invoice);
                     var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
 
-                    var response = await client.PostAsync(url, stringContent);
+                    var response =  client.PostAsync(url, stringContent).Result;
                     if (response!=null && response.IsSuccessStatusCode)
                     {
-                        var contents = await response.Content.ReadAsStringAsync();
+                        var contents =  response.Content.ReadAsStringAsync().Result;
                         success = JsonConvert.DeserializeObject<bool>(contents);
                     }
                 }
