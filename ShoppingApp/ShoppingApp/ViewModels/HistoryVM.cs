@@ -54,6 +54,7 @@ namespace ShoppingApp.ViewModels
         {
             var invoicePage = new ViewInvoicePage();
             var invoiceVM = new InvoiceVM(selectedInvoice.Id);
+            invoiceVM.GetInvoice();
             invoicePage.BindingContext = invoiceVM;
             await App.Current.MainPage.Navigation.PushAsync(invoicePage);
         }
