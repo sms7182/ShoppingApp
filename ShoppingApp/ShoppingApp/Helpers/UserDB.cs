@@ -155,7 +155,7 @@ namespace ShoppingApp.Helpers
                     var json = JsonConvert.SerializeObject(user);
                     var stringContent = new StringContent(json, UnicodeEncoding.UTF8, "application/json");
 
-                    var response = await client.PostAsync(url, stringContent);
+                    var response =  client.PostAsync(url, stringContent).Result;
                     if (response != null && response.IsSuccessStatusCode)
                     {
                         var contents = await response.Content.ReadAsStringAsync();
