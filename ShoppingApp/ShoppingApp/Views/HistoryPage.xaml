@@ -85,7 +85,7 @@
                             <Label  FlowDirection="RightToLeft" HorizontalTextAlignment="End" Text="{Binding CreationDate ,Converter={StaticResource dateConverter}}" TextColor="{StaticResource firstColor}" FontAttributes="Bold" FontSize="Small"/>
                            
                             <Label Grid.Row="1" FlowDirection="RightToLeft" Grid.Column="0" TextColor="{StaticResource secondColor}" FontSize="Small" Text="{Binding StoreName}"/>
-                            <Label Grid.Row="1"  FlowDirection="RightToLeft" HorizontalTextAlignment="End" Grid.Column="1" TextColor="{StaticResource secondColor}" FontSize="Small" Text="{Binding TotalPrice , Converter={StaticResource numberConverter}}"/>
+                            <Label Grid.Row="1"  FlowDirection="RightToLeft" HorizontalTextAlignment="End" Grid.Column="1" TextColor="{StaticResource firstColor}" FontSize="Small" Text="{Binding TotalPrice , Converter={StaticResource numberConverter}}"/>
                         </Grid>
                     </ViewCell.View>
                 </custom:CustomViewCell>

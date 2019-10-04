@@ -17,21 +17,21 @@
 
     <ContentView x:Name="ContentView" BackgroundColor="White" Padding="20" FlowDirection="RightToLeft">
          <StackLayout Padding="10">
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,0">
+                <Label Text="تاریخ :" Style="{StaticResource whiteFirstColorLabel}"/>
+                <Label x:Name="creationDateLabel" Style="{StaticResource whiteSecondColorLabel}" Text="{Binding CreationDate ,Converter={StaticResource converter}}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,0">
+                <Label Text="تعداد اقلام : " Style="{StaticResource whiteFirstColorLabel}"/>
+                <Label x:Name="countLabel"  Style="{StaticResource whiteSecondColorLabel}" Text="{Binding ItemCount, Mode=TwoWay}"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" Margin="20,0" >
+                <Label Text="مبلغ کل : " Style="{StaticResource whiteFirstColorLabel}"/>
+                <Label x:Name="totalLabel" Style="{StaticResource whiteSecondColorLabel}" Text="{Binding TotalPrice, Mode=TwoWay}"/>
+            </StackLayout>
              
-            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
-                <Label Text="تاریخ :"/>
-                <Label x:Name="creationDateLabel" Text="{Binding CreationDate ,Converter={StaticResource converter}}"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
-                <Label Text="تعداد اقلام : "/>
-                <Label x:Name="countLabel" Text="{Binding ItemCount, Mode=TwoWay}"/>
-            </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
-                <Label Text="مبلغ کل : "/>
-                <Label x:Name="totalLabel" Text="{Binding TotalPrice, Mode=TwoWay}"/>
-            </StackLayout>
-             
-            <Button Text="{translators:Translate AddItem}"  Command="{Binding BarcodeScanCommand}"  BackgroundColor="Gainsboro" TextColor="White" CornerRadius="5"></Button>
+            <Button Text="{translators:Translate AddItem}"  Command="{Binding BarcodeScanCommand}"  BackgroundColor="{StaticResource thirdColor}" TextColor="{StaticResource dirtyWhiteColor}" CornerRadius="5"></Button>
             <devGrid:GridControl x:Name="devgrid" FlowDirection="RightToLeft" AllowDeleteRows="True"    EndRowEdit="Row_Edited" AllowEditRows="True"  SwipeButtonClick="OnSwipeButtonClick" 
                                  IsPullToRefreshEnabled="True"  ItemsSource="{Binding InvoiceItems ,Mode=TwoWay }" IsEnabled="True"  
                                  CustomizeCell="OnCustomizeCell" 
@@ -59,7 +59,7 @@
                     <devGrid:GridColumnSummary FieldName="TotalPrice" Type="Sum" DisplayFormat="Total:{0:C00}" ></devGrid:GridColumnSummary>
                 </devGrid:GridControl.TotalSummaries>-->
              </devGrid:GridControl>
-            <Button Text="{translators:Translate InvoicePayment}" Command="{Binding QrCodePaymentCommand}" BackgroundColor="DodgerBlue" TextColor="White"></Button>
+            <Button Text="{translators:Translate InvoicePayment}" Command="{Binding QrCodePaymentCommand}" BackgroundColor="{StaticResource firstColor}" TextColor="{StaticResource dirtyWhiteColor}"></Button>
              
         </StackLayout>
     </ContentView>

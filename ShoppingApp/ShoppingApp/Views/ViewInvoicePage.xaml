@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingApp.Views.ViewInvoicePage"
+             xmlns:custom="clr-namespace:ShoppingApp.CustomControlls;assembly=ShoppingApp"             
              xmlns:converters="clr-namespace:ShoppingApp.ViewModels.Converters">
 
     <ContentPage.Resources>
@@ -15,15 +16,15 @@
         <StackLayout BindingContext="{Binding Invoice}">
             <StackLayout FlowDirection="RightToLeft" Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="20,0" >
                 <Label Text="تاریخ : " Style="{StaticResource whiteFirstColorLabel}"/>
-                <Label x:Name="creationDateLabel" Style="{StaticResource whiteFirstColorLabel}" Text="{Binding CreationDate ,Converter={StaticResource dateConverter}}"/>
+                <Label x:Name="creationDateLabel" Style="{StaticResource whiteSecondColorLabel}" Text="{Binding CreationDate ,Converter={StaticResource dateConverter}}"/>
             </StackLayout>
             <StackLayout FlowDirection="RightToLeft" Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="20,0" >
                 <Label Text="فروشگاه : " Style="{StaticResource whiteFirstColorLabel}"/>
-                <Label x:Name="storeLabel" Style="{StaticResource whiteFirstColorLabel}" Text="{Binding StoreName}"/>
+                <Label x:Name="storeLabel" Style="{StaticResource whiteSecondColorLabel}" Text="{Binding StoreName}"/>
             </StackLayout>
             <StackLayout FlowDirection="RightToLeft" Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="20,0">
                 <Label Text="مبلغ کل : " Style="{StaticResource whiteFirstColorLabel}"/>
-                <Label x:Name="totalLabel" Style="{StaticResource whiteFirstColorLabel}" Text="{Binding TotalPrice ,Converter={StaticResource numberConverter}}"/>
+                <Label x:Name="totalLabel" Style="{StaticResource whiteSecondColorLabel}" Text="{Binding TotalPrice ,Converter={StaticResource numberConverter}}"/>
             </StackLayout>
             <ListView x:Name="invoiceLineListView" FlowDirection="RightToLeft" ItemsSource="{Binding InvoiceInfoLines}" HorizontalOptions="FillAndExpand" Margin="20,0" >
                 <ListView.Header>
@@ -51,27 +52,29 @@
 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
-                            <Grid>
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="3*"/>
-                                    <ColumnDefinition Width="3*"/>
-                                    <ColumnDefinition Width="3*"/>
-                                    <ColumnDefinition Width="3*"/>
-                                    <ColumnDefinition Width="3*"/>
-                                </Grid.ColumnDefinitions>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*"/>
-                                </Grid.RowDefinitions>
+                        <custom:CustomViewCell SelectedItemBackgroundColor="{StaticResource fourthColor}">
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                        <ColumnDefinition Width="3*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
 
-                                <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="0" x:Name="lineItemLabel" Text="{Binding ItemName}"/>
-                                <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="1" x:Name="lineQuantityLabel" Text="{Binding Quantity ,Converter={StaticResource numberConverter}}"/>
-                                <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="2" x:Name="linePriceLabel" Text="{Binding UnitPrice, Converter={StaticResource numberConverter}}"/>
-                                <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="3" x:Name="lineDecLabel" Text="{Binding DecPrice,Converter={StaticResource numberConverter}}"/>
-                                <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="4" x:Name="lineTotalPriceLabel" Text="{Binding TotalPrice,Converter={StaticResource numberConverter}}"/>
+                                    <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="0" x:Name="lineItemLabel" Text="{Binding ItemName}"/>
+                                    <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="1" x:Name="lineQuantityLabel" Text="{Binding Quantity ,Converter={StaticResource numberConverter}}"/>
+                                    <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="2" x:Name="linePriceLabel" Text="{Binding UnitPrice, Converter={StaticResource numberConverter}}"/>
+                                    <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="3" x:Name="lineDecLabel" Text="{Binding DecPrice,Converter={StaticResource numberConverter}}"/>
+                                    <Label Grid.Row="0" Style="{StaticResource whiteColorLabel}" Grid.Column="4" x:Name="lineTotalPriceLabel" Text="{Binding TotalPrice,Converter={StaticResource numberConverter}}"/>
 
-                            </Grid>
-                        </ViewCell>
+                                </Grid>
+                            </ViewCell.View>
+                        </custom:CustomViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

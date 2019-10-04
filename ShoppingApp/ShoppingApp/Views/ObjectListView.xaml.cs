@@ -47,18 +47,18 @@ namespace ShoppingApp.Views
             ThemeManager.ThemeName = Themes.Light;
 
             // Header customization.
-            ThemeManager.Theme.HeaderCustomizer.BackgroundColor = Color.LightBlue;//FromRgb(187, 228, 208);
+            ThemeManager.Theme.HeaderCustomizer.BackgroundColor = Color.FromHex("34699a");//SecondColor
             ThemeFontAttributes myFont = new ThemeFontAttributes("Verdana",
-                                        ThemeFontAttributes.FontSizeFromNamedSize(NamedSize.Large),
-                                        FontAttributes.None, Color.Black);
+                                        ThemeFontAttributes.FontSizeFromNamedSize(NamedSize.Medium),
+                                        FontAttributes.None, Color.FromHex("f7f7f7"));//DirtyWithColor
             ThemeManager.Theme.HeaderCustomizer.Font = myFont;
 
 
             // Cell customization.
-            ThemeManager.Theme.CellCustomizer.SelectionColor = Color.LightGray;//.FromRgb(186, 220, 225);
+            ThemeManager.Theme.CellCustomizer.SelectionColor = Color.FromHex("65c6c4");//FourthColor
             ThemeFontAttributes myFont1 = new ThemeFontAttributes("Verdana",
                                         ThemeFontAttributes.FontSizeFromNamedSize(NamedSize.Medium),
-                                        FontAttributes.None, Color.Black);
+                                        FontAttributes.None, Color.FromHex("113f67"));//FirstColor
             ThemeManager.Theme.CellCustomizer.Font = myFont1;
 
 
