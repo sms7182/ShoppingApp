@@ -2,16 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingApp.Views.HistoryPage"
+             xmlns:custom="clr-namespace:ShoppingApp.CustomControlls;assembly=ShoppingApp"             
              xmlns:converters="clr-namespace:ShoppingApp.ViewModels.Converters">
     
     <ContentPage.Resources>
         <ResourceDictionary>
-            <converters:DateTimeToStringConverter x:Key="converter"/>
+            <converters:DateTimeToStringConverter x:Key="dateConverter"/>
+            <converters:NumberToPersianStringConverter x:Key="numberConverter"/>
         </ResourceDictionary>
     </ContentPage.Resources>
     
     <ListView x:Name="invoiceListView" FlowDirection="RightToLeft" ItemsSource="{Binding Invoices}" HorizontalOptions="FillAndExpand" Margin="20,0" SelectedItem="{Binding SelectedInvoice, Mode=TwoWay}">
-        <ListView.Header>
+        <!--<ListView.Header>
             <Grid >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="3*" />
@@ -22,33 +24,71 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-                
-                <Label Grid.Row="0" BackgroundColor="LightBlue" Grid.Column="0" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="تاریخ" />
-                <Label Grid.Row="0" BackgroundColor="LightBlue" Grid.Column="1" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="فروشگاه"/>
-                <Label Grid.Row="0" BackgroundColor="LightBlue" Grid.Column="2" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="مبلغ"/>
+
+
+                <Frame Grid.Row="0" Grid.Column="0" BorderColor="{StaticResource firstColor}" OutlineColor="{StaticResource firstColor}" HasShadow="false" BackgroundColor="{StaticResource firstColor}" Padding="10">
+                        <Label Grid.Row="0" VerticalOptions="CenterAndExpand" Style="{StaticResource firstColorLabel}" Grid.Column="0" Text="تاریخ" />
+                    </Frame>
+
+                <Frame Grid.Row="0" Grid.Column="1" BorderColor="{StaticResource firstColor}" OutlineColor="{StaticResource firstColor}" HasShadow="false" BackgroundColor="{StaticResource firstColor}" Padding="10">
+                        <Label Grid.Row="0" Style="{StaticResource firstColorLabel}" Grid.Column="1" Text="فروشگاه"/>
+                    </Frame>
+
+                <Frame Grid.Row="0" Grid.Column="2" BorderColor="{StaticResource firstColor}" OutlineColor="{StaticResource firstColor}" HasShadow="false" BackgroundColor="{StaticResource firstColor}" Padding="10">
+                    <Label Grid.Row="0" Style="{StaticResource firstColorLabel}" Grid.Column="2" Text="مبلغ"/>
+                </Frame>
 
             </Grid>
-        </ListView.Header>
+        </ListView.Header>-->
 
         <ListView.ItemTemplate>
             <DataTemplate>
-                <ViewCell>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="3*"/>
-                            <ColumnDefinition Width="3*"/>
-                            <ColumnDefinition Width="3*"/>
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
+                <custom:CustomViewCell SelectedItemBackgroundColor="{StaticResource fourthColor}">
+                    <!--<ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
 
-                        <Label Grid.Column="0" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" Text="{Binding CreationDate ,Converter={StaticResource converter}}" />
-                        <Label Grid.Column="1" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" FontAttributes="Bold" Text="{Binding StoreName}"/>
-                        <Label Grid.Column="2" BackgroundColor="LightGray" FlowDirection="RightToLeft" HorizontalTextAlignment="Center" TextColor="DodgerBlue" Text="{Binding TotalPrice}"/>
-                       
-                    </Grid>
-                </ViewCell>
+                            <Frame  Grid.Column="0" BorderColor="{StaticResource thirdColor}" OutlineColor="{StaticResource thirdColor}" HasShadow="false" BackgroundColor="Transparent" Padding="10">
+                                <Label Grid.Column="0" Style="{StaticResource whiteColorLabel}" Text="{Binding CreationDate ,Converter={StaticResource converter}}" />
+                            </Frame>
+
+                            <Frame  Grid.Column="1" BorderColor="{StaticResource thirdColor}" OutlineColor="{StaticResource thirdColor}" HasShadow="false" BackgroundColor="Transparent" Padding="10">
+
+                                <Label Grid.Column="1" Style="{StaticResource whiteColorLabel}" FontAttributes="Bold" Text="{Binding StoreName}"/>
+                            </Frame>
+
+                            <Frame  Grid.Column="2" BorderColor="{StaticResource thirdColor}" OutlineColor="{StaticResource thirdColor}" HasShadow="false" BackgroundColor="Transparent" Padding="10">
+
+                                <Label Grid.Column="2" Style="{StaticResource whiteColorLabel}" Text="{Binding TotalPrice}"/>
+                            </Frame>
+                        </Grid>
+                    </ViewCell>-->
+                    <ViewCell.View>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+
+                            <Label  FlowDirection="RightToLeft" HorizontalTextAlignment="End" Text="{Binding CreationDate ,Converter={StaticResource dateConverter}}" TextColor="{StaticResource firstColor}" FontAttributes="Bold" FontSize="Small"/>
+                           
+                            <Label Grid.Row="1" FlowDirection="RightToLeft" Grid.Column="0" TextColor="{StaticResource secondColor}" FontSize="Small" Text="{Binding StoreName}"/>
+                            <Label Grid.Row="1"  FlowDirection="RightToLeft" HorizontalTextAlignment="End" Grid.Column="1" TextColor="{StaticResource secondColor}" FontSize="Small" Text="{Binding TotalPrice , Converter={StaticResource numberConverter}}"/>
+                        </Grid>
+                    </ViewCell.View>
+                </custom:CustomViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

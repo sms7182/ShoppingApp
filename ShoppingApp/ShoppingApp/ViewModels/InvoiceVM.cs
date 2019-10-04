@@ -15,6 +15,7 @@ namespace ShoppingApp.ViewModels
         public InvoiceVM(Guid id)
         {
             InvoiceId = id;
+            GetInvoice();
         }
 
         public async void GetInvoice()

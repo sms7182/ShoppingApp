@@ -19,7 +19,8 @@ namespace ShoppingApp.Views
         protected async override void OnAppearing()
         {
             base.OnAppearing();                        
-        }       
-       
+        }
+
+      
     }
 }

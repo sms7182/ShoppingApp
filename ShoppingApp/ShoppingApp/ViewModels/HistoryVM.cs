@@ -13,7 +13,7 @@ namespace ShoppingApp.ViewModels
     public class HistoryVM
     {
         public HistoryCommand HistoryCommand { get; set; }
-        public ObservableCollection<FlatInvoiceInfo> Invoices { get; set; }
+        public List<FlatInvoiceInfo> Invoices { get; set; }
         private FlatInvoiceInfo selectedInvoice;
 
         public FlatInvoiceInfo SelectedInvoice
@@ -34,20 +34,13 @@ namespace ShoppingApp.ViewModels
         public HistoryVM()
         {
             HistoryCommand = new HistoryCommand(this);
-            Invoices = new ObservableCollection<FlatInvoiceInfo>();
+            Invoices = new List<FlatInvoiceInfo>();
+            GetInvoices();
         }
 
         public async void GetInvoices()
         {
-            var invoices = await InvoiceDB.Read();
-            if (invoices != null)
-            {
-                Invoices.Clear();
-                foreach (var invoice in invoices)
-                {
-                    Invoices.Add(invoice);
-                }
-            }
+             Invoices = await InvoiceDB.Read();            
         }
 
         public async void ViewInvoice(FlatInvoiceInfo selectedInvoice)

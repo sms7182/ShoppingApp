@@ -64,6 +64,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="CustomControlls\CustomViewCellRenderer.cs" />
     <Compile Include="ISQLiteDbInterface_iOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
@@ -210,4 +211,5 @@
   <ItemGroup>
     <BundleResource Include="Resources\list%403x.png" />
   </ItemGroup>
+  <ItemGroup />
 </Project>

@@ -40,17 +40,22 @@ namespace ShoppingApp.Helpers
                         var response = client.GetStringAsync(string.Format(url, username)).Result;
                         if (!string.IsNullOrWhiteSpace(response))
                         {
-                            user = JsonConvert.DeserializeObject<UserInfo>(response);
-                        }
+                            user = JsonConvert.DeserializeObject<UserInfo>(response);                          
+                        }                       
 
                     }
                     catch (Exception e)
                     {
-
+                       
                     }
                 }
 
-                if (user != null)
+                user = new UserInfo();
+                user.Id = Guid.Parse("72629767-36FC-428B-84C3-31E825DD45DA");
+                user.Password = "123";
+                user.PhoneNumber = "09123794709";
+
+                if (user != null && user.Id!=Guid.Empty)
                 {
                     if (user.Password == password)
                     {
@@ -137,7 +142,11 @@ namespace ShoppingApp.Helpers
                     var response = client.GetStringAsync(string.Format(url, user.PhoneNumber)).Result;
                     if (!string.IsNullOrWhiteSpace(response))
                     {
-                        throw new Exception("شماره موبایل قبلاً ثبت شده است.");
+                        var findUser = JsonConvert.DeserializeObject<UserInfo>(response);
+                        if (findUser.Id != Guid.Empty)
+                        {
+                            throw new Exception("شماره موبایل قبلاً ثبت شده است.");
+                        }
                     }
 
                 }

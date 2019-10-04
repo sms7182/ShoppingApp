@@ -35,6 +35,7 @@
 
   <ItemGroup>
     <Folder Include="BusinessObjects\" />
+    <Folder Include="CustomControlls\" />
   </ItemGroup>
 
   <ItemGroup>

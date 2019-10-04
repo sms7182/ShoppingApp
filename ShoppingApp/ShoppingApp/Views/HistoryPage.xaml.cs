@@ -20,7 +20,7 @@ namespace ShoppingApp.Views
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            viewModel.GetInvoices();
+            viewModel.GetInvoices();            
         }
     }
 }

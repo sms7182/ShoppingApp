@@ -2,27 +2,43 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ShoppingApp.Views.StorePage"
+             xmlns:custom="clr-namespace:ShoppingApp.CustomControlls;assembly=ShoppingApp"
              x:Name="storePage">
-    <ListView x:Name="storeListView" ItemsSource="{Binding Stores}" HorizontalOptions="FillAndExpand" Margin="20,0" SelectedItem="{Binding SelectedStore, Mode=TwoWay}">
+    <ListView x:Name="storeListView" ItemsSource="{Binding Stores}" HorizontalOptions="FillAndExpand" Margin="20,0" SelectedItem="{Binding SelectedStore, Mode=TwoWay}" >
         <ListView.ItemTemplate>
             <DataTemplate>
-                <ViewCell>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
+                <custom:CustomViewCell SelectedItemBackgroundColor="{StaticResource fourthColor}">
 
-                        <Label Text="{Binding Name}" FontAttributes="Bold"/>
-                        <Label Grid.Row="1" TextColor="DodgerBlue" Text="{Binding Address}"/>
-                        <ImageButton x:Name="viewButton" Grid.RowSpan="2" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center"  Source="edit.png" BackgroundColor="Gray" Command="{Binding Source={x:Reference storePage}, Path=BindingContext.StoreViewCommand}" CommandParameter="{Binding Id}"/>
+                    <!--<ViewCell.View>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="{Binding Name}" VerticalOptions="CenterAndExpand" FontSize="Medium" Font="15" TextColor="Gray" HorizontalOptions="StartAndExpand"/>
+                            <StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal" Spacing="15">
+                                <Frame OutlineColor="Green" HasShadow="false" Margin="0,8,0,8" BackgroundColor="Transparent" Padding="5">
+                                    <Label Text="{Binding Address}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="10" TextColor="Red"/>
+                                </Frame>
+                                <Image Source="edit.png" VerticalOptions="CenterAndExpand" HeightRequest="16" WidthRequest="16" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell.View>-->
 
-                    </Grid>
-                </ViewCell>
+                    <ViewCell.View>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Text="{Binding Name}" TextColor="{StaticResource firstColor}" FontAttributes="Bold" FontSize="Small"/>
+                            <Label Grid.Row="1" TextColor="{StaticResource secondColor}" FontSize="Small" Text="{Binding Address}"/>
+                            <ImageButton x:Name="viewButton" Grid.RowSpan="2" Grid.Column="1"  HorizontalOptions="Center" VerticalOptions="Center"  Source="edit.png" BackgroundColor="{StaticResource thirdColor}" Command="{Binding Source={x:Reference storePage}, Path=BindingContext.StoreViewCommand}" CommandParameter="{Binding Id}"/>
+
+                        </Grid>
+                    </ViewCell.View>
+                </custom:CustomViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

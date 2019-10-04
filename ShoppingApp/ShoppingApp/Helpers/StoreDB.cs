@@ -43,13 +43,13 @@ namespace ShoppingApp.Helpers
             //using (var conn = Connect())
             //{
             //    conn.CreateTable<Store>();
-            //    Store store1 = new Store { Id = Guid.Parse("C3F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "سوپرمارکت ماد", Address = "تهران-میدان توحید-خیابان اردشیر-پلاک 77" };
+            var store1 = new StoreInfo { Id = Guid.Parse("C3F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "سوپرمارکت ماد", Address = "تهران-میدان توحید-خیابان اردشیر-پلاک 77" };
             //    conn.Insert(store1);
-            //    stores.Add(store1);
+            stores.Add(store1);
 
-            //    var store2 = new Store { Id = Guid.Parse("C4F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "مرکز خرید بزرگ", Address = "تهران-پیروزان-کوچه علیمردانی-نبش آگاهی-پلاک 33" };
+            var store2 = new StoreInfo { Id = Guid.Parse("C4F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "مرکز خرید بزرگ", Address = "تهران-پیروزان-کوچه علیمردانی-نبش آگاهی-پلاک 33" };
             //    conn.Insert(store2);
-            //    stores.Add(store2);
+            stores.Add(store2);
 
             //    var store3 = new Store { Id = Guid.Parse("C5F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "فروشگاه کوروش", Address = "تهران-خیابان ولیعصر- پلاک 45" };
             //    conn.Insert(store3);
@@ -63,7 +63,7 @@ namespace ShoppingApp.Helpers
             //    conn.Insert(store5);
             //    stores.Add(store5);
             //};
-            
+
             return stores;
         }
 
