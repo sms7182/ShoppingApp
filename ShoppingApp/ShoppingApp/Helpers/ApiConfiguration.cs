@@ -10,7 +10,7 @@ namespace ShoppingApp.Helpers
 
         public const string GetUserByName = Url + "/api/login/byusername?userName={0}";
         public const string DeleteUser = Url + "/api/login/deluser/";
-        public const string PostUser = Url + "/api/login/byuser/";
+        public const string PostUser = Url + "/api/login/";
 
         
         public const string GetItemByCodeUrl = Url + "/api/item/byid?itemcode={0}";
