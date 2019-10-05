@@ -4,21 +4,21 @@
              x:Class="ShoppingApp.Views.ViewStorePage">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label x:Name="nameLabel" Text="{Binding Store.Name}"/>
-                <Label Text="نام فروشگاه : "/>
+            <StackLayout FlowDirection="RightToLeft" Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="20,0" >
+                <Label Text="نام فروشگاه : " Style="{StaticResource whiteFirstColorLabel}"/>
+                <Label x:Name="nameLabel" Text="{Binding Store.Name}" Style="{StaticResource whiteSecondColorLabel}"/>
             </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label x:Name="stateLabel" Text="{Binding Store.State}"/>
-                <Label Text="استان : "/>
+            <StackLayout FlowDirection="RightToLeft" Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="20,0" >
+                <Label Text="استان : "  Style="{StaticResource whiteFirstColorLabel}"/>
+                <Label x:Name="stateLabel" Text="{Binding Store.State}"  Style="{StaticResource whiteSecondColorLabel}"/>
             </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label x:Name="cityLabel" Text="{Binding Store.City}"/>
-                <Label Text="شهر : "/>
+            <StackLayout FlowDirection="RightToLeft" Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="20,0" >
+                <Label Text="شهر : "  Style="{StaticResource whiteFirstColorLabel}"/>
+                <Label x:Name="cityLabel" Text="{Binding Store.City}"  Style="{StaticResource whiteSecondColorLabel}"/>
             </StackLayout>
-            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
-                <Label x:Name="addressLabel" Text="{Binding Store.Address}"/>
-                <Label Text="آدرس : "/>
+            <StackLayout FlowDirection="RightToLeft" Orientation="Horizontal" HorizontalOptions="EndAndExpand" Margin="20,0" >
+                <Label Text="آدرس : "  Style="{StaticResource whiteFirstColorLabel}"/>
+                <Label x:Name="addressLabel" Text="{Binding Store.Address}"  Style="{StaticResource whiteSecondColorLabel}"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

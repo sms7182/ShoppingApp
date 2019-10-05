@@ -373,6 +373,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Helpers\TranslateExtension.txt" />
+    <AndroidResource Include="Resources\drawable\pay.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pay.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pay.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pay.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\pay.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

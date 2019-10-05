@@ -13,11 +13,13 @@
   <ItemGroup>
     <None Remove="Resources\DecIcon.png" />
     <None Remove="Resources\IncIcon.png" />
+    <None Remove="Resources\pay.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\DecIcon.png" />
     <EmbeddedResource Include="Resources\IncIcon.png" />
+    <EmbeddedResource Include="Resources\pay.png" />
   </ItemGroup>
 
   <ItemGroup>
