@@ -50,10 +50,10 @@ namespace ShoppingApp.Helpers
                     }
                 }
 
-                user = new UserInfo();
-                user.Id = Guid.Parse("72629767-36FC-428B-84C3-31E825DD45DA");
-                user.Password = "123";
-                user.PhoneNumber = "09123794709";
+                //user = new UserInfo();
+                //user.Id = Guid.Parse("72629767-36FC-428B-84C3-31E825DD45DA");
+                //user.Password = "123";
+                //user.PhoneNumber = "09123794709";
 
                 if (user != null && user.Id!=Guid.Empty)
                 {

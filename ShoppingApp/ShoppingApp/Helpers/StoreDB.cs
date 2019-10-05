@@ -40,29 +40,29 @@ namespace ShoppingApp.Helpers
                 { }
             }
 
-            //using (var conn = Connect())
-            //{
-            //    conn.CreateTable<Store>();
-            var store1 = new StoreInfo { Id = Guid.Parse("C3F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "سوپرمارکت ماد", Address = "تهران-میدان توحید-خیابان اردشیر-پلاک 77" };
-            //    conn.Insert(store1);
-            stores.Add(store1);
+            ////using (var conn = Connect())
+            ////{
+            ////    conn.CreateTable<Store>();
+            //var store1 = new StoreInfo { Id = Guid.Parse("C3F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "سوپرمارکت ماد", Address = "تهران-میدان توحید-خیابان اردشیر-پلاک 77" };
+            ////    conn.Insert(store1);
+            //stores.Add(store1);
 
-            var store2 = new StoreInfo { Id = Guid.Parse("C4F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "مرکز خرید بزرگ", Address = "تهران-پیروزان-کوچه علیمردانی-نبش آگاهی-پلاک 33" };
-            //    conn.Insert(store2);
-            stores.Add(store2);
+            //var store2 = new StoreInfo { Id = Guid.Parse("C4F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "مرکز خرید بزرگ", Address = "تهران-پیروزان-کوچه علیمردانی-نبش آگاهی-پلاک 33" };
+            ////    conn.Insert(store2);
+            //stores.Add(store2);
 
-            //    var store3 = new Store { Id = Guid.Parse("C5F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "فروشگاه کوروش", Address = "تهران-خیابان ولیعصر- پلاک 45" };
-            //    conn.Insert(store3);
-            //    stores.Add(store3);
+            ////    var store3 = new Store { Id = Guid.Parse("C5F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "فروشگاه کوروش", Address = "تهران-خیابان ولیعصر- پلاک 45" };
+            ////    conn.Insert(store3);
+            ////    stores.Add(store3);
 
-            //    var store4 = new Store { Id = Guid.Parse("C6F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "فروشگاه رفاه", Address = "تهران-تجریش-میدان قدس-پلاک 11" };
-            //    conn.Insert(store4);
-            //    stores.Add(store4);
+            ////    var store4 = new Store { Id = Guid.Parse("C6F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "فروشگاه رفاه", Address = "تهران-تجریش-میدان قدس-پلاک 11" };
+            ////    conn.Insert(store4);
+            ////    stores.Add(store4);
 
-            //    var store5 = new Store { Id = Guid.Parse("C7F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "فروشگاه شهروند", Address = "تهران-تجریش-پلاک 1" };
-            //    conn.Insert(store5);
-            //    stores.Add(store5);
-            //};
+            ////    var store5 = new Store { Id = Guid.Parse("C7F2E3D8-9F7E-42DA-A3DA-12AF68B7C40A"), Name = "فروشگاه شهروند", Address = "تهران-تجریش-پلاک 1" };
+            ////    conn.Insert(store5);
+            ////    stores.Add(store5);
+            ////};
 
             return stores;
         }
